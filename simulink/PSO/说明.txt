@@ -1,0 +1,4 @@
+只用运行PSO.m文件就行 
+其中优化的接口函数为PSO_cha.m simrun.m是把Simulink的函数导入到matlab里面。
+结果l1 l2 l3 l4 l5存储每步迭代优化得到的对应的向量长度
+y_fitness矩阵存储着每步优化对应的值
