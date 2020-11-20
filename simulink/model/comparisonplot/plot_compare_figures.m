@@ -1,7 +1,3 @@
-%% ----- Set Environment -----
-clc;
-clear;
-warning( 'off' );
 %%  ----- Set Parameters -----
 addr_td1 = [ 'ZSB_A2.csv' ];
 load ZSB_res.mat;

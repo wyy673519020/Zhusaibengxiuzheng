@@ -16,7 +16,7 @@ Model {
       Name		      "Out1"
     }
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.565"
+    ComputedModelVersion    "1.568"
     NumModelReferences	    0
     NumTestPointedSignals   0
   }
@@ -50,7 +50,7 @@ Model {
       $ObjectID		      3
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [-1715.0, -380.0, 1723.0, 936.0]
+      Location		      [-1715.0, -372.0, 1723.0, 936.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		4
@@ -75,8 +75,8 @@ Model {
 	ViewObjType		"SimulinkTopLevel"
 	LoadSaveID		"0"
 	Extents			[1673.0, 758.0]
-	ZoomFactor		[8.225]
-	Offset			[838.29787234042556, 652.42097264437689]
+	ZoomFactor		[1.75]
+	Offset			[582.45987841945282, 571.87066869300907]
       }
     }
   }
@@ -86,9 +86,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "shubo"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Thu Nov 19 22:25:02 2020"
-  RTWModifiedTimeStamp	  527725501
-  ModelVersionFormat	  "1.%<AutoIncrement:565>"
+  LastModifiedDate	  "Fri Nov 20 15:48:49 2020"
+  RTWModifiedTimeStamp	  527788128
+  ModelVersionFormat	  "1.%<AutoIncrement:568>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -869,6 +869,25 @@ Model {
   }
   BlockParameterDefaults {
     Block {
+      BlockType		      Constant
+      Value		      "1"
+      VectorParams1D	      on
+      SamplingMode	      "Sample based"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Inherit from 'Constant value'"
+      LockScale		      off
+      SampleTime	      "inf"
+      FramePeriod	      "inf"
+      PreserveConstantTs      off
+    }
+    Block {
+      BlockType		      Demux
+      Outputs		      "4"
+      DisplayOption	      "none"
+      BusSelectionMode	      off
+    }
+    Block {
       BlockType		      Inport
       Port		      "1"
       OutputFunctionCall      off
@@ -885,6 +904,14 @@ Model {
       LatchByDelayingOutsideSignal off
       LatchInputForFeedbackSignals off
       Interpolate	      on
+    }
+    Block {
+      BlockType		      Mux
+      Inputs		      "4"
+      DisplayOption	      "none"
+      UseBusObject	      off
+      BusObject		      "BusObject"
+      NonVirtualBus	      off
     }
     Block {
       BlockType		      Outport
@@ -944,7 +971,7 @@ Model {
   }
   System {
     Name		    "modelZSB"
-    Location		    [-1715, -380, 8, 556]
+    Location		    [-1715, -372, 8, 564]
     Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
@@ -956,24 +983,64 @@ Model {
     TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "823"
+    ZoomFactor		    "175"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "689"
+    SIDHighWatermark	    "704"
     Block {
       BlockType		      Inport
       Name		      "In1"
-      SID		      "661"
-      Position		      [840, 683, 870, 697]
-      ZOrder		      695
+      SID		      "690"
+      Position		      [730, 648, 760, 662]
+      ZOrder		      751
       IconDisplay	      "Port number"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant1"
+      SID		      "691"
+      Position		      [520, 751, 760, 779]
+      ZOrder		      752
+      Value		      "[17*2.3/0.6,17*2.48/0.6,42.9,317.743165,165.3]"
+    }
+    Block {
+      BlockType		      Demux
+      Name		      "Demux1"
+      SID		      "692"
+      Ports		      [1, 5]
+      Position		      [780, 706, 785, 824]
+      ZOrder		      755
+      ShowName		      off
+      Outputs		      "5"
+      DisplayOption	      "bar"
+    }
+    Block {
+      BlockType		      Demux
+      Name		      "Demux2"
+      SID		      "693"
+      Ports		      [1, 4]
+      Position		      [780, 602, 785, 703]
+      ZOrder		      753
+      ShowName		      off
+      DisplayOption	      "bar"
+    }
+    Block {
+      BlockType		      Mux
+      Name		      "Mux1"
+      SID		      "694"
+      Ports		      [9, 1]
+      Position		      [820, 603, 825, 827]
+      ZOrder		      754
+      ShowName		      off
+      Inputs		      "9"
+      DisplayOption	      "bar"
     }
     Block {
       BlockType		      SubSystem
       Name		      "Subsystem"
-      SID		      "680"
+      SID		      "695"
       Ports		      [1, 1]
-      Position		      [900, 660, 970, 720]
-      ZOrder		      701
+      Position		      [860, 685, 930, 745]
+      ZOrder		      756
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
@@ -1000,7 +1067,7 @@ Model {
 	Block {
 	  BlockType		  Inport
 	  Name			  "In1"
-	  SID			  "681"
+	  SID			  "696"
 	  Position		  [95, 40, 115, 60]
 	  ZOrder		  701
 	  IconDisplay		  "Port number"
@@ -1008,7 +1075,7 @@ Model {
 	Block {
 	  BlockType		  S-Function
 	  Name			  "Subsystem_sfcn"
-	  SID			  "682"
+	  SID			  "697"
 	  Ports			  [1, 1]
 	  Position		  [400, 37, 700, 63]
 	  ZOrder		  2
@@ -1061,7 +1128,7 @@ Model {
 	Block {
 	  BlockType		  SubSystem
 	  Name			  "__InputSSForSFun__"
-	  SID			  "683"
+	  SID			  "698"
 	  Ports			  [1, 1]
 	  Position		  [200, 37, 300, 63]
 	  ZOrder		  3
@@ -1085,7 +1152,7 @@ Model {
 	    Block {
 	      BlockType		      Inport
 	      Name		      "In1"
-	      SID		      "684"
+	      SID		      "699"
 	      Position		      [70, 30, 90, 40]
 	      ZOrder		      700
 	      IconDisplay	      "Port number"
@@ -1093,7 +1160,7 @@ Model {
 	    Block {
 	      BlockType		      Outport
 	      Name		      "__UniqueOutportName__1__"
-	      SID		      "685"
+	      SID		      "700"
 	      Position		      [395, 25, 415, 45]
 	      ZOrder		      701
 	      ShowName		      off
@@ -1111,7 +1178,7 @@ Model {
 	Block {
 	  BlockType		  SubSystem
 	  Name			  "__OutputSSForSFun__"
-	  SID			  "686"
+	  SID			  "701"
 	  Ports			  [1, 1]
 	  Position		  [800, 37, 900, 63]
 	  ZOrder		  4
@@ -1135,7 +1202,7 @@ Model {
 	    Block {
 	      BlockType		      Inport
 	      Name		      "__UniqueInportName__1__"
-	      SID		      "687"
+	      SID		      "702"
 	      Position		      [100, 40, 120, 60]
 	      ZOrder		      1
 	      ShowName		      off
@@ -1144,7 +1211,7 @@ Model {
 	    Block {
 	      BlockType		      Outport
 	      Name		      "Out1"
-	      SID		      "688"
+	      SID		      "703"
 	      Position		      [225, 45, 245, 55]
 	      ZOrder		      701
 	      IconDisplay	      "Port number"
@@ -1161,7 +1228,7 @@ Model {
 	Block {
 	  BlockType		  Outport
 	  Name			  "Out1"
-	  SID			  "689"
+	  SID			  "704"
 	  Position		  [1005, 40, 1025, 60]
 	  ZOrder		  702
 	  IconDisplay		  "Port number"
@@ -1200,23 +1267,100 @@ Model {
       BlockType		      Outport
       Name		      "Out1"
       SID		      "660"
-      Position		      [1010, 683, 1040, 697]
+      Position		      [970, 708, 1000, 722]
       ZOrder		      694
       IconDisplay	      "Port number"
     }
     Line {
-      ZOrder		      676
-      SrcBlock		      "In1"
+      ZOrder		      698
+      SrcBlock		      "Subsystem"
+      SrcPort		      1
+      DstBlock		      "Out1"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      678
+      SrcBlock		      "Demux2"
+      SrcPort		      2
+      DstBlock		      "Mux1"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      679
+      SrcBlock		      "Demux2"
+      SrcPort		      4
+      DstBlock		      "Mux1"
+      DstPort		      4
+    }
+    Line {
+      ZOrder		      680
+      SrcBlock		      "Demux2"
+      SrcPort		      3
+      DstBlock		      "Mux1"
+      DstPort		      3
+    }
+    Line {
+      ZOrder		      681
+      SrcBlock		      "Demux2"
+      SrcPort		      1
+      DstBlock		      "Mux1"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      699
+      SrcBlock		      "Mux1"
       SrcPort		      1
       DstBlock		      "Subsystem"
       DstPort		      1
     }
     Line {
-      ZOrder		      675
-      SrcBlock		      "Subsystem"
+      ZOrder		      683
+      SrcBlock		      "In1"
       SrcPort		      1
-      DstBlock		      "Out1"
+      DstBlock		      "Demux2"
       DstPort		      1
+    }
+    Line {
+      ZOrder		      684
+      SrcBlock		      "Constant1"
+      SrcPort		      1
+      DstBlock		      "Demux1"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      685
+      SrcBlock		      "Demux1"
+      SrcPort		      5
+      DstBlock		      "Mux1"
+      DstPort		      9
+    }
+    Line {
+      ZOrder		      686
+      SrcBlock		      "Demux1"
+      SrcPort		      2
+      DstBlock		      "Mux1"
+      DstPort		      6
+    }
+    Line {
+      ZOrder		      687
+      SrcBlock		      "Demux1"
+      SrcPort		      3
+      DstBlock		      "Mux1"
+      DstPort		      7
+    }
+    Line {
+      ZOrder		      688
+      SrcBlock		      "Demux1"
+      SrcPort		      4
+      DstBlock		      "Mux1"
+      DstPort		      8
+    }
+    Line {
+      ZOrder		      689
+      SrcBlock		      "Demux1"
+      SrcPort		      1
+      DstBlock		      "Mux1"
+      DstPort		      5
     }
   }
 }

@@ -8,21 +8,27 @@ w = 0.6;      % 惯性因子
 c1 = 2;       % 加速常数
 c2 = 2;       % 加速常数
 Dim = 5;            % 维数
-SwarmSize = 10;    % 粒子群规模
+SwarmSize = 100;    % 粒子群规模
 ObjFun = @PSO_cha;  % 待优化函数句柄
-MaxIter = 2;      % 最大迭代次数  
+MaxIter = 100;      % 最大迭代次数  
 MinFit = 0;       % 最小适应值 
 Vmax=0.5;
 Vmin=-0.5;
-Ub = [43 70 41 315.3773 167];
-Lb = [43 70 41 315.3773 167];
+Ub = [45 72 43 316.3773 169];
+Lb = [41 68 40 314.3773 165];
 %% 粒子群初始化
 Range = ones(SwarmSize,1)*(Ub-Lb);
 Swarm = rand(SwarmSize,Dim).*Range + ones(SwarmSize,1)*Lb;   % 初始化粒子群
 VStep = rand(SwarmSize,Dim)*(Vmax-Vmin)+Vmin;                 % 初始化速度
 fSwarm = zeros(SwarmSize,1);
+
+addr_td1=['ZSB_A5.csv'];
+addr_td2=['ZSB_A7.csv'];
+u3=csvread(addr_td1);
+u2=csvread(addr_td2);
+
 for i=1:SwarmSize
-    fSwarm(i,:) = feval(ObjFun,Swarm(i,:));                         % 粒子群的适应值
+    fSwarm(i,:) = feval(ObjFun,Swarm(i,:),u3, u2);                         % 粒子群的适应值
 end
 %% 个体极值和群体极值
 [bestf bestindex]=min(fSwarm);
@@ -51,7 +57,7 @@ if Swarm(j,k)>Ub(k), Swarm(j,k)=Ub(k); end
 if Swarm(j,k)<Lb(k), Swarm(j,k)=Lb(k); end
 end
 % 适应值
-fSwarm(j,:) = feval(ObjFun,Swarm(j,:));
+fSwarm(j,:) = feval(ObjFun,Swarm(j,:),u3, u2);
 % 个体最优更新     
 if fSwarm(j) < fgbest(j)
 gbest(j,:) = Swarm(j,:);

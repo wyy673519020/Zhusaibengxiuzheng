@@ -1,18 +1,14 @@
-function z = PSO_cha( Swarm )
-addr_td1=['ZSB_A5.csv'];
-addr_td2=['ZSB_A7.csv'];
-u3=csvread(addr_td1);
-n=size(u3, 1);
-for i=1:n
-u(i,:)=[u3(i,:),Swarm]
-end
-u2=csvread(addr_td2);
-sim_time=1;
-collect=0.5;
-for  j = 1 : n
-W_average= simrun( u(j,:),sim_time,collect);
-W_average1(j,:) = W_average;
-cha(j,:)= W_average1(j,:)-u2(j,:);
-cha(j,:)=abs(cha(j,:));end
-z=sum(cha(1:end,:))
+function err = PSO_cha( Swarm, u3, u2 )
+    
+    n=size(u3, 1);
+    err = 0;
+    
+    for  j = 1 : n
+        
+        W_average= runZSB( u3(j,1),u3(j,2),u3(j,3),u3(j,4),Swarm(1),Swarm(2),Swarm(3),Swarm(4),Swarm(5) );
+        err = err + abs( W_average - u2(j) );
+    end
+    
+    disp( err );
+  
 end
