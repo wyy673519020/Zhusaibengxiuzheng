@@ -1,4 +1,4 @@
-function [W_average, dPhi_average, W_pr,t_vec,y_vec] = simulinkrun(u,sim_time,collect)
+function [W_average, dPhi_average, W_pr,t_vec,y_vec] = simulinkrun(u,sim_time,sample_time,collect)
 
     t = [ 0; sim_time ];
     u1 = [ u; u ];
@@ -12,6 +12,6 @@ function [W_average, dPhi_average, W_pr,t_vec,y_vec] = simulinkrun(u,sim_time,co
     % pulsation rate of the output, which reflects the severity of signal oscillation
     W_pr = ( max( y( end-end*collect:end, 1 ) ) - min( y( end-end*collect:end, 1 ) ) ) * 100;
     y_vec = y;
-    t_vec=[0:0.0001:sim_time];
+    t_vec=[0:sample_time:sim_time];
 
 end

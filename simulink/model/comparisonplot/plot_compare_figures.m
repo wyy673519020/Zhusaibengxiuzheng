@@ -4,9 +4,12 @@ clear;
 warning( 'off' );
 %%  ----- Set Parameters -----
 addr_td1 = [ 'ZSB_A2.csv' ];
+load ZSB_res.mat;
+
 %% ---- Run Models ----
 m = csvread( addr_td1 );
 % calculate maxmium of error and mean of error
+m(:,2) = W_average1;
 m(:,4)=m(:,1)-m(:,2);
 m(:,4)=abs(m(:,4));
 [max_m,index]=max(m(:,4));
