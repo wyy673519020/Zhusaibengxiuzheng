@@ -1,0 +1,5022 @@
+Model {
+  Name			  "modelZSB1"
+  Version		  8.3
+  MdlSubVersion		  0
+  SavedCharacterEncoding  "GBK"
+  GraphicalInterface {
+    NumRootInports	    1
+    Inport {
+      BusObject		      ""
+      Name		      "In1"
+    }
+    NumRootOutports	    1
+    Outport {
+      BusObject		      ""
+      BusOutputAsStruct	      "off"
+      Name		      "Out1"
+    }
+    ParameterArgumentNames  ""
+    ComputedModelVersion    "1.136"
+    NumModelReferences	    0
+    NumTestPointedSignals   0
+  }
+  slprops.hdlmdlprops {
+    $PropName		    "HDLParams"
+    $ObjectID		    1
+    Array {
+      Type		      "Cell"
+      Dimension		      2
+      Cell		      "HDLSubsystem"
+      Cell		      "modelZSB1"
+      PropName		      "mdlProps"
+    }
+  }
+  SaveDefaultBlockParams  on
+  ScopeRefreshTime	  0.035000
+  OverrideScopeRefreshTime on
+  DisableAllScopes	  off
+  DataTypeOverride	  "UseLocalSettings"
+  DataTypeOverrideAppliesTo "AllNumericTypes"
+  MinMaxOverflowLogging	  "UseLocalSettings"
+  MinMaxOverflowArchiveMode "Overwrite"
+  FPTRunName		  "Run 1"
+  MaxMDLFileLineLength	  120
+  Object {
+    $PropName		    "BdWindowsInfo"
+    $ObjectID		    2
+    $ClassName		    "Simulink.BDWindowsInfo"
+    Object {
+      $PropName		      "WindowsInfo"
+      $ObjectID		      3
+      $ClassName	      "Simulink.WindowInfo"
+      IsActive		      [1]
+      Location		      [-1715.0, -372.0, 1723.0, 936.0]
+      Object {
+	$PropName		"ModelBrowserInfo"
+	$ObjectID		4
+	$ClassName		"Simulink.ModelBrowserInfo"
+	Visible			[0]
+	DockPosition		"Left"
+	Width			[50]
+	Height			[50]
+	Filter			[9]
+      }
+      Object {
+	$PropName		"ExplorerBarInfo"
+	$ObjectID		5
+	$ClassName		"Simulink.ExplorerBarInfo"
+	Visible			[1]
+      }
+      Object {
+	$PropName		"EditorsInfo"
+	$ObjectID		6
+	$ClassName		"Simulink.EditorInfo"
+	IsActive		[1]
+	ViewObjType		"SimulinkSubsys"
+	LoadSaveID		"1"
+	Extents			[1673.0, 758.0]
+	ZoomFactor		[1.5]
+	Offset			[469.82444163506068, 225.07768647281924]
+      }
+    }
+  }
+  Created		  "Wed Jun 27 16:40:14 2018"
+  Creator		  "Chan Hwaiwing"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "shubo"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Mon Nov 30 19:32:49 2020"
+  RTWModifiedTimeStamp	  528665567
+  ModelVersionFormat	  "1.%<AutoIncrement:136>"
+  ConfigurationManager	  "none"
+  SampleTimeColors	  off
+  SampleTimeAnnotations	  off
+  LibraryLinkDisplay	  "disabled"
+  WideLines		  off
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  off
+  ShowDesignRanges	  off
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ShowTestPointIcons	  on
+  ShowSignalResolutionIcons on
+  ShowViewerIcons	  on
+  SortedOrder		  off
+  ExecutionContextIcon	  off
+  ShowLinearizationAnnotations on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  BrowserLookUnderMasks	  off
+  SimulationMode	  "normal"
+  PauseTimes		  "5"
+  NumberOfSteps		  1
+  SnapshotBufferSize	  10
+  SnapshotInterval	  10
+  NumberOfLastSnapshots	  0
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  AccelSystemTargetFile	  "accel.tlc"
+  AccelTemplateMakefile	  "accel_default_tmf"
+  AccelMakeCommand	  "make_rtw"
+  TryForcingSFcnDF	  off
+  Object {
+    $PropName		    "DataLoggingOverride"
+    $ObjectID		    7
+    $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
+    model_		    "modelHSV"
+    overrideMode_	    [0.0]
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      "modelHSV"
+      PropName		      "logAsSpecifiedByModels_"
+    }
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      []
+      PropName		      "logAsSpecifiedByModelsSSIDs_"
+    }
+  }
+  RecordCoverage	  off
+  CovPath		  "/"
+  CovSaveName		  "covdata"
+  CovMetricSettings	  "dw"
+  CovNameIncrementing	  off
+  CovHtmlReporting	  on
+  CovForceBlockReductionOff on
+  CovEnableCumulative	  on
+  covSaveCumulativeToWorkspaceVar on
+  CovSaveSingleToWorkspaceVar on
+  CovCumulativeVarName	  "covCumulativeData"
+  CovCumulativeReport	  off
+  CovReportOnPause	  on
+  CovModelRefEnable	  "Off"
+  CovExternalEMLEnable	  off
+  CovSFcnEnable		  off
+  CovBoundaryAbsTol	  0.000010
+  CovBoundaryRelTol	  0.010000
+  ExtModeBatchMode	  off
+  ExtModeEnableFloating	  on
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigDurationFloating "auto"
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  BufferReuse		  on
+  ShowModelReferenceBlockVersion off
+  ShowModelReferenceBlockIO off
+  Array {
+    Type		    "Handle"
+    Dimension		    1
+    Simulink.ConfigSet {
+      $ObjectID		      8
+      Version		      "1.14.2"
+      Array {
+	Type			"Handle"
+	Dimension		9
+	Simulink.SolverCC {
+	  $ObjectID		  9
+	  Version		  "1.14.2"
+	  StartTime		  "0.0"
+	  StopTime		  "10"
+	  AbsTol		  "auto"
+	  FixedStep		  "0.01"
+	  InitialStep		  "auto"
+	  MaxNumMinSteps	  "-1"
+	  MaxOrder		  5
+	  ZcThreshold		  "auto"
+	  ConsecutiveZCsStepRelTol "10*128*eps"
+	  MaxConsecutiveZCs	  "1000"
+	  ExtrapolationOrder	  4
+	  NumberNewtonIterations  1
+	  MaxStep		  "auto"
+	  MinStep		  "auto"
+	  MaxConsecutiveMinStep	  "1"
+	  RelTol		  "1e-3"
+	  SolverMode		  "Auto"
+	  EnableConcurrentExecution off
+	  ConcurrentTasks	  off
+	  Solver		  "ode4"
+	  SolverName		  "ode4"
+	  SolverJacobianMethodControl "auto"
+	  ShapePreserveControl	  "DisableAll"
+	  ZeroCrossControl	  "UseLocalSettings"
+	  ZeroCrossAlgorithm	  "Nonadaptive"
+	  AlgebraicLoopSolver	  "TrustRegion"
+	  SolverResetMethod	  "Fast"
+	  PositivePriorityOrder	  off
+	  AutoInsertRateTranBlk	  off
+	  SampleTimeConstraint	  "Unconstrained"
+	  InsertRTBMode		  "Whenever possible"
+	}
+	Simulink.DataIOCC {
+	  $ObjectID		  10
+	  Version		  "1.14.2"
+	  Decimation		  "1"
+	  ExternalInput		  "[t, u]"
+	  FinalStateName	  "xFinal"
+	  InitialState		  "xInitial"
+	  LimitDataPoints	  on
+	  MaxDataPoints		  "1000"
+	  LoadExternalInput	  off
+	  LoadInitialState	  off
+	  SaveFinalState	  off
+	  SaveCompleteFinalSimState off
+	  SaveFormat		  "Array"
+	  SignalLoggingSaveFormat "Dataset"
+	  SaveOutput		  on
+	  SaveState		  off
+	  SignalLogging		  on
+	  DSMLogging		  on
+	  InspectSignalLogs	  off
+	  VisualizeSimOutput	  on
+	  SaveTime		  on
+	  ReturnWorkspaceOutputs  off
+	  StateSaveName		  "xout"
+	  TimeSaveName		  "tout"
+	  OutputSaveName	  "yout"
+	  SignalLoggingName	  "logsout"
+	  DSMLoggingName	  "dsmout"
+	  OutputOption		  "RefineOutputTimes"
+	  OutputTimes		  "[]"
+	  ReturnWorkspaceOutputsName "out"
+	  Refine		  "1"
+	}
+	Simulink.OptimizationCC {
+	  $ObjectID		  11
+	  Version		  "1.14.2"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    8
+	    Cell		    "BooleansAsBitfields"
+	    Cell		    "PassReuseOutputArgsAs"
+	    Cell		    "PassReuseOutputArgsThreshold"
+	    Cell		    "ZeroExternalMemoryAtStartup"
+	    Cell		    "ZeroInternalMemoryAtStartup"
+	    Cell		    "OptimizeModelRefInitCode"
+	    Cell		    "NoFixptDivByZeroProtection"
+	    Cell		    "UseSpecifiedMinMax"
+	    PropName		    "DisabledProps"
+	  }
+	  BlockReduction	  on
+	  BooleanDataType	  on
+	  ConditionallyExecuteInputs on
+	  InlineParams		  off
+	  UseIntDivNetSlope	  off
+	  UseFloatMulNetSlope	  off
+	  DefaultUnderspecifiedDataType	"double"
+	  UseSpecifiedMinMax	  off
+	  InlineInvariantSignals  off
+	  OptimizeBlockIOStorage  on
+	  BufferReuse		  on
+	  EnhancedBackFolding	  off
+	  CachingGlobalReferences off
+	  GlobalBufferReuse	  on
+	  StrengthReduction	  off
+	  ExpressionFolding	  on
+	  BooleansAsBitfields	  off
+	  BitfieldContainerType	  "uint_T"
+	  EnableMemcpy		  on
+	  MemcpyThreshold	  64
+	  PassReuseOutputArgsAs	  "Structure reference"
+	  ExpressionDepthLimit	  128
+	  FoldNonRolledExpr	  on
+	  LocalBlockOutputs	  on
+	  RollThreshold		  5
+	  SystemCodeInlineAuto	  off
+	  StateBitsets		  off
+	  DataBitsets		  off
+	  ActiveStateOutputEnumStorageType "Native Integer"
+	  UseTempVars		  off
+	  ZeroExternalMemoryAtStartup on
+	  ZeroInternalMemoryAtStartup on
+	  InitFltsAndDblsToZero	  off
+	  NoFixptDivByZeroProtection off
+	  EfficientFloat2IntCast  off
+	  EfficientMapNaN2IntZero on
+	  OptimizeModelRefInitCode off
+	  LifeSpan		  "inf"
+	  MaxStackSize		  "Inherit from target"
+	  BufferReusableBoundary  on
+	  SimCompilerOptimization "Off"
+	  AccelVerboseBuild	  off
+	  ParallelExecutionInRapidAccelerator on
+	}
+	Simulink.DebuggingCC {
+	  $ObjectID		  12
+	  Version		  "1.14.2"
+	  RTPrefix		  "error"
+	  ConsistencyChecking	  "none"
+	  ArrayBoundsChecking	  "none"
+	  SignalInfNanChecking	  "none"
+	  SignalRangeChecking	  "none"
+	  ReadBeforeWriteMsg	  "UseLocalSettings"
+	  WriteAfterWriteMsg	  "UseLocalSettings"
+	  WriteAfterReadMsg	  "UseLocalSettings"
+	  AlgebraicLoopMsg	  "warning"
+	  ArtificialAlgebraicLoopMsg "warning"
+	  SaveWithDisabledLinksMsg "warning"
+	  SaveWithParameterizedLinksMsg	"warning"
+	  CheckSSInitialOutputMsg on
+	  UnderspecifiedInitializationDetection	"Simplified"
+	  MergeDetectMultiDrivingBlocksExec "none"
+	  CheckExecutionContextPreStartOutputMsg off
+	  CheckExecutionContextRuntimeOutputMsg	off
+	  SignalResolutionControl "UseLocalSettings"
+	  BlockPriorityViolationMsg "warning"
+	  MinStepSizeMsg	  "warning"
+	  TimeAdjustmentMsg	  "none"
+	  MaxConsecutiveZCsMsg	  "error"
+	  MaskedZcDiagnostic	  "warning"
+	  IgnoredZcDiagnostic	  "warning"
+	  SolverPrmCheckMsg	  "warning"
+	  InheritedTsInSrcMsg	  "warning"
+	  DiscreteInheritContinuousMsg "warning"
+	  MultiTaskDSMMsg	  "error"
+	  MultiTaskCondExecSysMsg "error"
+	  MultiTaskRateTransMsg	  "error"
+	  SingleTaskRateTransMsg  "none"
+	  TasksWithSamePriorityMsg "warning"
+	  SigSpecEnsureSampleTimeMsg "warning"
+	  CheckMatrixSingularityMsg "none"
+	  IntegerOverflowMsg	  "warning"
+	  Int32ToFloatConvMsg	  "warning"
+	  ParameterDowncastMsg	  "error"
+	  ParameterOverflowMsg	  "error"
+	  ParameterUnderflowMsg	  "none"
+	  ParameterPrecisionLossMsg "warning"
+	  ParameterTunabilityLossMsg "warning"
+	  FixptConstUnderflowMsg  "none"
+	  FixptConstOverflowMsg	  "none"
+	  FixptConstPrecisionLossMsg "none"
+	  UnderSpecifiedDataTypeMsg "none"
+	  UnnecessaryDatatypeConvMsg "none"
+	  VectorMatrixConversionMsg "none"
+	  InvalidFcnCallConnMsg	  "error"
+	  FcnCallInpInsideContextMsg "EnableAllAsError"
+	  SignalLabelMismatchMsg  "none"
+	  UnconnectedInputMsg	  "warning"
+	  UnconnectedOutputMsg	  "warning"
+	  UnconnectedLineMsg	  "warning"
+	  SFcnCompatibilityMsg	  "none"
+	  FrameProcessingCompatibilityMsg "warning"
+	  UniqueDataStoreMsg	  "none"
+	  BusObjectLabelMismatch  "warning"
+	  RootOutportRequireBusObject "warning"
+	  AssertControl		  "UseLocalSettings"
+	  EnableOverflowDetection off
+	  ModelReferenceIOMsg	  "none"
+	  ModelReferenceMultiInstanceNormalModeStructChecksumCheck "error"
+	  ModelReferenceVersionMismatchMessage "none"
+	  ModelReferenceIOMismatchMessage "none"
+	  ModelReferenceCSMismatchMessage "none"
+	  UnknownTsInhSupMsg	  "warning"
+	  ModelReferenceDataLoggingMessage "warning"
+	  ModelReferenceSymbolNameMessage "warning"
+	  ModelReferenceExtraNoncontSigs "error"
+	  StateNameClashWarn	  "none"
+	  SimStateInterfaceChecksumMismatchMsg "warning"
+	  SimStateOlderReleaseMsg "error"
+	  InitInArrayFormatMsg	  "warning"
+	  StrictBusMsg		  "ErrorLevel1"
+	  BusNameAdapt		  "WarnAndRepair"
+	  NonBusSignalsTreatedAsBus "none"
+	  LoggingUnavailableSignals "error"
+	  BlockIODiagnostic	  "none"
+	  SFUnusedDataAndEventsDiag "warning"
+	  SFUnexpectedBacktrackingDiag "warning"
+	  SFInvalidInputDataAccessInChartInitDiag "warning"
+	  SFNoUnconditionalDefaultTransitionDiag "warning"
+	  SFTransitionOutsideNaturalParentDiag "warning"
+	  SFUnconditionalTransitionShadowingDiag "warning"
+	  SFUndirectedBroadcastEventsDiag "warning"
+	  SFTransitionActionBeforeConditionDiag	"warning"
+	}
+	Simulink.HardwareCC {
+	  $ObjectID		  13
+	  Version		  "1.14.2"
+	  ProdBitPerChar	  8
+	  ProdBitPerShort	  16
+	  ProdBitPerInt		  32
+	  ProdBitPerLong	  32
+	  ProdBitPerLongLong	  64
+	  ProdBitPerFloat	  32
+	  ProdBitPerDouble	  64
+	  ProdBitPerPointer	  32
+	  ProdLargestAtomicInteger "Char"
+	  ProdLargestAtomicFloat  "None"
+	  ProdIntDivRoundTo	  "Undefined"
+	  ProdEndianess		  "Unspecified"
+	  ProdWordSize		  32
+	  ProdShiftRightIntArith  on
+	  ProdLongLongMode	  off
+	  ProdHWDeviceType	  "32-bit Generic"
+	  TargetBitPerChar	  8
+	  TargetBitPerShort	  16
+	  TargetBitPerInt	  32
+	  TargetBitPerLong	  32
+	  TargetBitPerLongLong	  64
+	  TargetBitPerFloat	  32
+	  TargetBitPerDouble	  64
+	  TargetBitPerPointer	  32
+	  TargetLargestAtomicInteger "Char"
+	  TargetLargestAtomicFloat "None"
+	  TargetShiftRightIntArith on
+	  TargetLongLongMode	  off
+	  TargetIntDivRoundTo	  "Undefined"
+	  TargetEndianess	  "Unspecified"
+	  TargetWordSize	  32
+	  TargetTypeEmulationWarnSuppressLevel 0
+	  TargetPreprocMaxBitsSint 32
+	  TargetPreprocMaxBitsUint 32
+	  TargetHWDeviceType	  "Specified"
+	  TargetUnknown		  off
+	  ProdEqTarget		  on
+	}
+	Simulink.ModelReferenceCC {
+	  $ObjectID		  14
+	  Version		  "1.14.2"
+	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
+	  CheckModelReferenceTargetMessage "error"
+	  EnableParallelModelReferenceBuilds off
+	  ParallelModelReferenceErrorOnInvalidPool on
+	  ParallelModelReferenceMATLABWorkerInit "None"
+	  ModelReferenceNumInstancesAllowed "Multi"
+	  PropagateVarSize	  "Infer from blocks in model"
+	  ModelReferencePassRootInputsByReference on
+	  ModelReferenceMinAlgLoopOccurrences off
+	  PropagateSignalLabelsOutOfModel off
+	  SupportModelReferenceSimTargetCustomCode off
+	}
+	Simulink.SFSimCC {
+	  $ObjectID		  15
+	  Version		  "1.14.2"
+	  SFSimEnableDebug	  on
+	  SFSimOverflowDetection  on
+	  SFSimEcho		  on
+	  SimBlas		  on
+	  SimCtrlC		  on
+	  SimExtrinsic		  on
+	  SimIntegrity		  on
+	  SimUseLocalCustomCode	  off
+	  SimParseCustomCode	  on
+	  SimBuildMode		  "sf_incremental_build"
+	  SimGenImportedTypeDefs  off
+	}
+	Simulink.RTWCC {
+	  $BackupClass		  "Simulink.RTWCC"
+	  $ObjectID		  16
+	  Version		  "1.14.2"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    15
+	    Cell		    "IncludeHyperlinkInReport"
+	    Cell		    "GenerateTraceInfo"
+	    Cell		    "GenerateTraceReport"
+	    Cell		    "GenerateTraceReportSl"
+	    Cell		    "GenerateTraceReportSf"
+	    Cell		    "GenerateTraceReportEml"
+	    Cell		    "PortableWordSizes"
+	    Cell		    "GenerateWebview"
+	    Cell		    "GenerateCodeMetricsReport"
+	    Cell		    "GenerateCodeReplacementReport"
+	    Cell		    "GenerateErtSFunction"
+	    Cell		    "CreateSILPILBlock"
+	    Cell		    "CodeExecutionProfiling"
+	    Cell		    "CodeProfilingSaveOptions"
+	    Cell		    "CodeProfilingInstrumentation"
+	    PropName		    "DisabledProps"
+	  }
+	  SystemTargetFile	  "grt.tlc"
+	  TLCOptions		  ""
+	  GenCodeOnly		  off
+	  MakeCommand		  "make_rtw"
+	  GenerateMakefile	  on
+	  PackageGeneratedCodeAndArtifacts off
+	  PackageName		  ""
+	  TemplateMakefile	  "grt_default_tmf"
+	  PostCodeGenCommand	  ""
+	  Description		  ""
+	  GenerateReport	  off
+	  SaveLog		  off
+	  RTWVerbose		  on
+	  RetainRTWFile		  off
+	  ProfileTLC		  off
+	  TLCDebug		  off
+	  TLCCoverage		  off
+	  TLCAssert		  off
+	  ProcessScriptMode	  "Default"
+	  ConfigurationMode	  "Optimized"
+	  ProcessScript		  ""
+	  ConfigurationScript	  ""
+	  ConfigAtBuild		  off
+	  RTWUseLocalCustomCode	  off
+	  RTWUseSimCustomCode	  off
+	  CustomSourceCode	  ""
+	  CustomHeaderCode	  ""
+	  CustomInclude		  ""
+	  CustomSource		  ""
+	  CustomLibrary		  ""
+	  CustomInitializer	  ""
+	  CustomTerminator	  ""
+	  Toolchain		  "Automatically locate an installed toolchain"
+	  BuildConfiguration	  "Faster Builds"
+	  IncludeHyperlinkInReport off
+	  LaunchReport		  off
+	  PortableWordSizes	  off
+	  CreateSILPILBlock	  "None"
+	  CodeExecutionProfiling  off
+	  CodeExecutionProfileVariable "executionProfile"
+	  CodeProfilingSaveOptions "SummaryOnly"
+	  CodeProfilingInstrumentation off
+	  SILDebugging		  off
+	  TargetLang		  "C"
+	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
+	  IncludeERTFirstTime	  off
+	  GenerateTraceInfo	  off
+	  GenerateTraceReport	  off
+	  GenerateTraceReportSl	  off
+	  GenerateTraceReportSf	  off
+	  GenerateTraceReportEml  off
+	  GenerateCodeInfo	  off
+	  GenerateWebview	  off
+	  GenerateCodeMetricsReport off
+	  GenerateCodeReplacementReport	off
+	  RTWCompilerOptimization "Off"
+	  RTWCustomCompilerOptimizations ""
+	  CheckMdlBeforeBuild	  "Off"
+	  CustomRebuildMode	  "OnUpdate"
+	  DataInitializer	  ""
+	  SharedConstantsCachingThreshold 1024
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    Simulink.CodeAppCC {
+	      $ObjectID		      17
+	      Version		      "1.14.2"
+	      Array {
+		Type			"Cell"
+		Dimension		23
+		Cell			"IgnoreCustomStorageClasses"
+		Cell			"IgnoreTestpoints"
+		Cell			"InsertBlockDesc"
+		Cell			"InsertPolySpaceComments"
+		Cell			"SFDataObjDesc"
+		Cell			"MATLABFcnDesc"
+		Cell			"SimulinkDataObjDesc"
+		Cell			"DefineNamingRule"
+		Cell			"SignalNamingRule"
+		Cell			"ParamNamingRule"
+		Cell			"InternalIdentifier"
+		Cell			"InlinedPrmAccess"
+		Cell			"CustomSymbolStr"
+		Cell			"CustomSymbolStrGlobalVar"
+		Cell			"CustomSymbolStrType"
+		Cell			"CustomSymbolStrField"
+		Cell			"CustomSymbolStrFcn"
+		Cell			"CustomSymbolStrFcnArg"
+		Cell			"CustomSymbolStrBlkIO"
+		Cell			"CustomSymbolStrTmpVar"
+		Cell			"CustomSymbolStrMacro"
+		Cell			"CustomSymbolStrUtil"
+		Cell			"ReqsInCode"
+		PropName		"DisabledProps"
+	      }
+	      ForceParamTrailComments off
+	      GenerateComments	      on
+	      CommentStyle	      "Auto"
+	      IgnoreCustomStorageClasses on
+	      IgnoreTestpoints	      off
+	      IncHierarchyInIds	      off
+	      MaxIdLength	      31
+	      PreserveName	      off
+	      PreserveNameWithParent  off
+	      ShowEliminatedStatement off
+	      OperatorAnnotations     off
+	      IncAutoGenComments      off
+	      SimulinkDataObjDesc     off
+	      SFDataObjDesc	      off
+	      MATLABFcnDesc	      off
+	      IncDataTypeInIds	      off
+	      MangleLength	      1
+	      CustomSymbolStrGlobalVar "$R$N$M"
+	      CustomSymbolStrType     "$N$R$M_T"
+	      CustomSymbolStrField    "$N$M"
+	      CustomSymbolStrFcn      "$R$N$M$F"
+	      CustomSymbolStrFcnArg   "rt$I$N$M"
+	      CustomSymbolStrBlkIO    "rtb_$N$M"
+	      CustomSymbolStrTmpVar   "$N$M"
+	      CustomSymbolStrMacro    "$R$N$M"
+	      CustomSymbolStrUtil     "$N$C"
+	      DefineNamingRule	      "None"
+	      ParamNamingRule	      "None"
+	      SignalNamingRule	      "None"
+	      InsertBlockDesc	      off
+	      InsertPolySpaceComments off
+	      SimulinkBlockComments   on
+	      MATLABSourceComments    off
+	      EnableCustomComments    off
+	      InternalIdentifier      "Shortened"
+	      InlinedPrmAccess	      "Literals"
+	      ReqsInCode	      off
+	      UseSimReservedNames     off
+	    }
+	    Simulink.GRTTargetCC {
+	      $BackupClass	      "Simulink.TargetCC"
+	      $ObjectID		      18
+	      Version		      "1.14.2"
+	      Array {
+		Type			"Cell"
+		Dimension		14
+		Cell			"GeneratePreprocessorConditionals"
+		Cell			"IncludeMdlTerminateFcn"
+		Cell			"CombineOutputUpdateFcns"
+		Cell			"SuppressErrorStatus"
+		Cell			"ERTCustomFileBanners"
+		Cell			"GenerateSampleERTMain"
+		Cell			"GenerateTestInterfaces"
+		Cell			"ModelStepFunctionPrototypeControlCompliant"
+		Cell			"GenerateAllocFcn"
+		Cell			"PurelyIntegerCode"
+		Cell			"SupportComplex"
+		Cell			"SupportAbsoluteTime"
+		Cell			"SupportContinuousTime"
+		Cell			"SupportNonInlinedSFcns"
+		PropName		"DisabledProps"
+	      }
+	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
+	      TargetLibSuffix	      ""
+	      TargetPreCompLibLocation ""
+	      GenFloatMathFcnCalls    "NOT IN USE"
+	      TargetLangStandard      "C89/C90 (ANSI)"
+	      CodeReplacementLibrary  "None"
+	      UtilityFuncGeneration   "Auto"
+	      ERTMultiwordTypeDef     "System defined"
+	      ERTMultiwordLength      256
+	      MultiwordLength	      2048
+	      GenerateFullHeader      on
+	      GenerateSampleERTMain   off
+	      GenerateTestInterfaces  off
+	      ModelReferenceCompliant on
+	      ParMdlRefBuildCompliant on
+	      CompOptLevelCompliant   on
+	      ConcurrentExecutionCompliant on
+	      IncludeMdlTerminateFcn  on
+	      GeneratePreprocessorConditionals "Disable all"
+	      CombineOutputUpdateFcns on
+	      CombineSignalStateStructs	off
+	      SuppressErrorStatus     off
+	      ERTFirstTimeCompliant   off
+	      IncludeFileDelimiter    "Auto"
+	      ERTCustomFileBanners    off
+	      SupportAbsoluteTime     on
+	      LogVarNameModifier      "rt_"
+	      MatFileLogging	      on
+	      MultiInstanceERTCode    off
+	      CodeInterfacePackaging  "Nonreusable function"
+	      SupportNonFinite	      on
+	      SupportComplex	      on
+	      PurelyIntegerCode	      off
+	      SupportContinuousTime   on
+	      SupportNonInlinedSFcns  on
+	      SupportVariableSizeSignals off
+	      EnableShiftOperators    on
+	      ParenthesesLevel	      "Nominal"
+	      MATLABClassNameForMDSCustomization "Simulink.SoftwareTarget.GRTCustomization"
+	      ModelStepFunctionPrototypeControlCompliant off
+	      CPPClassGenCompliant    on
+	      AutosarCompliant	      off
+	      GRTInterface	      off
+	      GenerateAllocFcn	      off
+	      UseMalloc		      off
+	      ExtMode		      off
+	      ExtModeStaticAlloc      off
+	      ExtModeTesting	      off
+	      ExtModeStaticAllocSize  1000000
+	      ExtModeTransport	      0
+	      ExtModeMexFile	      "ext_comm"
+	      ExtModeIntrfLevel	      "Level1"
+	      RTWCAPISignals	      off
+	      RTWCAPIParams	      off
+	      RTWCAPIStates	      off
+	      RTWCAPIRootIO	      off
+	      GenerateASAP2	      off
+	      MultiInstanceErrorCode  "Error"
+	    }
+	    PropName		    "Components"
+	  }
+	}
+	hdlcoderui.hdlcc {
+	  $ObjectID		  19
+	  Version		  "1.14.2"
+	  Description		  "HDL Coder custom configuration component"
+	  Name			  "HDL Coder"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    " "
+	    PropName		    "HDLConfigFile"
+	  }
+	  HDLCActiveTab		  "0"
+	}
+	PropName		"Components"
+      }
+      Name		      "Configuration"
+      CurrentDlgPage	      "Solver"
+      ConfigPrmDlgPosition     [ 310, 110, 1612, 886 ] 
+    }
+    PropName		    "ConfigurationSets"
+  }
+  Simulink.ConfigSet {
+    $PropName		    "ActiveConfigurationSet"
+    $ObjectID		    8
+  }
+  Object {
+    $PropName		    "DataTransfer"
+    $ObjectID		    20
+    $ClassName		    "Simulink.GlobalDataTransfer"
+    DefaultTransitionBetweenSyncTasks "Ensure deterministic transfer (maximum delay)"
+    DefaultTransitionBetweenAsyncTasks "Ensure data integrity only"
+    DefaultTransitionBetweenContTasks "Ensure deterministic transfer (minimum delay)"
+    DefaultExtrapolationMethodBetweenContTasks "None"
+    AutoInsertRateTranBlk   [0]
+  }
+  ExplicitPartitioning	  off
+  BlockDefaults {
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+    BlockRotation	    0
+    BlockMirror		    off
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    UseDisplayTextAsClickCallback off
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  MaskDefaults {
+    SelfModifiable	    "off"
+    IconFrame		    "on"
+    IconOpaque		    "on"
+    RunInitForIconRedraw    "off"
+    IconRotate		    "none"
+    PortRotate		    "default"
+    IconUnits		    "autoscale"
+  }
+  MaskParameterDefaults {
+    Evaluate		    "on"
+    Tunable		    "on"
+    NeverSave		    "off"
+    Internal		    "off"
+    ReadOnly		    "off"
+    Enabled		    "on"
+    Visible		    "on"
+    ToolTip		    "on"
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      Constant
+      Value		      "1"
+      VectorParams1D	      on
+      SamplingMode	      "Sample based"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Inherit from 'Constant value'"
+      LockScale		      off
+      SampleTime	      "inf"
+      FramePeriod	      "inf"
+      PreserveConstantTs      off
+    }
+    Block {
+      BlockType		      Demux
+      Outputs		      "4"
+      DisplayOption	      "none"
+      BusSelectionMode	      off
+    }
+    Block {
+      BlockType		      Display
+      Format		      "short"
+      Decimation	      "10"
+      Floating		      off
+      Lockdown		      off
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      From
+      GotoTag		      "A"
+      IconDisplay	      "Tag"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Gain
+      Gain		      "1"
+      Multiplication	      "Element-wise(K.*u)"
+      ParamMin		      "[]"
+      ParamMax		      "[]"
+      ParamDataTypeStr	      "Inherit: Same as input"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Same as input"
+      LockScale		      off
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	on
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Goto
+      GotoTag		      "A"
+      IconDisplay	      "Tag"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Inport
+      Port		      "1"
+      OutputFunctionCall      off
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      LatchByDelayingOutsideSignal off
+      LatchInputForFeedbackSignals off
+      Interpolate	      on
+    }
+    Block {
+      BlockType		      Integrator
+      ExternalReset	      "none"
+      InitialConditionSource  "internal"
+      InitialCondition	      "0"
+      LimitOutput	      off
+      UpperSaturationLimit    "inf"
+      LowerSaturationLimit    "-inf"
+      ShowSaturationPort      off
+      ShowStatePort	      off
+      AbsoluteTolerance	      "auto"
+      IgnoreLimit	      off
+      ZeroCross		      on
+      ContinuousStateAttributes	"''"
+    }
+    Block {
+      BlockType		      Mux
+      Inputs		      "4"
+      DisplayOption	      "none"
+      UseBusObject	      off
+      BusObject		      "BusObject"
+      NonVirtualBus	      off
+    }
+    Block {
+      BlockType		      Outport
+      Port		      "1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      SourceOfInitialOutputValue "Dialog"
+      OutputWhenDisabled      "held"
+      InitialOutput	      "[]"
+    }
+    Block {
+      BlockType		      S-Function
+      FunctionName	      "system"
+      SFunctionModules	      "''"
+      PortCounts	      "[]"
+      SFunctionDeploymentMode off
+    }
+    Block {
+      BlockType		      SubSystem
+      ShowPortLabels	      "FromPortIcon"
+      Permissions	      "ReadWrite"
+      PermitHierarchicalResolution "All"
+      TreatAsAtomicUnit	      off
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      CheckFcnCallInpInsideContextMsg off
+      SystemSampleTime	      "-1"
+      RTWSystemCode	      "Auto"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      FunctionInterfaceSpec   "void_void"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      SimViewingDevice	      off
+      DataTypeOverride	      "UseLocalSettings"
+      DataTypeOverrideAppliesTo	"AllNumericTypes"
+      MinMaxOverflowLogging   "UseLocalSettings"
+      Opaque		      off
+      MaskHideContents	      off
+      SFBlockType	      "NONE"
+      Variant		      off
+      GeneratePreprocessorConditionals off
+      ContentPreviewEnabled   off
+    }
+    Block {
+      BlockType		      Terminator
+    }
+  }
+  System {
+    Name		    "modelZSB1"
+    Location		    [-1715, -372, -846, 564]
+    Open		    off
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "A4"
+    PaperUnits		    "centimeters"
+    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+    TiledPageScale	    1
+    ShowPageBoundaries	    off
+    ZoomFactor		    "125"
+    ReportName		    "simulink-default.rpt"
+    SIDHighWatermark	    "191"
+    Block {
+      BlockType		      Inport
+      Name		      "In1"
+      SID		      "158"
+      Position		      [20, 218, 50, 232]
+      ZOrder		      124
+      IconDisplay	      "Port number"
+    }
+    Block {
+      BlockType		      Demux
+      Name		      "Demux"
+      SID		      "159"
+      Ports		      [1, 4]
+      Position		      [115, 88, 125, 357]
+      ZOrder		      123
+      ShowName		      off
+      DisplayOption	      "bar"
+    }
+    Block {
+      BlockType		      Gain
+      Name		      "Gain1"
+      SID		      "180"
+      Position		      [255, 175, 285, 205]
+      ZOrder		      152
+      Gain		      "1/98"
+      ParamDataTypeStr	      "Inherit: Inherit via internal rule"
+      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      Gain
+      Name		      "Gain2"
+      SID		      "179"
+      Position		      [255, 240, 285, 270]
+      ZOrder		      151
+      Gain		      "1/98"
+      ParamDataTypeStr	      "Inherit: Inherit via internal rule"
+      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      Gain
+      Name		      "Gain3"
+      SID		      "181"
+      Position		      [255, 305, 285, 335]
+      ZOrder		      154
+      Gain		      "1/98"
+      ParamDataTypeStr	      "Inherit: Inherit via internal rule"
+      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      Gain
+      Name		      "Gain4"
+      SID		      "182"
+      Position		      [160, 110, 215, 140]
+      ZOrder		      695
+      Gain		      "3200"
+      ParamDataTypeStr	      "Inherit: Inherit via internal rule"
+      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      Gain
+      Name		      "Gain5"
+      SID		      "183"
+      Position		      [150, 175, 205, 205]
+      ZOrder		      696
+      Gain		      "529.2"
+      ParamDataTypeStr	      "Inherit: Inherit via internal rule"
+      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      Gain
+      Name		      "Gain6"
+      SID		      "186"
+      Position		      [175, 305, 205, 335]
+      ZOrder		      698
+      Gain		      "48*98"
+      ParamDataTypeStr	      "Inherit: Inherit via internal rule"
+      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      Gain
+      Name		      "Gain7"
+      SID		      "185"
+      Position		      [175, 240, 205, 270]
+      ZOrder		      697
+      Gain		      "84*98"
+      ParamDataTypeStr	      "Inherit: Inherit via internal rule"
+      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      Gain
+      Name		      "Gain8"
+      SID		      "190"
+      Position		      [595, 110, 625, 140]
+      ZOrder		      700
+      Gain		      "75/273"
+      ParamDataTypeStr	      "Inherit: Inherit via internal rule"
+      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      Mux
+      Name		      "Mux"
+      SID		      "189"
+      Ports		      [2, 1]
+      Position		      [650, 291, 655, 329]
+      ZOrder		      699
+      ShowName		      off
+      Inputs		      "2"
+      DisplayOption	      "bar"
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "PlungerPump"
+      SID		      "1"
+      Ports		      [4, 4]
+      Position		      [330, 91, 495, 354]
+      ZOrder		      1
+      RequestExecContextInheritance off
+      System {
+	Name			"PlungerPump"
+	Location		[-1715, -372, 8, 564]
+	Open			on
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"150"
+	Block {
+	  BlockType		  Inport
+	  Name			  "Np:r/min"
+	  SID			  "2"
+	  Position		  [1155, 103, 1185, 117]
+	  ZOrder		  -1
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "Pin:kg/cm2"
+	  SID			  "5"
+	  Position		  [1155, 148, 1185, 162]
+	  ZOrder		  2
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "Pout:kg/cm2"
+	  SID			  "6"
+	  Position		  [1155, 193, 1185, 207]
+	  ZOrder		  3
+	  Port			  "3"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "deltaP:kg/cm2"
+	  SID			  "7"
+	  Position		  [1155, 238, 1185, 252]
+	  ZOrder		  4
+	  Port			  "4"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant"
+	  SID			  "69"
+	  Position		  [985, 600, 1015, 630]
+	  ZOrder		  32
+	  Value			  "7"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant1"
+	  SID			  "70"
+	  Position		  [960, 647, 1040, 673]
+	  ZOrder		  33
+	  Value			  "317.743165"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant2"
+	  SID			  "170"
+	  Position		  [1445, 470, 1475, 500]
+	  ZOrder		  41
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  Value			  "30"
+	}
+	Block {
+	  BlockType		  Display
+	  Name			  "Display"
+	  SID			  "98"
+	  Ports			  [1]
+	  Position		  [975, 400, 1065, 430]
+	  ZOrder		  36
+	  Decimation		  "1"
+	}
+	Block {
+	  BlockType		  Display
+	  Name			  "Display1"
+	  SID			  "99"
+	  Ports			  [1]
+	  Position		  [850, 420, 940, 450]
+	  ZOrder		  37
+	  Decimation		  "1"
+	}
+	Block {
+	  BlockType		  Display
+	  Name			  "Display2"
+	  SID			  "100"
+	  Ports			  [1]
+	  Position		  [830, 650, 920, 680]
+	  ZOrder		  38
+	  Format		  "long"
+	  Decimation		  "1"
+	}
+	Block {
+	  BlockType		  Display
+	  Name			  "Display4"
+	  SID			  "102"
+	  Ports			  [1]
+	  Position		  [1160, 280, 1250, 310]
+	  ZOrder		  40
+	  Format		  "long"
+	  Decimation		  "1"
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Follower Piston"
+	  SID			  "41"
+	  Ports			  [4, 1]
+	  Position		  [1310, 372, 1420, 553]
+	  ZOrder		  21
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "Follower Piston"
+	    Location		    [2641, -104, 3889, 841]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "250"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Pout:kg/cm2"
+	      SID		      "42"
+	      Position		      [110, 103, 140, 117]
+	      ZOrder		      -1
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "deltaP:kg/cm2"
+	      SID		      "44"
+	      Position		      [110, 148, 140, 162]
+	      ZOrder		      1
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "xp0:mm"
+	      SID		      "46"
+	      Position		      [110, 238, 140, 252]
+	      ZOrder		      3
+	      Port		      "3"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "xp:mm"
+	      SID		      "45"
+	      Position		      [110, 193, 140, 207]
+	      ZOrder		      2
+	      Port		      "4"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      SubSystem
+	      Name		      "MATLAB Function"
+	      SID		      "77"
+	      Ports		      [4, 1]
+	      Position		      [195, 86, 295, 269]
+	      ZOrder		      4
+	      LibraryVersion	      "1.32"
+	      ErrorFcn		      "Stateflow.Translate.translate"
+	      PermitHierarchicalResolution "ExplicitOnly"
+	      TreatAsAtomicUnit	      on
+	      RequestExecContextInheritance off
+	      SFBlockType	      "MATLAB Function"
+	      System {
+		Name			"MATLAB Function"
+		Location		[219, 337, 814, 775]
+		Open			off
+		ModelBrowserVisibility	off
+		ModelBrowserWidth	200
+		ScreenColor		"white"
+		PaperOrientation	"landscape"
+		PaperPositionMode	"auto"
+		PaperType		"A4"
+		PaperUnits		"centimeters"
+		TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+		TiledPageScale		1
+		ShowPageBoundaries	off
+		ZoomFactor		"100"
+		SIDHighWatermark	"23"
+		Block {
+		  BlockType		  Inport
+		  Name			  "Pout"
+		  SID			  "77::1"
+		  Position		  [20, 101, 40, 119]
+		  ZOrder		  -1
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "deltaP"
+		  SID			  "77::21"
+		  Position		  [20, 136, 40, 154]
+		  ZOrder		  7
+		  Port			  "2"
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "xp"
+		  SID			  "77::22"
+		  Position		  [20, 171, 40, 189]
+		  ZOrder		  8
+		  Port			  "3"
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "xp0"
+		  SID			  "77::23"
+		  Position		  [20, 206, 40, 224]
+		  ZOrder		  9
+		  Port			  "4"
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Demux
+		  Name			  " Demux "
+		  SID			  "77::19"
+		  Ports			  [1, 1]
+		  Position		  [270, 230, 320, 270]
+		  ZOrder		  5
+		  Outputs		  "1"
+		}
+		Block {
+		  BlockType		  S-Function
+		  Name			  " SFunction "
+		  SID			  "77::18"
+		  Tag			  "Stateflow S-Function modelZSB1 5"
+		  Ports			  [4, 2]
+		  Position		  [180, 102, 230, 203]
+		  ZOrder		  4
+		  FunctionName		  "sf_sfun"
+		  PortCounts		  "[4 2]"
+		  EnableBusSupport	  on
+		  Port {
+		    PortNumber		    2
+		    Name		    "Fsui"
+		    RTWStorageClass	    "Auto"
+		    DataLoggingNameMode	    "SignalName"
+		  }
+		}
+		Block {
+		  BlockType		  Terminator
+		  Name			  " Terminator "
+		  SID			  "77::20"
+		  Position		  [460, 241, 480, 259]
+		  ZOrder		  6
+		}
+		Block {
+		  BlockType		  Outport
+		  Name			  "Fsui"
+		  SID			  "77::5"
+		  Position		  [460, 101, 480, 119]
+		  ZOrder		  -5
+		  IconDisplay		  "Port number"
+		}
+		Line {
+		  ZOrder		  20
+		  SrcBlock		  "Pout"
+		  SrcPort		  1
+		  Points		  [120, 0]
+		  DstBlock		  " SFunction "
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  21
+		  SrcBlock		  "deltaP"
+		  SrcPort		  1
+		  DstBlock		  " SFunction "
+		  DstPort		  2
+		}
+		Line {
+		  ZOrder		  22
+		  SrcBlock		  "xp"
+		  SrcPort		  1
+		  DstBlock		  " SFunction "
+		  DstPort		  3
+		}
+		Line {
+		  ZOrder		  23
+		  SrcBlock		  "xp0"
+		  SrcPort		  1
+		  DstBlock		  " SFunction "
+		  DstPort		  4
+		}
+		Line {
+		  Name			  "Fsui"
+		  ZOrder		  24
+		  Labels		  [0, 0]
+		  SrcBlock		  " SFunction "
+		  SrcPort		  2
+		  DstBlock		  "Fsui"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  25
+		  SrcBlock		  " Demux "
+		  SrcPort		  1
+		  DstBlock		  " Terminator "
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  26
+		  SrcBlock		  " SFunction "
+		  SrcPort		  1
+		  DstBlock		  " Demux "
+		  DstPort		  1
+		}
+	      }
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Fsui:N"
+	      SID		      "43"
+	      Position		      [340, 173, 370, 187]
+	      ZOrder		      -2
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Pout:kg/cm2"
+	      SrcPort		      1
+	      DstBlock		      "MATLAB Function"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "deltaP:kg/cm2"
+	      SrcPort		      1
+	      DstBlock		      "MATLAB Function"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "xp:mm"
+	      SrcPort		      1
+	      DstBlock		      "MATLAB Function"
+	      DstPort		      3
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "xp0:mm"
+	      SrcPort		      1
+	      DstBlock		      "MATLAB Function"
+	      DstPort		      4
+	    }
+	    Line {
+	      ZOrder		      6
+	      SrcBlock		      "MATLAB Function"
+	      SrcPort		      1
+	      DstBlock		      "Fsui:N"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Follower Piston Torque"
+	  SID			  "36"
+	  Ports			  [3, 1]
+	  Position		  [1145, 449, 1260, 531]
+	  ZOrder		  20
+	  BlockMirror		  on
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "Follower Piston Torque"
+	    Location		    [-9, 0, 1929, 1048]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "200"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Fsui:N"
+	      SID		      "37"
+	      Position		      [110, 103, 140, 117]
+	      ZOrder		      -1
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "beta:°"
+	      SID		      "39"
+	      Position		      [110, 153, 140, 167]
+	      ZOrder		      1
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "phi:°"
+	      SID		      "40"
+	      Position		      [110, 203, 140, 217]
+	      ZOrder		      2
+	      Port		      "3"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      SubSystem
+	      Name		      "MATLAB Function"
+	      SID		      "76"
+	      Ports		      [3, 1]
+	      Position		      [190, 88, 305, 232]
+	      ZOrder		      3
+	      LibraryVersion	      "1.32"
+	      ErrorFcn		      "Stateflow.Translate.translate"
+	      PermitHierarchicalResolution "ExplicitOnly"
+	      TreatAsAtomicUnit	      on
+	      RequestExecContextInheritance off
+	      SFBlockType	      "MATLAB Function"
+	      System {
+		Name			"MATLAB Function"
+		Location		[219, 337, 814, 775]
+		Open			off
+		ModelBrowserVisibility	off
+		ModelBrowserWidth	200
+		ScreenColor		"white"
+		PaperOrientation	"landscape"
+		PaperPositionMode	"auto"
+		PaperType		"A4"
+		PaperUnits		"centimeters"
+		TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+		TiledPageScale		1
+		ShowPageBoundaries	off
+		ZoomFactor		"100"
+		SIDHighWatermark	"22"
+		Block {
+		  BlockType		  Inport
+		  Name			  "Fsui"
+		  SID			  "76::1"
+		  Position		  [20, 101, 40, 119]
+		  ZOrder		  -1
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "beta_d"
+		  SID			  "76::21"
+		  Position		  [20, 136, 40, 154]
+		  ZOrder		  7
+		  Port			  "2"
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "phi_d"
+		  SID			  "76::22"
+		  Position		  [20, 171, 40, 189]
+		  ZOrder		  8
+		  Port			  "3"
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Demux
+		  Name			  " Demux "
+		  SID			  "76::19"
+		  Ports			  [1, 1]
+		  Position		  [270, 230, 320, 270]
+		  ZOrder		  5
+		  Outputs		  "1"
+		}
+		Block {
+		  BlockType		  S-Function
+		  Name			  " SFunction "
+		  SID			  "76::18"
+		  Tag			  "Stateflow S-Function modelZSB1 4"
+		  Ports			  [3, 2]
+		  Position		  [180, 100, 230, 180]
+		  ZOrder		  4
+		  FunctionName		  "sf_sfun"
+		  PortCounts		  "[3 2]"
+		  EnableBusSupport	  on
+		  Port {
+		    PortNumber		    2
+		    Name		    "TorqueFP"
+		    RTWStorageClass	    "Auto"
+		    DataLoggingNameMode	    "SignalName"
+		  }
+		}
+		Block {
+		  BlockType		  Terminator
+		  Name			  " Terminator "
+		  SID			  "76::20"
+		  Position		  [460, 241, 480, 259]
+		  ZOrder		  6
+		}
+		Block {
+		  BlockType		  Outport
+		  Name			  "TorqueFP"
+		  SID			  "76::5"
+		  Position		  [460, 101, 480, 119]
+		  ZOrder		  -5
+		  IconDisplay		  "Port number"
+		}
+		Line {
+		  ZOrder		  14
+		  SrcBlock		  "Fsui"
+		  SrcPort		  1
+		  Points		  [120, 0]
+		  DstBlock		  " SFunction "
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  15
+		  SrcBlock		  "beta_d"
+		  SrcPort		  1
+		  DstBlock		  " SFunction "
+		  DstPort		  2
+		}
+		Line {
+		  ZOrder		  16
+		  SrcBlock		  "phi_d"
+		  SrcPort		  1
+		  DstBlock		  " SFunction "
+		  DstPort		  3
+		}
+		Line {
+		  Name			  "TorqueFP"
+		  ZOrder		  17
+		  Labels		  [0, 0]
+		  SrcBlock		  " SFunction "
+		  SrcPort		  2
+		  DstBlock		  "TorqueFP"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  18
+		  SrcBlock		  " Demux "
+		  SrcPort		  1
+		  DstBlock		  " Terminator "
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  19
+		  SrcBlock		  " SFunction "
+		  SrcPort		  1
+		  DstBlock		  " Demux "
+		  DstPort		  1
+		}
+	      }
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "TorqueFP:N*m"
+	      SID		      "38"
+	      Position		      [355, 153, 385, 167]
+	      ZOrder		      -2
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Fsui:N"
+	      SrcPort		      1
+	      DstBlock		      "MATLAB Function"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "beta:°"
+	      SrcPort		      1
+	      DstBlock		      "MATLAB Function"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "phi:°"
+	      SrcPort		      1
+	      DstBlock		      "MATLAB Function"
+	      DstPort		      3
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "MATLAB Function"
+	      SrcPort		      1
+	      DstBlock		      "TorqueFP:N*m"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From"
+	  SID			  "18"
+	  Position		  [770, 216, 810, 244]
+	  ZOrder		  9
+	  GotoTag		  "Np"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From1"
+	  SID			  "24"
+	  Position		  [770, 336, 810, 364]
+	  ZOrder		  15
+	  GotoTag		  "Pout"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From10"
+	  SID			  "72"
+	  Position		  [1445, 426, 1485, 454]
+	  ZOrder		  35
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  GotoTag		  "deltaP"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From2"
+	  SID			  "22"
+	  Position		  [770, 296, 810, 324]
+	  ZOrder		  13
+	  GotoTag		  "Pin"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From3"
+	  SID			  "58"
+	  Position		  [615, 541, 655, 569]
+	  ZOrder		  25
+	  GotoTag		  "Np"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From4"
+	  SID			  "59"
+	  Position		  [615, 586, 655, 614]
+	  ZOrder		  26
+	  GotoTag		  "Pout"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From5"
+	  SID			  "60"
+	  Position		  [615, 631, 655, 659]
+	  ZOrder		  27
+	  GotoTag		  "deltaP"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From9"
+	  SID			  "71"
+	  Position		  [1445, 381, 1485, 409]
+	  ZOrder		  34
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  GotoTag		  "Pout"
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "Gain"
+	  SID			  "25"
+	  Position		  [665, 477, 720, 523]
+	  ZOrder		  16
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  Gain			  "180/pi"
+	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "Gain1"
+	  SID			  "57"
+	  Position		  [820, 580, 875, 620]
+	  ZOrder		  24
+	  Gain			  "pi/180"
+	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "Goto"
+	  SID			  "17"
+	  Position		  [1225, 95, 1265, 125]
+	  ZOrder		  8
+	  GotoTag		  "Np"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "Goto1"
+	  SID			  "19"
+	  Position		  [1225, 140, 1265, 170]
+	  ZOrder		  10
+	  GotoTag		  "Pin"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "Goto2"
+	  SID			  "21"
+	  Position		  [1225, 185, 1265, 215]
+	  ZOrder		  12
+	  GotoTag		  "Pout"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "Goto3"
+	  SID			  "23"
+	  Position		  [1225, 230, 1265, 260]
+	  ZOrder		  14
+	  GotoTag		  "deltaP"
+	}
+	Block {
+	  BlockType		  Integrator
+	  Name			  "Integrator"
+	  SID			  "26"
+	  Ports			  [2, 1]
+	  Position		  [775, 482, 810, 518]
+	  ZOrder		  17
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  InitialConditionSource  "external"
+	  LimitOutput		  on
+	  UpperSaturationLimit	  "14.8/180*pi"
+	  LowerSaturationLimit	  "0"
+	}
+	Block {
+	  BlockType		  Integrator
+	  Name			  "Integrator1"
+	  SID			  "29"
+	  Ports			  [1, 1]
+	  Position		  [910, 475, 940, 505]
+	  ZOrder		  18
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  InitialCondition	  "1"
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Plunger"
+	  SID			  "10"
+	  Ports			  [4, 2]
+	  Position		  [845, 205, 970, 375]
+	  ZOrder		  7
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "Plunger"
+	    Location		    [2641, -104, 3889, 841]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "200"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Np:rpm"
+	      SID		      "11"
+	      Position		      [110, 103, 140, 117]
+	      ZOrder		      -1
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "phi:degree"
+	      SID		      "13"
+	      Position		      [110, 168, 140, 182]
+	      ZOrder		      1
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Pin:kg/cm2"
+	      SID		      "14"
+	      Position		      [110, 233, 140, 247]
+	      ZOrder		      2
+	      Port		      "3"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Pout:kg/cm2"
+	      SID		      "15"
+	      Position		      [110, 298, 140, 312]
+	      ZOrder		      3
+	      Port		      "4"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      SubSystem
+	      Name		      "MATLAB Function"
+	      SID		      "74"
+	      Ports		      [4, 2]
+	      Position		      [190, 81, 305, 334]
+	      ZOrder		      5
+	      LibraryVersion	      "1.32"
+	      ErrorFcn		      "Stateflow.Translate.translate"
+	      PermitHierarchicalResolution "ExplicitOnly"
+	      TreatAsAtomicUnit	      on
+	      RequestExecContextInheritance off
+	      SFBlockType	      "MATLAB Function"
+	      System {
+		Name			"MATLAB Function"
+		Location		[219, 337, 814, 775]
+		Open			off
+		ModelBrowserVisibility	off
+		ModelBrowserWidth	200
+		ScreenColor		"white"
+		PaperOrientation	"landscape"
+		PaperPositionMode	"auto"
+		PaperType		"A4"
+		PaperUnits		"centimeters"
+		TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+		TiledPageScale		1
+		ShowPageBoundaries	off
+		ZoomFactor		"100"
+		SIDHighWatermark	"24"
+		Block {
+		  BlockType		  Inport
+		  Name			  "n_i"
+		  SID			  "74::1"
+		  Position		  [20, 101, 40, 119]
+		  ZOrder		  -1
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "phi_i"
+		  SID			  "74::21"
+		  Position		  [20, 136, 40, 154]
+		  ZOrder		  7
+		  Port			  "2"
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "Pin_i"
+		  SID			  "74::22"
+		  Position		  [20, 171, 40, 189]
+		  ZOrder		  8
+		  Port			  "3"
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "Pout_i"
+		  SID			  "74::23"
+		  Position		  [20, 206, 40, 224]
+		  ZOrder		  9
+		  Port			  "4"
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Demux
+		  Name			  " Demux "
+		  SID			  "74::19"
+		  Ports			  [1, 1]
+		  Position		  [270, 230, 320, 270]
+		  ZOrder		  5
+		  Outputs		  "1"
+		}
+		Block {
+		  BlockType		  S-Function
+		  Name			  " SFunction "
+		  SID			  "74::18"
+		  Tag			  "Stateflow S-Function modelZSB1 1"
+		  Ports			  [4, 3]
+		  Position		  [180, 102, 230, 203]
+		  ZOrder		  4
+		  FunctionName		  "sf_sfun"
+		  PortCounts		  "[4 3]"
+		  EnableBusSupport	  on
+		  Port {
+		    PortNumber		    2
+		    Name		    "Torque"
+		    RTWStorageClass	    "Auto"
+		    DataLoggingNameMode	    "SignalName"
+		  }
+		  Port {
+		    PortNumber		    3
+		    Name		    "Qs"
+		    RTWStorageClass	    "Auto"
+		    DataLoggingNameMode	    "SignalName"
+		  }
+		}
+		Block {
+		  BlockType		  Terminator
+		  Name			  " Terminator "
+		  SID			  "74::20"
+		  Position		  [460, 241, 480, 259]
+		  ZOrder		  6
+		}
+		Block {
+		  BlockType		  Outport
+		  Name			  "Torque"
+		  SID			  "74::5"
+		  Position		  [460, 101, 480, 119]
+		  ZOrder		  -5
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Outport
+		  Name			  "Qs"
+		  SID			  "74::24"
+		  Position		  [460, 136, 480, 154]
+		  ZOrder		  10
+		  Port			  "2"
+		  IconDisplay		  "Port number"
+		}
+		Line {
+		  ZOrder		  27
+		  SrcBlock		  "n_i"
+		  SrcPort		  1
+		  DstBlock		  " SFunction "
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  28
+		  SrcBlock		  "phi_i"
+		  SrcPort		  1
+		  DstBlock		  " SFunction "
+		  DstPort		  2
+		}
+		Line {
+		  ZOrder		  29
+		  SrcBlock		  "Pin_i"
+		  SrcPort		  1
+		  DstBlock		  " SFunction "
+		  DstPort		  3
+		}
+		Line {
+		  ZOrder		  30
+		  SrcBlock		  "Pout_i"
+		  SrcPort		  1
+		  DstBlock		  " SFunction "
+		  DstPort		  4
+		}
+		Line {
+		  Name			  "Torque"
+		  ZOrder		  31
+		  Labels		  [0, 0]
+		  SrcBlock		  " SFunction "
+		  SrcPort		  2
+		  DstBlock		  "Torque"
+		  DstPort		  1
+		}
+		Line {
+		  Name			  "Qs"
+		  ZOrder		  32
+		  Labels		  [0, 0]
+		  SrcBlock		  " SFunction "
+		  SrcPort		  3
+		  DstBlock		  "Qs"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  33
+		  SrcBlock		  " Demux "
+		  SrcPort		  1
+		  DstBlock		  " Terminator "
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  34
+		  SrcBlock		  " SFunction "
+		  SrcPort		  1
+		  DstBlock		  " Demux "
+		  DstPort		  1
+		}
+	      }
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Torque:N*m"
+	      SID		      "12"
+	      Position		      [350, 138, 380, 152]
+	      ZOrder		      -2
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Qs:L/m"
+	      SID		      "16"
+	      Position		      [350, 263, 380, 277]
+	      ZOrder		      4
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Np:rpm"
+	      SrcPort		      1
+	      DstBlock		      "MATLAB Function"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Pout:kg/cm2"
+	      SrcPort		      1
+	      DstBlock		      "MATLAB Function"
+	      DstPort		      4
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "Pin:kg/cm2"
+	      SrcPort		      1
+	      DstBlock		      "MATLAB Function"
+	      DstPort		      3
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "phi:degree"
+	      SrcPort		      1
+	      DstBlock		      "MATLAB Function"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      6
+	      SrcBlock		      "MATLAB Function"
+	      SrcPort		      2
+	      DstBlock		      "Qs:L/m"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      7
+	      SrcBlock		      "MATLAB Function"
+	      SrcPort		      1
+	      DstBlock		      "Torque:N*m"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Torque Balance"
+	  SID			  "31"
+	  Ports			  [3, 1]
+	  Position		  [965, 454, 1095, 526]
+	  ZOrder		  19
+	  BlockMirror		  on
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "Torque Balance"
+	    Location		    [2641, -104, 3889, 841]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "175"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "TorquePP:N*m"
+	      SID		      "32"
+	      Position		      [110, 108, 140, 122]
+	      ZOrder		      -1
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "TorqueFP:N*m"
+	      SID		      "34"
+	      Position		      [110, 148, 140, 162]
+	      ZOrder		      1
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "W:rad/s"
+	      SID		      "35"
+	      Position		      [110, 188, 140, 202]
+	      ZOrder		      2
+	      Port		      "3"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      SubSystem
+	      Name		      "MATLAB Function"
+	      SID		      "75"
+	      Ports		      [3, 1]
+	      Position		      [175, 96, 295, 214]
+	      ZOrder		      3
+	      LibraryVersion	      "1.32"
+	      ErrorFcn		      "Stateflow.Translate.translate"
+	      PermitHierarchicalResolution "ExplicitOnly"
+	      TreatAsAtomicUnit	      on
+	      RequestExecContextInheritance off
+	      SFBlockType	      "MATLAB Function"
+	      System {
+		Name			"MATLAB Function"
+		Location		[219, 337, 814, 775]
+		Open			off
+		ModelBrowserVisibility	off
+		ModelBrowserWidth	200
+		ScreenColor		"white"
+		PaperOrientation	"landscape"
+		PaperPositionMode	"auto"
+		PaperType		"A4"
+		PaperUnits		"centimeters"
+		TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+		TiledPageScale		1
+		ShowPageBoundaries	off
+		ZoomFactor		"100"
+		SIDHighWatermark	"22"
+		Block {
+		  BlockType		  Inport
+		  Name			  "TorquePP"
+		  SID			  "75::1"
+		  Position		  [20, 101, 40, 119]
+		  ZOrder		  -1
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "TorqueFP"
+		  SID			  "75::21"
+		  Position		  [20, 136, 40, 154]
+		  ZOrder		  7
+		  Port			  "2"
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "W"
+		  SID			  "75::22"
+		  Position		  [20, 171, 40, 189]
+		  ZOrder		  8
+		  Port			  "3"
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Demux
+		  Name			  " Demux "
+		  SID			  "75::19"
+		  Ports			  [1, 1]
+		  Position		  [270, 230, 320, 270]
+		  ZOrder		  5
+		  Outputs		  "1"
+		}
+		Block {
+		  BlockType		  S-Function
+		  Name			  " SFunction "
+		  SID			  "75::18"
+		  Tag			  "Stateflow S-Function modelZSB1 3"
+		  Ports			  [3, 2]
+		  Position		  [180, 100, 230, 180]
+		  ZOrder		  4
+		  FunctionName		  "sf_sfun"
+		  PortCounts		  "[3 2]"
+		  EnableBusSupport	  on
+		  Port {
+		    PortNumber		    2
+		    Name		    "Wdot"
+		    RTWStorageClass	    "Auto"
+		    DataLoggingNameMode	    "SignalName"
+		  }
+		}
+		Block {
+		  BlockType		  Terminator
+		  Name			  " Terminator "
+		  SID			  "75::20"
+		  Position		  [460, 241, 480, 259]
+		  ZOrder		  6
+		}
+		Block {
+		  BlockType		  Outport
+		  Name			  "Wdot"
+		  SID			  "75::5"
+		  Position		  [460, 101, 480, 119]
+		  ZOrder		  -5
+		  IconDisplay		  "Port number"
+		}
+		Line {
+		  ZOrder		  14
+		  SrcBlock		  "TorquePP"
+		  SrcPort		  1
+		  Points		  [120, 0]
+		  DstBlock		  " SFunction "
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  15
+		  SrcBlock		  "TorqueFP"
+		  SrcPort		  1
+		  DstBlock		  " SFunction "
+		  DstPort		  2
+		}
+		Line {
+		  ZOrder		  16
+		  SrcBlock		  "W"
+		  SrcPort		  1
+		  DstBlock		  " SFunction "
+		  DstPort		  3
+		}
+		Line {
+		  Name			  "Wdot"
+		  ZOrder		  17
+		  Labels		  [0, 0]
+		  SrcBlock		  " SFunction "
+		  SrcPort		  2
+		  DstBlock		  "Wdot"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  18
+		  SrcBlock		  " Demux "
+		  SrcPort		  1
+		  DstBlock		  " Terminator "
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  19
+		  SrcBlock		  " SFunction "
+		  SrcPort		  1
+		  DstBlock		  " Demux "
+		  DstPort		  1
+		}
+	      }
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Wdot:rad/s2"
+	      SID		      "33"
+	      Position		      [335, 148, 365, 162]
+	      ZOrder		      -2
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "W:rad/s"
+	      SrcPort		      1
+	      DstBlock		      "MATLAB Function"
+	      DstPort		      3
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "TorqueFP:N*m"
+	      SrcPort		      1
+	      DstBlock		      "MATLAB Function"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "TorquePP:N*m"
+	      SrcPort		      1
+	      DstBlock		      "MATLAB Function"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "MATLAB Function"
+	      SrcPort		      1
+	      DstBlock		      "Wdot:rad/s2"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "link rod"
+	  SID			  "64"
+	  Ports			  [3, 1]
+	  Position		  [1070, 589, 1170, 731]
+	  ZOrder		  31
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "link rod"
+	    Location		    [-9, 0, 1929, 1048]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "250"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "beta:°"
+	      SID		      "65"
+	      Position		      [140, 118, 170, 132]
+	      ZOrder		      -1
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "l3:mm"
+	      SID		      "67"
+	      Position		      [140, 158, 170, 172]
+	      ZOrder		      1
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "phi:°"
+	      SID		      "68"
+	      Position		      [140, 198, 170, 212]
+	      ZOrder		      2
+	      Port		      "3"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      SubSystem
+	      Name		      "MATLAB Function"
+	      SID		      "73"
+	      Ports		      [3, 1]
+	      Position		      [225, 101, 305, 229]
+	      ZOrder		      3
+	      LibraryVersion	      "1.32"
+	      ErrorFcn		      "Stateflow.Translate.translate"
+	      PermitHierarchicalResolution "ExplicitOnly"
+	      TreatAsAtomicUnit	      on
+	      RequestExecContextInheritance off
+	      SFBlockType	      "MATLAB Function"
+	      System {
+		Name			"MATLAB Function"
+		Location		[219, 337, 814, 775]
+		Open			off
+		ModelBrowserVisibility	off
+		ModelBrowserWidth	200
+		ScreenColor		"white"
+		PaperOrientation	"landscape"
+		PaperPositionMode	"auto"
+		PaperType		"A4"
+		PaperUnits		"centimeters"
+		TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+		TiledPageScale		1
+		ShowPageBoundaries	off
+		ZoomFactor		"100"
+		SIDHighWatermark	"22"
+		Block {
+		  BlockType		  Inport
+		  Name			  "beta_d"
+		  SID			  "73::22"
+		  Position		  [20, 101, 40, 119]
+		  ZOrder		  8
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "l3"
+		  SID			  "73::21"
+		  Position		  [20, 136, 40, 154]
+		  ZOrder		  7
+		  Port			  "2"
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "phi_d"
+		  SID			  "73::1"
+		  Position		  [20, 171, 40, 189]
+		  ZOrder		  -1
+		  Port			  "3"
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Demux
+		  Name			  " Demux "
+		  SID			  "73::19"
+		  Ports			  [1, 1]
+		  Position		  [270, 230, 320, 270]
+		  ZOrder		  5
+		  Outputs		  "1"
+		}
+		Block {
+		  BlockType		  S-Function
+		  Name			  " SFunction "
+		  SID			  "73::18"
+		  Tag			  "Stateflow S-Function modelZSB1 2"
+		  Ports			  [3, 2]
+		  Position		  [180, 100, 230, 180]
+		  ZOrder		  4
+		  FunctionName		  "sf_sfun"
+		  PortCounts		  "[3 2]"
+		  EnableBusSupport	  on
+		  Port {
+		    PortNumber		    2
+		    Name		    "xp"
+		    RTWStorageClass	    "Auto"
+		    DataLoggingNameMode	    "SignalName"
+		  }
+		}
+		Block {
+		  BlockType		  Terminator
+		  Name			  " Terminator "
+		  SID			  "73::20"
+		  Position		  [460, 241, 480, 259]
+		  ZOrder		  6
+		}
+		Block {
+		  BlockType		  Outport
+		  Name			  "xp"
+		  SID			  "73::5"
+		  Position		  [460, 101, 480, 119]
+		  ZOrder		  -5
+		  IconDisplay		  "Port number"
+		}
+		Line {
+		  ZOrder		  26
+		  SrcBlock		  "beta_d"
+		  SrcPort		  1
+		  DstBlock		  " SFunction "
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  27
+		  SrcBlock		  "l3"
+		  SrcPort		  1
+		  DstBlock		  " SFunction "
+		  DstPort		  2
+		}
+		Line {
+		  ZOrder		  28
+		  SrcBlock		  "phi_d"
+		  SrcPort		  1
+		  DstBlock		  " SFunction "
+		  DstPort		  3
+		}
+		Line {
+		  Name			  "xp"
+		  ZOrder		  29
+		  Labels		  [0, 0]
+		  SrcBlock		  " SFunction "
+		  SrcPort		  2
+		  DstBlock		  "xp"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  30
+		  SrcBlock		  " Demux "
+		  SrcPort		  1
+		  DstBlock		  " Terminator "
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  31
+		  SrcBlock		  " SFunction "
+		  SrcPort		  1
+		  DstBlock		  " Demux "
+		  DstPort		  1
+		}
+	      }
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "xp:mm"
+	      SID		      "66"
+	      Position		      [360, 158, 390, 172]
+	      ZOrder		      -2
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "l3:mm"
+	      SrcPort		      1
+	      DstBlock		      "MATLAB Function"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "MATLAB Function"
+	      SrcPort		      1
+	      DstBlock		      "xp:mm"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      8
+	      SrcBlock		      "phi:°"
+	      SrcPort		      1
+	      DstBlock		      "MATLAB Function"
+	      DstPort		      3
+	    }
+	    Line {
+	      ZOrder		      9
+	      SrcBlock		      "beta:°"
+	      SrcPort		      1
+	      DstBlock		      "MATLAB Function"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "phi0"
+	  SID			  "52"
+	  Ports			  [3, 1]
+	  Position		  [690, 531, 790, 669]
+	  ZOrder		  23
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "phi0"
+	    Location		    [2641, -104, 3889, 841]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "300"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Np:rpm"
+	      SID		      "53"
+	      Position		      [110, 118, 140, 132]
+	      ZOrder		      -1
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Pout:kg/cm2\n"
+	      SID		      "54"
+	      Position		      [110, 153, 140, 167]
+	      ZOrder		      1
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "deltaP:kg/cm2"
+	      SID		      "55"
+	      Position		      [110, 188, 140, 202]
+	      ZOrder		      2
+	      Port		      "3"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      SubSystem
+	      Name		      "MATLAB Function"
+	      SID		      "78"
+	      Ports		      [3, 1]
+	      Position		      [180, 103, 255, 217]
+	      ZOrder		      3
+	      LibraryVersion	      "1.32"
+	      ErrorFcn		      "Stateflow.Translate.translate"
+	      PermitHierarchicalResolution "ExplicitOnly"
+	      TreatAsAtomicUnit	      on
+	      RequestExecContextInheritance off
+	      SFBlockType	      "MATLAB Function"
+	      System {
+		Name			"MATLAB Function"
+		Location		[219, 337, 814, 775]
+		Open			off
+		ModelBrowserVisibility	off
+		ModelBrowserWidth	200
+		ScreenColor		"white"
+		PaperOrientation	"landscape"
+		PaperPositionMode	"auto"
+		PaperType		"A4"
+		PaperUnits		"centimeters"
+		TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+		TiledPageScale		1
+		ShowPageBoundaries	off
+		ZoomFactor		"100"
+		SIDHighWatermark	"22"
+		Block {
+		  BlockType		  Inport
+		  Name			  "Np"
+		  SID			  "78::1"
+		  Position		  [20, 101, 40, 119]
+		  ZOrder		  -1
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "Pout"
+		  SID			  "78::21"
+		  Position		  [20, 136, 40, 154]
+		  ZOrder		  7
+		  Port			  "2"
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "deltaP"
+		  SID			  "78::22"
+		  Position		  [20, 171, 40, 189]
+		  ZOrder		  8
+		  Port			  "3"
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Demux
+		  Name			  " Demux "
+		  SID			  "78::19"
+		  Ports			  [1, 1]
+		  Position		  [270, 230, 320, 270]
+		  ZOrder		  5
+		  Outputs		  "1"
+		}
+		Block {
+		  BlockType		  S-Function
+		  Name			  " SFunction "
+		  SID			  "78::18"
+		  Tag			  "Stateflow S-Function modelZSB1 6"
+		  Ports			  [3, 2]
+		  Position		  [180, 100, 230, 180]
+		  ZOrder		  4
+		  FunctionName		  "sf_sfun"
+		  PortCounts		  "[3 2]"
+		  EnableBusSupport	  on
+		  Port {
+		    PortNumber		    2
+		    Name		    "phi0"
+		    RTWStorageClass	    "Auto"
+		    DataLoggingNameMode	    "SignalName"
+		  }
+		}
+		Block {
+		  BlockType		  Terminator
+		  Name			  " Terminator "
+		  SID			  "78::20"
+		  Position		  [460, 241, 480, 259]
+		  ZOrder		  6
+		}
+		Block {
+		  BlockType		  Outport
+		  Name			  "phi0"
+		  SID			  "78::5"
+		  Position		  [460, 101, 480, 119]
+		  ZOrder		  -5
+		  IconDisplay		  "Port number"
+		}
+		Line {
+		  ZOrder		  14
+		  SrcBlock		  "Np"
+		  SrcPort		  1
+		  Points		  [120, 0]
+		  DstBlock		  " SFunction "
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  15
+		  SrcBlock		  "Pout"
+		  SrcPort		  1
+		  DstBlock		  " SFunction "
+		  DstPort		  2
+		}
+		Line {
+		  ZOrder		  16
+		  SrcBlock		  "deltaP"
+		  SrcPort		  1
+		  DstBlock		  " SFunction "
+		  DstPort		  3
+		}
+		Line {
+		  Name			  "phi0"
+		  ZOrder		  17
+		  Labels		  [0, 0]
+		  SrcBlock		  " SFunction "
+		  SrcPort		  2
+		  DstBlock		  "phi0"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  18
+		  SrcBlock		  " Demux "
+		  SrcPort		  1
+		  DstBlock		  " Terminator "
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  19
+		  SrcBlock		  " SFunction "
+		  SrcPort		  1
+		  DstBlock		  " Demux "
+		  DstPort		  1
+		}
+	      }
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "phi0:°"
+	      SID		      "56"
+	      Position		      [290, 153, 320, 167]
+	      ZOrder		      -2
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Np:rpm"
+	      SrcPort		      1
+	      DstBlock		      "MATLAB Function"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Pout:kg/cm2\n"
+	      SrcPort		      1
+	      DstBlock		      "MATLAB Function"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "deltaP:kg/cm2"
+	      SrcPort		      1
+	      DstBlock		      "MATLAB Function"
+	      DstPort		      3
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "MATLAB Function"
+	      SrcPort		      1
+	      DstBlock		      "phi0:°"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Qs:L/min"
+	  SID			  "3"
+	  Position		  [1005, 328, 1035, 342]
+	  ZOrder		  -2
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Torque:N*m"
+	  SID			  "8"
+	  Position		  [1005, 213, 1035, 227]
+	  ZOrder		  5
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "phi:degree"
+	  SID			  "9"
+	  Position		  [640, 428, 670, 442]
+	  ZOrder		  6
+	  Port			  "3"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "phi"
+	  SID			  "188"
+	  Position		  [780, 423, 810, 437]
+	  ZOrder		  42
+	  Port			  "4"
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  ZOrder		  2
+	  SrcBlock		  "Np:r/min"
+	  SrcPort		  1
+	  DstBlock		  "Goto"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  3
+	  SrcBlock		  "From"
+	  SrcPort		  1
+	  DstBlock		  "Plunger"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  4
+	  SrcBlock		  "Pin:kg/cm2"
+	  SrcPort		  1
+	  DstBlock		  "Goto1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  6
+	  SrcBlock		  "Pout:kg/cm2"
+	  SrcPort		  1
+	  DstBlock		  "Goto2"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  7
+	  SrcBlock		  "From2"
+	  SrcPort		  1
+	  DstBlock		  "Plunger"
+	  DstPort		  3
+	}
+	Line {
+	  ZOrder		  8
+	  SrcBlock		  "deltaP:kg/cm2"
+	  SrcPort		  1
+	  DstBlock		  "Goto3"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  9
+	  SrcBlock		  "From1"
+	  SrcPort		  1
+	  DstBlock		  "Plunger"
+	  DstPort		  4
+	}
+	Line {
+	  ZOrder		  10
+	  SrcBlock		  "Gain"
+	  SrcPort		  1
+	  Points		  [-61, 0]
+	  Branch {
+	    ZOrder		    29
+	    Points		    [0, 204; 343, 0]
+	    Branch {
+	      ZOrder		      167
+	      Points		      [0, 1]
+	      DstBlock		      "link rod"
+	      DstPort		      3
+	    }
+	    Branch {
+	      ZOrder		      35
+	      Points		      [0, -135; 334, 0; 0, -54]
+	      DstBlock		      "Follower Piston Torque"
+	      DstPort		      3
+	    }
+	  }
+	  Branch {
+	    ZOrder		    28
+	    Points		    [0, -65]
+	    Branch {
+	      ZOrder		      47
+	      DstBlock		      "phi:degree"
+	      DstPort		      1
+	    }
+	    Branch {
+	      ZOrder		      46
+	      Points		      [0, -165]
+	      DstBlock		      "Plunger"
+	      DstPort		      2
+	    }
+	  }
+	}
+	Line {
+	  ZOrder		  11
+	  SrcBlock		  "Integrator"
+	  SrcPort		  1
+	  Points		  [-8, 0]
+	  Branch {
+	    ZOrder		    213
+	    Points		    [0, -70]
+	    DstBlock		    "phi"
+	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    212
+	    DstBlock		    "Gain"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  ZOrder		  12
+	  SrcBlock		  "Integrator1"
+	  SrcPort		  1
+	  Points		  [-13, 0]
+	  Branch {
+	    ZOrder		    51
+	    Points		    [0, 63; 225, 0; 0, -38]
+	    DstBlock		    "Torque Balance"
+	    DstPort		    3
+	  }
+	  Branch {
+	    ZOrder		    50
+	    Points		    [-61, 0]
+	    Branch {
+	      ZOrder		      79
+	      Points		      [0, -55]
+	      DstBlock		      "Display1"
+	      DstPort		      1
+	    }
+	    Branch {
+	      ZOrder		      78
+	      DstBlock		      "Integrator"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Line {
+	  ZOrder		  14
+	  SrcBlock		  "Torque Balance"
+	  SrcPort		  1
+	  Points		  [-5, 0]
+	  Branch {
+	    ZOrder		    77
+	    Points		    [-1, 0; 0, -75]
+	    DstBlock		    "Display"
+	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    76
+	    DstBlock		    "Integrator1"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  ZOrder		  15
+	  SrcBlock		  "Follower Piston Torque"
+	  SrcPort		  1
+	  Points		  [-7, 0]
+	  Branch {
+	    ZOrder		    131
+	    Points		    [0, -195]
+	    DstBlock		    "Display4"
+	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    130
+	    DstBlock		    "Torque Balance"
+	    DstPort		    2
+	  }
+	}
+	Line {
+	  ZOrder		  17
+	  SrcBlock		  "Follower Piston"
+	  SrcPort		  1
+	  DstBlock		  "Follower Piston Torque"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  20
+	  SrcBlock		  "phi0"
+	  SrcPort		  1
+	  Points		  [4, 0]
+	  Branch {
+	    ZOrder		    107
+	    Points		    [0, 65]
+	    DstBlock		    "Display2"
+	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    106
+	    DstBlock		    "Gain1"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  ZOrder		  21
+	  SrcBlock		  "Gain1"
+	  SrcPort		  1
+	  Points		  [4, 0; 0, -90]
+	  DstBlock		  "Integrator"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  22
+	  SrcBlock		  "From3"
+	  SrcPort		  1
+	  DstBlock		  "phi0"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  23
+	  SrcBlock		  "From4"
+	  SrcPort		  1
+	  DstBlock		  "phi0"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  24
+	  SrcBlock		  "From5"
+	  SrcPort		  1
+	  DstBlock		  "phi0"
+	  DstPort		  3
+	}
+	Line {
+	  ZOrder		  30
+	  SrcBlock		  "Constant"
+	  SrcPort		  1
+	  Points		  [15, 0]
+	  Branch {
+	    ZOrder		    33
+	    Points		    [0, -33; 255, 0; 0, -92]
+	    DstBlock		    "Follower Piston Torque"
+	    DstPort		    2
+	  }
+	  Branch {
+	    ZOrder		    32
+	    DstBlock		    "link rod"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  ZOrder		  31
+	  SrcBlock		  "Constant1"
+	  SrcPort		  1
+	  DstBlock		  "link rod"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  52
+	  SrcBlock		  "link rod"
+	  SrcPort		  1
+	  Points		  [260, 0]
+	  DstBlock		  "Follower Piston"
+	  DstPort		  4
+	}
+	Line {
+	  ZOrder		  40
+	  SrcBlock		  "From9"
+	  SrcPort		  1
+	  DstBlock		  "Follower Piston"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  39
+	  SrcBlock		  "From10"
+	  SrcPort		  1
+	  DstBlock		  "Follower Piston"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  41
+	  SrcBlock		  "Plunger"
+	  SrcPort		  1
+	  Points		  [8, 0]
+	  Branch {
+	    ZOrder		    162
+	    Points		    [133, 0; 0, 215]
+	    DstBlock		    "Torque Balance"
+	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    160
+	    Points		    [0, -30]
+	    DstBlock		    "Torque:N*m"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  ZOrder		  42
+	  SrcBlock		  "Plunger"
+	  SrcPort		  2
+	  DstBlock		  "Qs:L/min"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  211
+	  SrcBlock		  "Constant2"
+	  SrcPort		  1
+	  DstBlock		  "Follower Piston"
+	  DstPort		  3
+	}
+	Annotation {
+	  SID			  "30"
+	  Name			  "rad/s"
+	  Position		  [835, 473, 859, 488]
+	  InternalMargins	  [0, 0, 0, 0]
+	  FixedHeight		  off
+	  FixedWidth		  off
+	  HorizontalAlignment	  "left"
+	  VerticalAlignment	  "top"
+	  ZOrder		  -1
+	}
+	Annotation {
+	  SID			  "28"
+	  Name			  "rad"
+	  Position		  [743, 482, 760, 497]
+	  InternalMargins	  [0, 0, 0, 0]
+	  FixedHeight		  off
+	  FixedWidth		  off
+	  HorizontalAlignment	  "left"
+	  VerticalAlignment	  "top"
+	  ZOrder		  -2
+	}
+	Annotation {
+	  SID			  "27"
+	  Name			  "degree"
+	  Position		  [615, 477, 650, 492]
+	  InternalMargins	  [0, 0, 0, 0]
+	  FixedHeight		  off
+	  FixedWidth		  off
+	  HorizontalAlignment	  "left"
+	  VerticalAlignment	  "top"
+	  ZOrder		  -3
+	}
+      }
+    }
+    Block {
+      BlockType		      Gain
+      Name		      "Qs:kg/s"
+      SID		      "173"
+      Position		      [515, 110, 575, 140]
+      ZOrder		      131
+      Gain		      "0.8/60"
+      ParamDataTypeStr	      "Inherit: Inherit via internal rule"
+      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      Terminator
+      Name		      "Terminator2"
+      SID		      "174"
+      Position		      [565, 180, 585, 200]
+      ZOrder		      132
+    }
+    Block {
+      BlockType		      Terminator
+      Name		      "Terminator3"
+      SID		      "175"
+      Position		      [565, 245, 585, 265]
+      ZOrder		      133
+    }
+    Block {
+      BlockType		      Outport
+      Name		      "Out1"
+      SID		      "161"
+      Position		      [685, 303, 715, 317]
+      ZOrder		      126
+      IconDisplay	      "Port number"
+    }
+    Line {
+      ZOrder		      194
+      SrcBlock		      "Gain8"
+      SrcPort		      1
+      Points		      [5, 0]
+      DstBlock		      "Mux"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      130
+      SrcBlock		      "PlungerPump"
+      SrcPort		      3
+      DstBlock		      "Terminator3"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      126
+      SrcBlock		      "PlungerPump"
+      SrcPort		      1
+      DstBlock		      "Qs:kg/s"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      131
+      SrcBlock		      "PlungerPump"
+      SrcPort		      2
+      DstBlock		      "Terminator2"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      140
+      SrcBlock		      "Gain1"
+      SrcPort		      1
+      DstBlock		      "PlungerPump"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      141
+      SrcBlock		      "Gain3"
+      SrcPort		      1
+      DstBlock		      "PlungerPump"
+      DstPort		      4
+    }
+    Line {
+      ZOrder		      142
+      SrcBlock		      "Gain2"
+      SrcPort		      1
+      DstBlock		      "PlungerPump"
+      DstPort		      3
+    }
+    Line {
+      ZOrder		      165
+      SrcBlock		      "Demux"
+      SrcPort		      1
+      DstBlock		      "Gain4"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      163
+      SrcBlock		      "Demux"
+      SrcPort		      2
+      DstBlock		      "Gain5"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      164
+      SrcBlock		      "Demux"
+      SrcPort		      3
+      DstBlock		      "Gain7"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      162
+      SrcBlock		      "Demux"
+      SrcPort		      4
+      DstBlock		      "Gain6"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      171
+      SrcBlock		      "Gain5"
+      SrcPort		      1
+      DstBlock		      "Gain1"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      172
+      SrcBlock		      "Gain7"
+      SrcPort		      1
+      DstBlock		      "Gain2"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      173
+      SrcBlock		      "Gain6"
+      SrcPort		      1
+      DstBlock		      "Gain3"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      174
+      SrcBlock		      "Gain4"
+      SrcPort		      1
+      DstBlock		      "PlungerPump"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      175
+      SrcBlock		      "PlungerPump"
+      SrcPort		      4
+      DstBlock		      "Mux"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      177
+      SrcBlock		      "Mux"
+      SrcPort		      1
+      DstBlock		      "Out1"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      195
+      SrcBlock		      "Qs:kg/s"
+      SrcPort		      1
+      DstBlock		      "Gain8"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      214
+      SrcBlock		      "In1"
+      SrcPort		      1
+      DstBlock		      "Demux"
+      DstPort		      1
+    }
+  }
+}
+#Finite State Machines
+#
+#   Stateflow Version 8.1 (R2014a) dated Feb  8 2014, 02:29:12
+#
+#
+Stateflow {
+  machine {
+    id			    1
+    name		    "modelZSB1"
+    created		    "27-Jun-2018 19:18:41"
+    isLibrary		    0
+    firstTarget		    59
+    sfVersion		    76014001.002
+  }
+  chart {
+    id			    2
+    name		    "PlungerPump/Plunger/MATLAB Function"
+    windowPosition	    [352.761 488.141 161 328]
+    viewLimits		    [0 156.75 0 153.75]
+    screen		    [1 1 1280 1024 1.000677131425054]
+    treeNode		    [0 3 0 0]
+    firstTransition	    11
+    firstJunction	    10
+    viewObj		    2
+    machine		    1
+    ssIdHighWaterMark	    9
+    decomposition	    CLUSTER_CHART
+    type		    EML_CHART
+    firstData		    4
+    chartFileNumber	    1
+    disableImplicitCasting  1
+    eml {
+      name		      "Plunger_Pump"
+    }
+  }
+  state {
+    id			    3
+    labelString		    "eML_blk_kernel()"
+    position		    [18 64.5 118 66]
+    fontSize		    12
+    chart		    2
+    treeNode		    [2 0 0 0]
+    superState		    SUBCHART
+    subviewer		    2
+    ssIdNumber		    1
+    type		    FUNC_STATE
+    decomposition	    CLUSTER_STATE
+    eml {
+      isEML		      1
+      script		      "function [ Torque, Qs] = Plunger_Pump(n_i, phi_i, Pin_i, Pout_i)\n% All length unit: mm\n% ******"
+      "**** Technical Specifications **************\n% i=0.2318,i=n_H/n_P;\n% Tin:-40℃~+135℃;\n% Pin:0.412~0.892MPa;\n"
+      "% Pout:4.138~8.277MPa;\n% Qmax=11820L/h;\n% Follower Piston deltaP:1.38~4.34MPa;\n% Safety Valve open pressure:1"
+      "2.4MPa;\n% m_pump=20.7kg;\n% **************************************************\n% *********** Parameter Nomencl"
+      "ature ***************\n% n_i:Pump Speed;\n% phi_i: Pump Swash plate angle;\n% Pin_i:Pump inlet Pressure,unit,kg/"
+      "cm2;\n% Pout_i:Pump outlet Pressure,unit,kg/cm2;\n% etaV:Pump volumetric efficiency;\n% z:the number of plungers"
+      ";\n% a:定尺寸，柱塞轴线交点O到斜盘锥面顶点A距离；\n% c:斜盘转轴A与斜盘球面中心O1的距离；\n% rcphi:柱塞头部球面半"
+      "径；\n% theta: install angle;\n% d1:柱塞底面内径；\n% dzr:柱塞中部内径；\n% Smax:piston max travel distance at s"
+      "wash angle phi;\n% qL1:a theoretical amount of supplied fuel of one piston at one rotation,cm3/r;\n% QL: a actua"
+      "l amount of supplied fuel of Pump,L/min;\n% Torque:all plungers on swashplate mean torque;Clockwise is positive;"
+      "\n%% Correction Factor\n% CF = 1.14;\nCF = 1.00;\n%% ****** Plunger Centroid Calculate BEGIN *****\ndz = (23.782"
+      "0+23.8074+23.8328+23.8582+23.8836)*CF/5;\nd11 = 22.6*CF;\nd12 = 19*CF;\nl1 = 2.9*CF;\nV1a = pi/3*l1*(d11*d11/4+d"
+      "12*d12/4+d11*d12/4);\nV1b = pi/4*dz*dz*l1;\nV1 = V1b-V1a;\n\nlr = 48.8*CF;\nl2 = lr-l1;\nd2 = 19*CF;\nV2 = pi/4*"
+      "(dz*dz-d2*d2)*l2;\n\nl3 = (5.5-3.2)/2/tan(60*pi/180)*CF;\nd31 = 5.5*CF;\nd32 = 3.2*CF;\nV3a = pi/3*l3*(d31*d31/4"
+      "+d32*d32/4+d31*d32/4);\nV3b = pi/4*dz*dz*l3;\nV3 = V3b-V3a;\n\nl4 = (51.5-48.8)*CF-l3;\nd4 = 3.2*CF;\nV4 = pi/4*"
+      "(dz*dz-d4*d4)*l4;\n\nl5 = 5/2*sin(45*pi/180)*CF;\nd51 = dz;\nd52 = dz-2*5/2*cos(45*pi/180)*CF;\nd5 = 3.2*CF;\nV5"
+      "a = pi/4*d5*d5*l5;\nV5b = pi/3*l5*(d51*d51/4+d52*d52/4+d51*d52/4);\nV5 = V5b-V5a;\n\nl6 = 7.4/2*sin(20*pi/180)*C"
+      "F;\nd61 = d52;\nd62 = 12.8*CF;\nd6 = 3.2*CF;\nV6a = pi/4*d6*d6*l6;\nV6b =  pi/3*l6*(d61*d61/4+d62*d62/4+d61*d62/"
+      "4);\nV6 = V6b-V6a;\n\nl7 = (17.2-16)*CF;\nd71 = 12.8*CF;\nd72 = 3.2*CF;\nV7 = pi/4*(d71*d71-d72*d72)*l7;\n\nSR ="
+      " 19.05/2*CF;\nd8 = 3.2*CF;\nd81 = 12.8*CF;\nd82 = 5*CF;\nl81 = SR-sqrt(SR*SR-d81*d81/4);\nl82 = SR-sqrt(SR*SR-d8"
+      "2*d82/4);\nl8 = 2*SR - l81 - l82;\nV81 = pi/3*l81*l81*(3*SR-l81);\nV82 = pi/3*l82*l82*(3*SR-l82);\nVS8 = 4/3*pi*"
+      "SR*SR*SR;\nV83 = pi/4*d8*d8*l8;\nV8 = VS8 - V81 - V82 - V83;\n\n% V = V1+V2+V3+V4+V5+V6+V7+V8;\n\nX1a = l1*(d11*"
+      "d11/4+2*d11/2*d12/2+3*d12*d12/4)/4/(d11*d11/4+d11/2*d12/2+d12*d12/4);\nX1b = l1/2;\nX1 = (V1b*X1b-V1a*X1a)/(V1b-"
+      "V1a);\n\nX2p = l2/2;\nX2 = X2p+l1;\n\nX3a = l3*(d31*d31/4+2*d31/2*d32/2+3*d32*d32/4)/4/(d31*d31/4+d31/2*d32/2+d3"
+      "2*d32/4);\nX3b = l3/2;\nX3p = (V3b*X3b-V3a*X3a)/(V3b-V3a);\nX3 = X3p+lr;\n\nX4p = l4/2;\nX4 = X4p+48.8*CF+l3;\n\n"
+      "X5a = l5/2;\nX5b = l5*(d51*d51/4+2*d51/2*d52/2+3*d52*d52/4)/4/(d51*d51/4+d51/2*d52/2+d52*d52/4);\nX5p = (V5b*X5b"
+      "-V5a*X5a)/(V5b-V5a);\nX5 = X5p+51.5*CF;\n\nX6a = l6/2;\nX6b = l6*(d61*d61/4+2*d61/2*d62/2+3*d62*d62/4)/4/(d61*d6"
+      "1/4+d61/2*d62/2+d62*d62/4);\nX6p = (V6b*X6b-V6a*X6a)/(V6b-V6a);\nX6 = X6p+51.5*CF+l5;\n\nX7p = l7/2;\nX7 = X7p+5"
+      "1.5*CF+l5+l6;\n\nX8a = SR-3*(2*SR-l81)*(2*SR-l81)/4/(3*SR-l81);\nX8b = SR+3*(2*SR-l82)*(2*SR-l82)/4/(3*SR-l82);\n"
+      "X8c = SR;\nX8d = (VS8*X8c-V81*X8a-V82*X8b)/(VS8-V81-V82)-l81;\nX8e = l8/2;\nX8p = ((VS8-V81-V82)*X8d - V83*X8e)/"
+      "(VS8-V81-V82-V83);\n\nX8 = X8p+(72.62-16)*CF;\n\nXc = (V1*X1+V2*X2+V3*X3+V4*X4+V5*X5+V6*X6+V7*X7+V8*X8)/(V1+V2+V"
+      "3+V4+V5+V6+V7+V8);\n\nk = 63.2*CF-Xc;\n\nmz = 0.1006*CF;\n\n%% ****** Plunger Centroid Calculate END *********\n"
+      "%% ****** Plunger Kinematics Calculate BEGIN *****\nR = 266.7*CF;\ntheta = 10*pi/180;\ndz = (23.7820+23.8074+23."
+      "8328+23.8582+23.8836)*CF/5;\n% h = 19.05*16/22*0.1*CF;\nh = 17*0.45/0.6*CF;\netaV = 0.95;\nz = 7;\na = R/cos(the"
+      "ta);\nc = a;\nphi = phi_i*pi/180;\nR0 = sqrt(c*c+a*a-2*c*a*cos(phi));\ntau = atan((cos(phi)-a/c)/sin(phi));\n% t"
+      "au_d = tau*180/pi;\nL = R-h;\nlambda = R0/L;\nA1 = -cos(theta)*sin(tau);\nB1 = -sin(theta)*cos(tau);\nD = 1+lamb"
+      "da*A1-lambda*lambda*(1-A1*A1-B1*B1/2)/2;\nE = lambda*B1*(1+lambda*A1);\nF = lambda*lambda*B1*B1;\n% rou = L*(D+E"
+      "*cos(alpha)+F*cos(2*alpha)/4);\nSmax = -2*L*E;\nqL = pi/4*dz*dz*Smax*z*1e-6;\nQL = qL*n_i;\nQs = QL*etaV;\n%% **"
+      "**** Plunger Kinematics Calculate END *****\n%% ****** Plunger Force and total Torque Calculation BEGIN ******\n"
+      "r1 = 35/2*CF;\nr2 = 57.8*CF*cos(15*pi/180);\nrou_fuel = 775;\nkesi = 0.75;\nKt = (70.27-9.11)/((77.3-50.2)-(77.3"
+      "-73.8));\nl01 = 77.3*CF;\nb = (82.55/2/sin(10*pi/180)-69)*CF;\ne1 = 7.2*CF;\ne2 = 2.5*CF;\ne3 = (63.2-48.8)*CF;\n"
+      "omiga = pi*n_i/30;\n\n% alpha_d = alpha*180/pi;\nPin = Pin_i*0.098;%Mpa\nPout = Pout_i*0.098;%Mpa\n\nM = ceil(36"
+      "0/z);\nMA2=zeros(M+1,z+2);\nfor i=0:1:M\n    if (i == M)\n        alpha2_d = 360/z;\n    else\n        alpha2_d "
+      "= i;\n    end\n    MA2(i+1,1) = alpha2_d;\n    all = 0;\n    P = 0;\n    for j=0:1:(z-1)\n        alpha_d = alph"
+      "a2_d+j*360/z;\n        alpha = alpha_d*pi/180;\n        rou = L*(D+E*cos(alpha)+F*cos(2*alpha)/4);\n        % S "
+      "= L*(E*cos(alpha)-E+F*cos(2*alpha)/4-F/4);\n        %v  = -L*omiga*(E*sin(alpha)+F*sin(2*alpha)/2);\n        acc"
+      " = -L*omiga*omiga*(E*cos(alpha)+F*cos(2*alpha));\n        if (alpha_d<=180)\n            P = Pin;\n        elsei"
+      "f(alpha_d>180&&alpha_d<360)\n            P = Pout;\n        elseif(alpha_d>=360&&alpha_d<540)\n            P = P"
+      "in;\n        elseif(alpha_d>=540&&alpha_d<=720) \n            P = Pout;\n        end\n        % 柱塞腔内的油压力"
+      "\n        dzr = 3.2*CF;\n        Fu1 = pi/4*(dz*dz-dzr*dzr)*1e-6*P*1e6;\n        % 转子腔内的油压力\n        d_y"
+      "aotou = 17*1.0/0.6*CF;\n        phi2 = acos((rou*rou+L*L-R0*R0)/2/rou/L);\n        Pz = Pin+rou_fuel/2*kesi*(r2*"
+      "r2-r1*r1)*1e-6*omiga*omiga*1e-6;%--转子腔油压，/Mpa\n        Fu2 = pi/4*(d_yaotou*d_yaotou-(dz*dz-dzr*dzr)*cos(p"
+      "hi2))*1e-6*Pz*1e6;%--fuel pressure force,/N\n        % plunger spring force\n        Ft = Kt*(b+e1+l01+e2+e3)-Kt"
+      "*rou;%--spring force,/N\n        % New Add Cage spring force\n        l02 = 56.6;\n        Kt2 = 44.39/(56.6-14."
+      "3);\n        % washer thickness\n        t2 = (1.05+1.10+1.20+1.30+1.35+1.40+1.55+1.60+1.65+1.80+1.95)/11;\n    "
+      "    B2 = 19.7+t2+6.4-12.8;\n        Ft2 = Kt2*(l02 - B2);\n        Ft2f = Ft2/cos(phi);\n        theta_f = 10*pi"
+      "/180;\n        Ft2i = Ft2f/cos(theta_f)/z;\n        % plunger centrifugal force\n        FL = mz*omiga*omiga*(ro"
+      "u-k)*1e-3*sin(theta);%/N\n        FLz = FL*sin(theta);\n        %FLy = FL*cos(theta);%--Centrifugal force+Ft2i\n"
+      "        % relative motion inertial force\n        Fg = -mz*acc*1e-3;%--inertia force\n        % coriolis inertia"
+      " force\n        % ak = 2*omiga*v*sin(theta)\n        % Fk = -mak;\n        FsigmaZZ = Fu1+Ft+FLz+Fg;%--plinger a"
+      "xial total force\n        FA = FsigmaZZ/cos(phi2)+Fu2+Ft2i;\n        A11 = ((a+R0*sin(tau))*sin(theta)*cos(alpha"
+      ")-R0*cos(tau)*cos(theta))/L;%--total force, one piston, on plate\n        h1 = a*R0*cos(tau)/L;\n        lt = A1"
+      "1*rou+h1;\n        MA = FA*lt*1e-3;\n        MA2(i+1,j+2) = MA;%--total torque, one piston\n        all = all+MA"
+      "2(i+1,j+2);\n    end\n    MA2(i+1,z+2) = all;\nend\n%% ****** Plunger Force Calculation END ********\n%% ****** "
+      "Plunger mean Torque Calculation BEGIN ******\n%%%**** in total torque figure,x-axis represents alpha,20°corresp"
+      "ond to 10mm; y-axis represents total torque,20N*m correspond to 10mm; \nsum=0;\nkx = 10/20;\nky = 10/20;\nfor i2"
+      "=1:1:M\n    x1 = MA2(i2,1);\n    y1 = MA2(i2,z+2);\n    x2 = MA2(i2+1,1);\n    y2 = MA2(i2+1,z+2);\n    if(y1*y2"
+      ">=0)\n        S = 0.5*(y1*ky+y2*ky)*(x2-x1)*kx;\n    else\n        x0 = x1-y1/(y2-y1)*(x2-x1);\n        S = 0.5*"
+      "y1*ky*(x0-x1)*kx+0.5*y2*ky*(x2-x0)*kx;\n    end\n    sum = sum+S;\nend\nMAa = sum*(1/ky)/(360/z*kx);\nTorque = M"
+      "Aa * (-1);\n%% ****** Plunger mean Torque Calculation END ******\nend\n"
+      editorLayout	      "100 M4x1[10 5 700 500]"
+    }
+  }
+  data {
+    id			    4
+    ssIdNumber		    4
+    name		    "n_i"
+    linkNode		    [2 0 5]
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+      }
+      complexity	      SF_COMPLEX_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    5
+    ssIdNumber		    5
+    name		    "Torque"
+    linkNode		    [2 4 6]
+    scope		    OUTPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_NO
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    6
+    ssIdNumber		    6
+    name		    "phi_i"
+    linkNode		    [2 5 7]
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    7
+    ssIdNumber		    7
+    name		    "Pin_i"
+    linkNode		    [2 6 8]
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    8
+    ssIdNumber		    8
+    name		    "Pout_i"
+    linkNode		    [2 7 9]
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    9
+    ssIdNumber		    9
+    name		    "Qs"
+    linkNode		    [2 8 0]
+    scope		    OUTPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_NO
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  junction {
+    id			    10
+    position		    [23.5747 49.5747 7]
+    chart		    2
+    linkNode		    [2 0 0]
+    subviewer		    2
+    ssIdNumber		    3
+    type		    CONNECTIVE_JUNCTION
+  }
+  transition {
+    id			    11
+    labelString		    "{eML_blk_kernel();}"
+    labelPosition	    [36.125 25.875 102.544 14.964]
+    fontSize		    12
+    src {
+      intersection	      [0 0 1 0 23.5747 14.625 0 0]
+    }
+    dst {
+      id		      10
+      intersection	      [1 0 -1 0 23.5747 42.5747 0 0]
+    }
+    midPoint		    [23.5747 24.9468]
+    chart		    2
+    linkNode		    [2 0 0]
+    dataLimits		    [21.175 25.975 14.625 42.575]
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    2
+  }
+  instance {
+    id			    12
+    name		    "PlungerPump/Plunger/MATLAB Function"
+    machine		    1
+    chart		    2
+  }
+  chart {
+    id			    13
+    name		    "PlungerPump/link rod/MATLAB Function"
+    windowPosition	    [352.761 488.141 161 328]
+    viewLimits		    [0 156.75 0 153.75]
+    screen		    [1 1 1280 1024 1.000677131425054]
+    treeNode		    [0 14 0 0]
+    firstTransition	    20
+    firstJunction	    19
+    viewObj		    13
+    machine		    1
+    ssIdHighWaterMark	    7
+    decomposition	    CLUSTER_CHART
+    type		    EML_CHART
+    firstData		    15
+    chartFileNumber	    2
+    disableImplicitCasting  1
+    eml {
+      name		      "fcn"
+    }
+  }
+  state {
+    id			    14
+    labelString		    "eML_blk_kernel()"
+    position		    [18 64.5 118 66]
+    fontSize		    12
+    chart		    13
+    treeNode		    [13 0 0 0]
+    superState		    SUBCHART
+    subviewer		    13
+    ssIdNumber		    1
+    type		    FUNC_STATE
+    decomposition	    CLUSTER_STATE
+    eml {
+      isEML		      1
+      script		      "function xp = fcn(beta_d,l3,phi_d)\n% l0:mm\n% l1:mm\n% l2:mm\n% l3:mm\n% l4:mm\nphi = phi_d*pi/1"
+      "80;\nbeta = beta_d*pi/180;\n% l0 = 78.6;\nl0 = 17*2.3/0.6;\nl1 = 17*2.48/0.6;\nl2 = 42.9;\n% l3 = 178-14.2+147.4"
+      "+6.6*17/6;\n% l3 = 313.7765;\nl4 = 165.3;\nxp = l3+l0*sin(phi+beta)-l4-sqrt(l2*l2-(l1-l0*cos(phi+beta))^2);\nend"
+      editorLayout	      "100 M4x1[10 5 700 500]"
+    }
+  }
+  data {
+    id			    15
+    ssIdNumber		    7
+    name		    "beta_d"
+    linkNode		    [13 0 16]
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    16
+    ssIdNumber		    6
+    name		    "l3"
+    linkNode		    [13 15 17]
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    17
+    ssIdNumber		    4
+    name		    "phi_d"
+    linkNode		    [13 16 18]
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+      }
+      complexity	      SF_COMPLEX_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    18
+    ssIdNumber		    5
+    name		    "xp"
+    linkNode		    [13 17 0]
+    scope		    OUTPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_NO
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  junction {
+    id			    19
+    position		    [23.5747 49.5747 7]
+    chart		    13
+    linkNode		    [13 0 0]
+    subviewer		    13
+    ssIdNumber		    3
+    type		    CONNECTIVE_JUNCTION
+  }
+  transition {
+    id			    20
+    labelString		    "{eML_blk_kernel();}"
+    labelPosition	    [36.125 25.875 102.544 14.964]
+    fontSize		    12
+    src {
+      intersection	      [0 0 1 0 23.5747 14.625 0 0]
+    }
+    dst {
+      id		      19
+      intersection	      [1 0 -1 0 23.5747 42.5747 0 0]
+    }
+    midPoint		    [23.5747 24.9468]
+    chart		    13
+    linkNode		    [13 0 0]
+    dataLimits		    [21.175 25.975 14.625 42.575]
+    subviewer		    13
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    2
+  }
+  instance {
+    id			    21
+    name		    "PlungerPump/link rod/MATLAB Function"
+    machine		    1
+    chart		    13
+  }
+  chart {
+    id			    22
+    name		    "PlungerPump/Torque Balance/MATLAB Function"
+    windowPosition	    [352.761 488.141 161 328]
+    viewLimits		    [0 156.75 0 153.75]
+    screen		    [1 1 1280 1024 1.000677131425054]
+    treeNode		    [0 23 0 0]
+    firstTransition	    29
+    firstJunction	    28
+    viewObj		    22
+    machine		    1
+    ssIdHighWaterMark	    7
+    decomposition	    CLUSTER_CHART
+    type		    EML_CHART
+    firstData		    24
+    chartFileNumber	    3
+    disableImplicitCasting  1
+    eml {
+      name		      "fcn"
+    }
+  }
+  state {
+    id			    23
+    labelString		    "eML_blk_kernel()"
+    position		    [18 64.5 118 66]
+    fontSize		    12
+    chart		    22
+    treeNode		    [22 0 0 0]
+    superState		    SUBCHART
+    subviewer		    22
+    ssIdNumber		    1
+    type		    FUNC_STATE
+    decomposition	    CLUSTER_STATE
+    eml {
+      isEML		      1
+      script		      "function Wdot = fcn(TorquePP, TorqueFP, W)\n%  TorqueOut  unit : Nm\n% TorqueFP   unit : Nm\n%  W"
+      "  unit:  radian /s\n% J unit: kg.m2\n% J =0.0034*1;\nJ =0.34*0.1;  \n%Wdot = ( TorquePP + TorqueFP - 0.2*sign(W)"
+      " - 0.1*W*30/pi )/ J;\n% Wdot = ( TorqueOut + TorqueFP - 0.2 - 0.1*W*30/pi )/ J;\n%Wdot = ( TorqueOut - TorqueFP "
+      "- 0.2 )/ J;\n% Wdot = ( TorquePP + TorqueFP )/ J;\n% Wdot = ( TorquePP + TorqueFP  - 0.1*W*30/pi )/ J;\nWdot = ("
+      " TorquePP + TorqueFP  - 0.1*W*30/pi )/ J;\nend"
+      editorLayout	      "100 M4x1[10 5 700 500]"
+    }
+  }
+  data {
+    id			    24
+    ssIdNumber		    4
+    name		    "TorquePP"
+    linkNode		    [22 0 25]
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+      }
+      complexity	      SF_COMPLEX_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    25
+    ssIdNumber		    5
+    name		    "Wdot"
+    linkNode		    [22 24 26]
+    scope		    OUTPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_NO
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    26
+    ssIdNumber		    6
+    name		    "TorqueFP"
+    linkNode		    [22 25 27]
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    27
+    ssIdNumber		    7
+    name		    "W"
+    linkNode		    [22 26 0]
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  junction {
+    id			    28
+    position		    [23.5747 49.5747 7]
+    chart		    22
+    linkNode		    [22 0 0]
+    subviewer		    22
+    ssIdNumber		    3
+    type		    CONNECTIVE_JUNCTION
+  }
+  transition {
+    id			    29
+    labelString		    "{eML_blk_kernel();}"
+    labelPosition	    [36.125 25.875 102.544 14.964]
+    fontSize		    12
+    src {
+      intersection	      [0 0 1 0 23.5747 14.625 0 0]
+    }
+    dst {
+      id		      28
+      intersection	      [1 0 -1 0 23.5747 42.5747 0 0]
+    }
+    midPoint		    [23.5747 24.9468]
+    chart		    22
+    linkNode		    [22 0 0]
+    dataLimits		    [21.175 25.975 14.625 42.575]
+    subviewer		    22
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    2
+  }
+  instance {
+    id			    30
+    name		    "PlungerPump/Torque Balance/MATLAB Function"
+    machine		    1
+    chart		    22
+  }
+  chart {
+    id			    31
+    name		    "PlungerPump/Follower Piston Torque/MATLAB Function"
+    windowPosition	    [352.761 488.141 161 328]
+    viewLimits		    [0 156.75 0 153.75]
+    screen		    [1 1 1280 1024 1.000677131425054]
+    treeNode		    [0 32 0 0]
+    firstTransition	    38
+    firstJunction	    37
+    viewObj		    31
+    machine		    1
+    ssIdHighWaterMark	    7
+    decomposition	    CLUSTER_CHART
+    type		    EML_CHART
+    firstData		    33
+    chartFileNumber	    4
+    disableImplicitCasting  1
+    eml {
+      name		      "fcn"
+    }
+  }
+  state {
+    id			    32
+    labelString		    "eML_blk_kernel()"
+    position		    [18 64.5 118 66]
+    fontSize		    12
+    chart		    31
+    treeNode		    [31 0 0 0]
+    superState		    SUBCHART
+    subviewer		    31
+    ssIdNumber		    1
+    type		    FUNC_STATE
+    decomposition	    CLUSTER_STATE
+    eml {
+      isEML		      1
+      script		      "function TorqueFP = fcn(Fsui,beta_d,phi_d)\n% l0:mm\n% l1:mm\n% l2:mm\nphi = phi_d*pi/180;\nbeta "
+      "= beta_d*pi/180;\nl0 = 17*2.3/0.6;\nl1 = 17*2.48/0.6;\nl2 = 42.9;\ndelta = asin((l1-l0*cos(phi+beta))/l2);\nM_Fs"
+      "ui = Fsui/cos(delta)*cos(delta-phi-beta)*l0*0.001;\nTorqueFP = M_Fsui*1;\nend"
+      editorLayout	      "100 M4x1[10 5 700 500]"
+    }
+  }
+  data {
+    id			    33
+    ssIdNumber		    4
+    name		    "Fsui"
+    linkNode		    [31 0 34]
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+      }
+      complexity	      SF_COMPLEX_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    34
+    ssIdNumber		    5
+    name		    "TorqueFP"
+    linkNode		    [31 33 35]
+    scope		    OUTPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_NO
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    35
+    ssIdNumber		    6
+    name		    "beta_d"
+    linkNode		    [31 34 36]
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    36
+    ssIdNumber		    7
+    name		    "phi_d"
+    linkNode		    [31 35 0]
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  junction {
+    id			    37
+    position		    [23.5747 49.5747 7]
+    chart		    31
+    linkNode		    [31 0 0]
+    subviewer		    31
+    ssIdNumber		    3
+    type		    CONNECTIVE_JUNCTION
+  }
+  transition {
+    id			    38
+    labelString		    "{eML_blk_kernel();}"
+    labelPosition	    [36.125 25.875 102.544 14.964]
+    fontSize		    12
+    src {
+      intersection	      [0 0 1 0 23.5747 14.625 0 0]
+    }
+    dst {
+      id		      37
+      intersection	      [1 0 -1 0 23.5747 42.5747 0 0]
+    }
+    midPoint		    [23.5747 24.9468]
+    chart		    31
+    linkNode		    [31 0 0]
+    dataLimits		    [21.175 25.975 14.625 42.575]
+    subviewer		    31
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    2
+  }
+  instance {
+    id			    39
+    name		    "PlungerPump/Follower Piston Torque/MATLAB Function"
+    machine		    1
+    chart		    31
+  }
+  chart {
+    id			    40
+    name		    "PlungerPump/Follower Piston/MATLAB Function"
+    windowPosition	    [352.761 488.141 161 328]
+    viewLimits		    [0 156.75 0 153.75]
+    screen		    [1 1 1280 1024 1.000677131425054]
+    treeNode		    [0 41 0 0]
+    firstTransition	    48
+    firstJunction	    47
+    viewObj		    40
+    machine		    1
+    ssIdHighWaterMark	    8
+    decomposition	    CLUSTER_CHART
+    type		    EML_CHART
+    firstData		    42
+    chartFileNumber	    5
+    disableImplicitCasting  1
+    eml {
+      name		      "fcn"
+    }
+  }
+  state {
+    id			    41
+    labelString		    "eML_blk_kernel()"
+    position		    [18 64.5 118 66]
+    fontSize		    12
+    chart		    40
+    treeNode		    [40 0 0 0]
+    superState		    SUBCHART
+    subviewer		    40
+    ssIdNumber		    1
+    type		    FUNC_STATE
+    decomposition	    CLUSTER_STATE
+    eml {
+      isEML		      1
+      script		      "function Fsui = fcn(Pout,deltaP,xp,xp0)\n%  Pout unit:kg/cm2\n%  deltaP unit:kg/cm2\n%  deltaSh u"
+      "nit:mm\n%  all length unit:mm\n%  Fsui  unit  :  N\nD1 = 33.26;%mm\nD2 = 17;%mm\nD3 = 19.8;%mm\nKt1 = (1421-754."
+      "6)/((139.7-101.9)-(139.7-119.6));%N/mm\nKt2 = (1754-1313)/((158-96.8)-(158-114.6));%N/mm\nPleft = Pout*0.098*1e6"
+      ";%Pa\nPright = Pleft-deltaP*0.098*1e6;%Pa\nFleft = Pleft*pi*(D1^2-D2^2)/4*1e-6;%N\nFright = Pright*pi*(D1^2-D3^2"
+      ")/4*1e-6;%N\nFs = (Kt1+Kt2)*(139.7-xp+xp0);\nFsui=Fs+Fright-Fleft;\nend"
+      editorLayout	      "100 M4x1[10 5 700 500]"
+    }
+  }
+  data {
+    id			    42
+    ssIdNumber		    4
+    name		    "Pout"
+    linkNode		    [40 0 43]
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+      }
+      complexity	      SF_COMPLEX_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    43
+    ssIdNumber		    5
+    name		    "Fsui"
+    linkNode		    [40 42 44]
+    scope		    OUTPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_NO
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    44
+    ssIdNumber		    6
+    name		    "deltaP"
+    linkNode		    [40 43 45]
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    45
+    ssIdNumber		    7
+    name		    "xp"
+    linkNode		    [40 44 46]
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    46
+    ssIdNumber		    8
+    name		    "xp0"
+    linkNode		    [40 45 0]
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  junction {
+    id			    47
+    position		    [23.5747 49.5747 7]
+    chart		    40
+    linkNode		    [40 0 0]
+    subviewer		    40
+    ssIdNumber		    3
+    type		    CONNECTIVE_JUNCTION
+  }
+  transition {
+    id			    48
+    labelString		    "{eML_blk_kernel();}"
+    labelPosition	    [36.125 25.875 102.544 14.964]
+    fontSize		    12
+    src {
+      intersection	      [0 0 1 0 23.5747 14.625 0 0]
+    }
+    dst {
+      id		      47
+      intersection	      [1 0 -1 0 23.5747 42.5747 0 0]
+    }
+    midPoint		    [23.5747 24.9468]
+    chart		    40
+    linkNode		    [40 0 0]
+    dataLimits		    [21.175 25.975 14.625 42.575]
+    subviewer		    40
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    2
+  }
+  instance {
+    id			    49
+    name		    "PlungerPump/Follower Piston/MATLAB Function"
+    machine		    1
+    chart		    40
+  }
+  chart {
+    id			    50
+    name		    "PlungerPump/phi0/MATLAB Function"
+    windowPosition	    [352.761 488.141 161 328]
+    viewLimits		    [0 156.75 0 153.75]
+    screen		    [1 1 1280 1024 1.000677131425054]
+    treeNode		    [0 51 0 0]
+    firstTransition	    57
+    firstJunction	    56
+    viewObj		    50
+    machine		    1
+    ssIdHighWaterMark	    7
+    decomposition	    CLUSTER_CHART
+    type		    EML_CHART
+    firstData		    52
+    chartFileNumber	    6
+    disableImplicitCasting  1
+    eml {
+      name		      "fcn"
+    }
+  }
+  state {
+    id			    51
+    labelString		    "eML_blk_kernel()"
+    position		    [18 64.5 118 66]
+    fontSize		    12
+    chart		    50
+    treeNode		    [50 0 0 0]
+    superState		    SUBCHART
+    subviewer		    50
+    ssIdNumber		    1
+    type		    FUNC_STATE
+    decomposition	    CLUSTER_STATE
+    eml {
+      isEML		      1
+      script		      "function phi0 = fcn( Np, Pout, deltaP )\ndeltaP_tab = [5.102040816	10.20408163	15.30612245	16	18	"
+      "20.40816327	21	25	25.5102	28	30.6122	32	35	35.7143	40	40.8163	45	46	47];\nNc_tab = [300 439.5 500 586 732.5 879 "
+      "1000 1025.5 1150 1172 1318.5 1465 1500 1600 1611.5 1700 1758 1800 1904.5 2000 2051 2100 2197.5 2344 2400 2490.5 "
+      "2500 2637 2700 2783.5 2930 3000 3100 3200];\nV1_tab = [13.6243615	13.62435917	13.62435683	13.62435651	13.6243556"
+      "	13.6243545	0.5	0.499999997	0.499999997	0.499999995	0.499999993	0.499999992	0.499999989	0.499999989	0.499999986	"
+      "0.499999985	0.499999982	0.499999981	0.499999981\n13.95223574	13.95223573	13.95223572	13.95223572	13.95223572	13."
+      "95223571	0.5	0.499999997	0.499999997	0.499999995	0.499999993	0.499999992	0.499999989	0.499999989	0.499999986	0.4"
+      "99999985	0.499999982	0.499999981	0.499999981\n14.0374114	14.03741121	14.03741103	14.037411	14.03741093	14.037410"
+      "84	0.5	0.499999997	0.499999997	0.499999995	0.499999993	0.499999992	0.499999989	0.499999989	0.499999986	0.4999999"
+      "85	0.499999982	0.499999981	0.499999981\n14.12815459	14.1281545	14.1281544	14.12815439	14.12815436	14.12815431	0."
+      "5	0.499999997	0.499999997	0.499999995	0.499999993	0.499999992	0.499999989	0.499999989	0.499999986	0.499999985	0."
+      "499999982	0.499999981	0.499999981\n14.23358592	14.23358588	14.23358584	14.23358584	14.23358582	14.23358581	0.5	0"
+      ".499999997	0.499999997	0.499999995	0.499999993	0.499999992	0.49999999	0.499999989	0.499999986	0.499999985	0.4999"
+      "99982	0.499999982	0.499999981\n14.30382315	14.30382313	14.30382311	14.30382311	14.3038231	14.30382309	0.5	0.4999"
+      "99997	0.499999997	0.499999995	0.499999993	0.499999992	0.49999999	0.499999989	0.499999986	0.499999985	0.499999982"
+      "	0.499999982	0.499999981\n14.34629709	14.34629707	14.34629706	14.34629706	14.34629705	14.34629705	0.5	0.49999999"
+      "7	0.499999997	0.499999995	0.499999993	0.499999992	0.49999999	0.499999989	0.499999986	0.499999986	0.499999983	0.4"
+      "99999982	0.499999981\n14.3539679	14.35396788	14.35396787	14.35396787	14.35396787	14.35396786	0.5	0.499999997	0.4"
+      "99999997	0.499999995	0.499999993	0.499999992	0.49999999	0.499999989	0.499999986	0.499999986	0.499999983	0.499999"
+      "982	0.499999981\n14.38652913	14.38652912	14.38652911	14.38652911	14.38652911	14.38652911	0.5	0.499999997	0.49999"
+      "9997	0.499999995	0.499999993	0.499999992	0.49999999	0.499999989	0.499999986	0.499999986	0.499999983	0.499999982	"
+      "0.499999981\n14.39156292	14.39156291	14.39156291	14.39156291	14.3915629	14.3915629	0.5	0.499999997	0.499999997	0"
+      ".499999995	0.499999993	0.499999992	0.49999999	0.499999989	0.499999986	0.499999986	0.499999983	0.499999982	0.4999"
+      "99981\n14.42079547	14.42079546	14.42079546	14.42079545	14.42079545	14.42079545	0.5	0.499999997	0.499999997	0.499"
+      "999995	0.499999993	0.499999992	0.49999999	0.499999989	0.499999986	0.499999986	0.499999983	0.499999982	0.49999998"
+      "2\n14.44417644	14.44417643	14.44417643	14.44417643	14.44417643	14.44417643	0.5	0.499999997	0.499999997	0.4999999"
+      "95	0.499999993	0.499999992	0.49999999	0.49999999	0.499999987	0.499999986	0.499999983	0.499999983	0.499999982\n14"
+      ".44908587	14.44908586	14.44908586	14.44908586	14.44908586	14.44908586	0.5	0.499999997	0.499999997	0.499999995	0."
+      "499999993	0.499999992	0.49999999	0.49999999	0.499999987	0.499999986	0.499999983	0.499999983	0.499999982\n14.4571"
+      "1258	14.45711258	14.45711257	14.45711257	14.45711257	14.45711257	0.5	0.499999997	0.499999997	0.499999995	0.49999"
+      "9993	0.499999992	0.49999999	0.49999999	0.499999987	0.499999986	0.499999983	0.499999983	0.499999982\n14.45797175	"
+      "14.45797175	14.45797175	14.45797175	14.45797175	14.45797174	0.5	0.499999997	0.499999997	0.499999995	0.499999993	"
+      "0.499999992	0.49999999	0.49999999	0.499999987	0.499999986	0.499999983	0.499999983	0.499999982\n14.46419453	14.46"
+      "419453	14.46419453	14.46419453	14.46419453	14.46419453	0.5	0.499999997	0.499999997	0.499999995	0.499999993	0.499"
+      "999992	0.49999999	0.49999999	0.499999987	0.499999986	0.499999984	0.499999983	0.499999982\n14.46793273	14.4679327"
+      "3	14.46793273	14.46793273	14.46793273	14.46793273	0.5	0.499999997	0.499999997	0.499999995	0.499999993	0.49999999"
+      "2	0.49999999	0.49999999	0.499999987	0.499999986	0.499999984	0.499999983	0.499999982\n14.47048925	14.47048925	14."
+      "47048925	14.47048925	14.47048925	14.47048925	0.5	0.499999997	0.499999997	0.499999995	0.499999993	0.499999992	0.4"
+      "9999999	0.49999999	0.499999987	0.499999987	0.499999984	0.499999983	0.499999982\n14.47636062	14.47636061	14.47636"
+      "061	14.47636061	14.47636061	14.47636061	0.5	0.499999997	0.499999997	0.499999995	0.499999994	0.499999993	0.499999"
+      "991	0.49999999	0.499999987	0.499999987	0.499999984	0.499999983	0.499999983\n14.48118953	14.48118953	14.48118953	"
+      "14.48118953	14.48118952	14.48118952	0.5	0.499999997	0.499999997	0.499999995	0.499999994	0.499999993	0.499999991	"
+      "0.49999999	0.499999987	0.499999987	0.499999984	0.499999984	0.499999983\n14.48454184	14.48454184	14.48454184	14.4"
+      "8454184	14.48454184	14.48454184	0.5	0.499999997	0.499999997	0.499999995	0.499999994	0.499999993	0.499999991	0.49"
+      "999999	0.499999988	0.499999987	0.499999984	0.499999984	0.499999983\n14.48760924	14.48760924	14.48760924	14.48760"
+      "924	14.48760924	14.48760924	0.5	0.499999997	0.499999997	0.499999995	0.499999994	0.499999993	0.499999991	0.499999"
+      "99	0.499999988	0.499999987	0.499999984	0.499999984	0.499999983\n14.49330563	14.49330563	14.49330562	14.49330562	"
+      "14.49330562	14.49330562	0.5	0.499999997	0.499999997	0.499999996	0.499999994	0.499999993	0.499999991	0.499999991	"
+      "0.499999988	0.499999987	0.499999985	0.499999984	0.499999983\n14.50097342	14.50097342	14.50097341	14.50097341	14."
+      "50097341	14.50097341	0.5	0.499999998	0.499999997	0.499999996	0.499999994	0.499999993	0.499999991	0.499999991	0.4"
+      "99999988	0.499999988	0.499999985	0.499999984	0.499999984\n14.50365703	14.50365703	14.50365703	14.50365703	14.503"
+      "65703	14.50365702	0.5	0.499999998	0.499999997	0.499999996	0.499999994	0.499999993	0.499999991	0.499999991	0.4999"
+      "99988	0.499999988	0.499999985	0.499999984	0.499999984\n14.50773871	14.50773871	14.50773871	14.50773871	14.507738"
+      "71	14.50773871	0.5	0.499999998	0.499999997	0.499999996	0.499999994	0.499999993	0.499999991	0.499999991	0.4999999"
+      "88	0.499999988	0.499999985	0.499999985	0.499999984\n14.50815003	14.50815003	14.50815003	14.50815002	14.50815002	"
+      "14.50815002	0.5	0.499999998	0.499999997	0.499999996	0.499999994	0.499999993	0.499999991	0.499999991	0.499999988	"
+      "0.499999988	0.499999985	0.499999985	0.499999984\n14.50975061	14.50975061	14.50975061	14.50975061	14.50975061	14."
+      "50975061	0.5	0.499999998	0.499999997	0.499999996	0.499999994	0.499999993	0.499999992	0.499999991	0.499999989	0.4"
+      "99999988	0.499999986	0.499999985	0.499999985\n14.51043212	14.51043212	14.51043212	14.51043212	14.51043212	14.510"
+      "43212	0.5	0.499999998	0.499999997	0.499999996	0.499999994	0.499999993	0.499999992	0.499999991	0.499999989	0.4999"
+      "99988	0.499999986	0.499999985	0.499999985\n14.51128784	14.51128784	14.51128784	14.51128784	14.51128784	14.511287"
+      "84	0.5	0.499999998	0.499999997	0.499999996	0.499999994	0.499999994	0.499999992	0.499999991	0.499999989	0.4999999"
+      "88	0.499999986	0.499999985	0.499999985\n14.51267134	14.51267134	14.51267134	14.51267133	14.51267133	14.51267133	"
+      "0.5	0.499999998	0.499999998	0.499999996	0.499999995	0.499999994	0.499999992	0.499999992	0.499999989	0.499999989	"
+      "0.499999986	0.499999986	0.499999985\n14.51328468	14.51328468	14.51328468	14.51328468	14.51328468	14.51328468	0.5"
+      "	0.499999998	0.499999998	0.499999996	0.499999995	0.499999994	0.499999992	0.499999992	0.499999989	0.499999989	0.4"
+      "99999987	0.499999986	0.499999986\n14.51411283	14.51411283	14.51411283	14.51411283	14.51411283	14.51411283	0.5	0."
+      "499999998	0.499999998	0.499999996	0.499999995	0.499999994	0.499999992	0.499999992	0.49999999	0.499999989	0.49999"
+      "9987	0.499999986	0.499999986\n14.51488921	14.51488921	14.51488921	14.51488921	14.51488921	14.51488921	0.5	0.4999"
+      "99998	0.499999998	0.499999996	0.499999995	0.499999994	0.499999993	0.499999992	0.49999999	0.499999989	0.499999987"
+      "	0.499999987	0.499999986\n];\nVq1= interp2( deltaP_tab, Nc_tab, V1_tab, deltaP, Np);\n\nV2_tab = [13.33960415	13"
+      ".40919236	14.29485554	14.11108112	13.57986899	12.93728122	12.87997709	12.49200858	12.44244268	12.20030032	11.945"
+      "79715	0.499999989	0.499999987	0.499999986	0.499999983	0.499999982	0.499999979	0.499999978	0.499999977\n13.709235"
+      "37	13.87724104	14.21320962	14.11273278	13.82267546	13.47252544	13.43929419	13.21445727	13.18575117	13.04557319	1"
+      "2.8983426	0.499999989	0.499999987	0.499999986	0.499999983	0.499999982	0.499999979	0.499999978	0.499999977\n13.80"
+      "524011	13.99874577	14.19195034	14.11315761	13.88577538	13.61143457	13.5844348	13.40179205	13.3784772	13.26463904"
+      "	13.14509673	0.499999989	0.499999987	0.499999986	0.499999983	0.499999982	0.499999979	0.499999978	0.499999977\n13"
+      ".90751232	14.12815435	14.16928315	14.11361228	13.95301398	13.75936237	13.73899103	13.6012141	13.58362987	13.4977"
+      "8307	13.40765389	0.499999989	0.499999987	0.499999986	0.499999983	0.499999982	0.499999979	0.499999978	0.499999977"
+      "\n14.02632799	14.23358583	14.14292037	14.11414062	14.03115238	13.93115248	13.91846888	13.83270611	13.82176284	13"
+      ".76834547	13.71227767	0.499999989	0.499999987	0.499999986	0.499999983	0.499999982	0.499999979	0.499999978	0.4999"
+      "99977\n14.1054752	14.3038231	14.12534193	14.11449273	14.08321718	14.0455478	14.03797744	13.986797	13.98026742	13"
+      ".94839783	13.91495274	0.49999999	0.499999987	0.499999987	0.499999983	0.499999982	0.499999979	0.499999978	0.49999"
+      "9978\n14.15333465	14.1340217	14.11470573	14.11470573	14.11470572	14.11470572	14.11022422	14.07992936	14.07606472"
+      "	14.05720334	14.03741164	0.49999999	0.499999987	0.499999987	0.499999983	0.499999983	0.499999979	0.499999978	0.49"
+      "9999978\n14.1629382	14.35396787	14.12911529	14.12845441	14.12657933	14.12431228	14.11971971	14.08867383	14.08471"
+      "337	14.0653843	14.04510176	0.49999999	0.499999987	0.499999987	0.499999983	0.499999983	0.499999979	0.499999979	0."
+      "499999978\n14.20370196	14.38652911	14.19027268	14.18680769	14.17697631	14.16508885	14.16002487	14.12579179	14.12"
+      "142467	14.10011074	14.07774504	0.49999999	0.499999987	0.499999987	0.499999983	0.499999983	0.499999979	0.49999997"
+      "9	0.499999978\n14.21000359	14.3915629	14.19972603	14.19582772	14.18476677	14.17139245	14.16625562	14.13152991	14"
+      ".12709994	14.10547921	14.08279152	0.49999999	0.499999987	0.499999987	0.499999983	0.499999983	0.49999998	0.499999"
+      "979	0.499999978\n14.24659753	14.42079545	14.25461745	14.24820365	14.23000463	14.20799791	14.20243805	14.16485212"
+      "	14.16005721	14.13665513	14.11209783	0.49999999	0.499999988	0.499999987	0.499999984	0.499999983	0.49999998	0.499"
+      "999979	0.499999978\n14.27586482	14.44417643	14.29851289	14.29008829	14.26618291	14.23727442	14.23137632	14.19150"
+      "339	14.18641667	14.1615902	14.13553786	0.49999999	0.499999988	0.499999987	0.499999984	0.499999983	0.49999998	0.4"
+      "99999979	0.499999979\n14.28201006	14.29487017	14.30772893	14.29888225	14.27377899	14.2434216	14.23745249	14.1970"
+      "9942	14.19195143	14.16682592	14.1404597	0.49999999	0.499999988	0.499999987	0.499999984	0.499999983	0.49999998	0."
+      "499999979	0.499999979\n14.30290706	14.45711257	14.32219342	14.31523139	14.2954618	14.27156022	14.26652496	14.232"
+      "486	14.22814365	14.20695058	14.18471171	0.49999999	0.499999988	0.499999987	0.499999984	0.499999983	0.49999998	0."
+      "49999998	0.499999979\n14.30514373	14.45797175	14.32374164	14.31698133	14.29778256	14.27457188	14.26963656	14.236"
+      "27328	14.23201715	14.21124487	14.18944764	0.49999999	0.499999988	0.499999987	0.499999984	0.499999983	0.49999998	"
+      "0.49999998	0.499999979\n14.32134262	14.46419453	14.33495479	14.3296553	14.31459049	14.29638304	14.2921714	14.263"
+      "70097	14.2600691	14.24234381	14.22374438	0.49999999	0.499999988	0.499999987	0.499999984	0.499999984	0.499999981	"
+      "0.49999998	0.499999979\n14.33107313	14.46793273	14.34169062	14.33726859	14.3246868	14.30948429	14.30570729	14.28"
+      "01753	14.27691831	14.26102281	14.24434366	0.49999999	0.499999988	0.499999988	0.499999984	0.499999984	0.499999981"
+      "	0.49999998	0.499999979\n14.33772745	14.47048925	14.3462971	14.34247511	14.33159126	14.31844354	14.31496373	14.2"
+      "9144094	14.28844028	14.27379588	14.25842967	0.49999999	0.499999988	0.499999988	0.499999984	0.499999984	0.4999999"
+      "81	0.49999998	0.499999979\n14.35300909	14.47636061	14.35687615	14.3544321	14.34744729	14.33901777	14.33622036	14"
+      ".31731085	14.31489874	14.30312681	14.29077493	0.499999991	0.499999988	0.499999988	0.499999985	0.499999984	0.4999"
+      "99981	0.49999998	0.49999998\n14.36557661	14.36557661	14.36557661	14.3642657	14.36048713	14.35593723	14.35370092	"
+      "14.33858444	14.3366562	14.32724586	14.31737212	0.499999991	0.499999988	0.499999988	0.499999985	0.499999984	0.499"
+      "999981	0.49999998	0.49999998\n14.36222101	14.48454184	14.37564285	14.3739735	14.36916178	14.36336775	14.36118717"
+      "	14.34644751	14.34456734	14.3353916	14.32576403	0.499999991	0.499999989	0.499999988	0.499999985	0.499999984	0.49"
+      "9999981	0.499999981	0.49999998\n14.35915045	14.48760924	14.38485307	14.38285578	14.37709882	14.37016652	14.36803"
+      "694	14.35364203	14.35180584	14.34284474	14.3334424	0.499999991	0.499999989	0.499999988	0.499999985	0.499999984	0"
+      ".499999981	0.499999981	0.49999998\n14.35344777	14.49330562	14.4019559	14.39934972	14.39183766	14.38279179	14.380"
+      "75692	14.36700216	14.36524763	14.35668508	14.34770094	0.499999991	0.499999989	0.499999988	0.499999985	0.49999998"
+      "5	0.499999982	0.499999981	0.49999998\n14.34577066	14.50097341	14.42497515	14.42154957	14.4116756	14.39978529	14."
+      "39787786	14.38498464	14.38334001	14.37531383	14.3668925	0.499999991	0.499999989	0.499999989	0.499999986	0.499999"
+      "985	0.499999982	0.499999981	0.499999981\n14.34308356	14.50365703	14.43303085	14.42931856	14.41861811	14.40573245"
+      "	14.40386962	14.39127788	14.38967171	14.38183322	14.37360884	0.499999991	0.499999989	0.499999989	0.499999986	0.4"
+      "99999985	0.499999982	0.499999982	0.499999981\n14.33899634	14.50773871	14.44528263	14.44113431	14.42917697	14.414"
+      "77758	14.41298257	14.40084932	14.39930164	14.39174859	14.38382373	0.499999991	0.499999989	0.499999989	0.49999998"
+      "6	0.499999985	0.499999983	0.499999982	0.499999981\n14.33858445	14.3925628	14.44651721	14.44232496	14.43024097	14"
+      ".41568905	14.41390088	14.40181383	14.40027204	14.39274775	14.38485307	0.499999991	0.499999989	0.499999989	0.4999"
+      "99986	0.499999985	0.499999983	0.499999982	0.499999981\n14.36102204	14.50975061	14.43530681	14.43242111	14.424103"
+      "37	14.41408722	14.41285644	14.4045372	14.40347604	14.39829739	14.39286393	0.499999992	0.49999999	0.499999989	0.4"
+      "99999986	0.499999986	0.499999983	0.499999982	0.499999982\n14.37057451	14.51043212	14.43053322	14.4282039	14.4214"
+      "8994	14.41340517	14.41241173	14.40569677	14.40484025	14.4006603	14.39627471	0.499999992	0.49999999	0.499999989	0"
+      ".499999986	0.499999986	0.499999983	0.499999982	0.499999982\n14.3825679	14.51128784	14.42453904	14.4229084	14.418"
+      "20834	14.41254876	14.41185333	14.40715275	14.40655318	14.4036272	14.4005573	0.499999992	0.49999999	0.499999989	0"
+      ".499999987	0.499999986	0.499999983	0.499999983	0.499999982\n14.40195591	14.51267134	14.41484722	14.41434632	14.4"
+      "1290257	14.41116413	14.41095051	14.4095067	14.40932254	14.40842382	14.40748092	0.499999992	0.49999999	0.49999999"
+      "	0.499999987	0.499999986	0.499999984	0.499999983	0.499999983\n14.41055027	14.41055027	14.41055027	14.41055027	14"
+      ".41055027	14.41055027	14.41055027	14.41055027	14.41055027	14.41055027	14.41055026	0.499999992	0.49999999	0.49999"
+      "999	0.499999987	0.499999987	0.499999984	0.499999983	0.499999983\n14.42215367	14.51411283	14.40474815	14.40542454"
+      "	14.40737405	14.40474815	14.41000984	14.41195931	14.40474815	14.41342139	14.41469447	0.499999992	0.49999999	0.49"
+      "999999	0.499999987	0.499999987	0.499999984	0.499999984	0.499999983\n14.43303086	14.51488921	14.39930841	14.40061"
+      "897	14.40439627	14.39930841	14.40950318	14.41328027	14.39930841	14.41611301	14.41857952	0.499999992	0.499999991	"
+      "0.49999999	0.499999988	0.499999987	0.499999985	0.499999984	0.499999984\n];\nVq2 = interp2( deltaP_tab, Nc_tab, V"
+      "2_tab, deltaP, Np);\n\nV3_tab = [6.75663488	7.96737427	9.330693417	9.791871558	11.11381426	12.69008391	12.690083"
+      "4	12.69007998	12.69007955	9.886473071	6.893276238	6.160397327	4.89889364	4.597763227	2.785822547	2.592400908	1.6"
+      "00222701	0.499999974	0.499999973\n9.52120471	10.33633328	11.17991342	11.465663	12.28609833	13.2675052	13.2675052"
+      "	13.26750519	13.26750519	11.28721392	9.180659108	8.229480891	6.363407731	5.916860075	3.218354802	3.052433154	2.2"
+      "01288793	0.499999974	0.499999973\n10.23376068	10.94729711	11.65747947	11.89815617	12.58953576	13.41733255	13.417"
+      "33251	13.41733226	13.41733223	11.64958065	9.771287366	8.764488753	6.743143074	6.259088139	3.33749522	3.177641046"
+      "	2.357615077	0.499999974	0.499999973\n10.98994543	11.59594403	12.16487495	12.35778866	12.91228645	13.57687609	13"
+      ".57687608	13.57687596	13.57687594	12.0349027	10.39866764	9.333156326	7.147307859	6.623427952	3.458853613	3.30638"
+      "3198	2.524236153	0.499999974	0.499999973\n11.86446721	12.34651989	12.75253701	12.89030616	13.28658738	13.7621396"
+      "	13.76213959	13.76213955	13.76213954	12.48161668	11.12504811	9.992053833	7.616336376	7.046374949	3.599925313	3.3"
+      "67695362	2.175834695	0.499999974	0.499999973\n12.44450983	12.84463876	13.14288381	13.24413448	13.53552144	13.885"
+      "49714	13.88549713	13.88549711	13.88549711	12.77861322	11.60735413	10.42985594	7.928440111	7.327899338	3.69394908"
+      "4	2.997255955	1.94346946	0.499999974	0.499999974\n12.79424397	13.14509844	13.37847867	13.45773341	13.68589105	13"
+      ".96006936	13.96006935	13.96006934	13.96006934	12.95797576	11.89836969	10.69413894	8.117028724	7.498044422	3.7508"
+      "2259	3.032179517	2.212648766	0.499999975	0.499999974\n12.86896358	13.19929927	13.42099009	13.49627952	13.7130344"
+      "	13.97353514	13.97353513	13.97353512	13.97353512	12.99034941	11.95087437	10.74183034	8.151075731	7.5287645	3.761"
+      "095245	3.038487767	2.239357316	0.499999975	0.499999974\n13.18571656	13.4291577	13.60131612	13.65979813	13.828207"
+      "06	14.03068818	14.03068818	14.03068817	14.03068817	13.12770363	12.17356518	10.94413982	8.295556964	7.659137262	3"
+      ".804705172	3.065268719	2.352737356	0.499999975	0.499999974\n13.23462393	13.46466141	13.62917505	13.68506232	13.8"
+      "4600545	14.03952275	14.03952275	14.03952274	14.03952274	13.14892824	12.20796546	10.97539654	8.317886808	7.679288"
+      "015	3.811447655	3.069409421	2.370266266	0.499999975	0.499999974\n13.51831582	13.67067455	13.79086071	13.83169869"
+      "	13.94932986	14.09082216	14.09082216	14.09082215	14.09082215	13.27213405	12.40759519	11.15680957	8.447528882	7.7"
+      "96286264	3.850606273	3.093458239	2.472066088	0.499999975	0.499999974\n13.74481614	13.83524382	13.92005958	13.948"
+      "88441	14.03192771	14.13184636	14.13184636	14.13184635	14.13184635	13.37061426	12.56708889	11.30178092	8.55117879"
+      "6	7.889836607	3.881930454	3.112696496	2.553493946	0.499999976	0.499999975\n13.79232965	13.86977598	13.94717438	1"
+      "3.97347943	14.04926628	14.14045971	14.1404597	14.1404597	14.1404597	13.39128554	12.60055869	11.33220681	8.572938"
+      "02	7.909476684	3.888508218	3.116736435	2.570592405	0.499999976	0.499999975\n13.90203116	13.96006945	14.01808068	"
+      "14.03779873	14.09461372	14.16298999	14.16298999	14.16298999	14.16298999	13.44534733	12.6880787	11.41177324	8.629"
+      "849719	7.960847454	3.905715603	3.127305045	2.615320847	0.499999976	0.499999975\n13.91376825	13.96973087	14.02566"
+      "831	14.04468169	14.09946687	14.16540146	14.16540146	14.16540146	14.16540146	13.45113292	12.69744373	11.42028771	"
+      "8.635940695	7.966345562	3.90755749	3.128436329	2.62010852	0.499999976	0.499999975\n13.99874662	14.03968578	14.08"
+      "061142	14.09452334	14.13461235	14.18286623	14.18286623	14.18286623	14.18286623	13.49302995	12.76525476	11.481942"
+      "9	8.680051465	8.006163656	3.920897966	3.1366301	2.65478431	0.499999976	0.499999975\n14.04976972	14.08169245	14.1"
+      "1360694	14.12445622	14.1557213	14.19335706	14.19335706	14.19335706	14.19335705	13.51819313	12.80597589	11.518969"
+      "88	8.706546101	8.03008068	3.928912083	3.14155247	2.675614905	0.499999976	0.499999975\n14.08465273	14.11041294	14"
+      ".13616777	14.14492337	14.1701558	14.2005313	14.2005313	14.2005313	14.2005313	13.53539957	12.83381822	11.54428748"
+      "	8.724663805	8.046436067	3.934392907	3.144918889	2.689860682	0.499999976	0.499999976\n14.16473138	14.17635007	14"
+      ".18796766	14.19191747	14.20330115	14.21700683	14.21700683	14.21700683	14.21700683	13.57490885	12.89774166	11.602"
+      "41769	8.766268043	8.083994422	3.946980445	3.152650467	2.722577653	0.499999977	0.499999976\n14.2305561	14.2305561"
+      "	14.2305561	14.2305561	14.2305561	14.23055609	14.23055609	14.23055609	14.23055609	13.60739555	12.95029477	11.650"
+      "21151	8.800479957	8.114880353	3.957333241	3.159009506	2.749485547	0.499999977	0.499999976\n14.26318459	14.257427"
+      "25	14.25166964	14.24971195	14.24406921	14.23727444	14.23727444	14.23727443	14.23727443	13.68849678	13.11016724	1"
+      "1.84724127	9.079466405	8.413623447	4.375258071	3.599552638	3.200579632	0.499999977	0.499999976\n14.29303311	14.2"
+      "8201007	14.27098603	14.26723756	14.25643284	14.24342161	14.24342161	14.24342161	14.24342161	13.76266146	13.25628"
+      "445	12.02728993	9.334365169	8.686573122	4.757241596	4.002268279	3.612976038	0.499999977	0.499999976\n14.34844673"
+      "	14.32765077	14.30685125	14.29977847	14.27939056	14.25483698	14.25483698	14.25483698	14.25483698	13.90027978	13."
+      "52720697	12.36104974	9.806749768	9.192404323	5.465427471	4.749023509	4.377764508	0.499999978	0.499999977\n14.423"
+      "00224	14.38906322	14.35511473	14.34356985	14.31028839	14.27020215	14.27020215	14.27020215	14.27020215	14.0852957"
+      "5	13.89100149	12.80905578	10.44052682	9.871027286	6.415945279	5.751534093	5.404629539	0.499999978	0.499999977\n1"
+      "4.44908587	14.41055026	14.37200244	14.35889312	14.32110078	14.2755795	14.2755795	14.2755795	14.2755795	14.149986"
+      "1	14.01808069	12.96550392	10.66175352	10.10789627	6.747782338	6.10157137	5.763203518	0.499999978	0.499999977\n14"
+      ".48874854	14.44322496	14.39768429	14.38219626	14.33754469	14.28375805	14.28375805	14.28375805	14.28375805	14.248"
+      "31555	14.21111966	13.2031064	10.99763308	10.46750973	7.251598764	6.633058396	6.307679789	0.499999979	0.499999978"
+      "\n14.49274476	14.44651721	14.40027204	14.38454435	14.33920168	14.2845822	14.2845822	14.2845822	14.2845822	14.258"
+      "22018	14.2305561	13.22702643	11.0314396	10.50370396	7.302306851	6.686553653	6.362484089	0.499999979	0.499999978\n"
+      "14.41508106	14.39926639	14.38344965	14.37153364	14.33718205	14.29580647	14.29580647	14.29580647	14.29580647	14.2"
+      "7766424	14.25862724	13.57660325	12.08984157	11.73751905	9.60594279	9.196716562	7.085186243	0.499999979	0.4999999"
+      "78\n14.38199749	14.37914185	14.37628613	14.36599338	14.33632211	14.30058535	14.30058535	14.30058535	14.30058535	"
+      "14.28594241	14.27057772	13.72515947	12.53810083	12.25969593	10.57774988	10.25524117	8.5924788	0.499999979	0.4999"
+      "99979\n14.34044373	14.35386798	14.36729074	14.35903645	14.33524231	14.30658564	14.30658564	14.30658564	14.306585"
+      "64	14.296336	14.28558156	13.91144466	13.09885079	12.91256037	11.78939923	11.57443846	10.46781584	0.49999998	0.49"
+      "9999979\n14.27323106	14.31299494	14.35274588	14.34778789	14.33349652	14.31628607	14.31628607	14.31628607	14.3162"
+      "8607	14.31313814	14.30983537	14.21203589	14.00035724	13.96125767	13.72640828	13.68162653	13.4518714	0.49999998	0"
+      ".499999979\n14.24342162	14.29487018	14.34629711	14.34280069	14.33272255	14.32058635	14.32058635	14.32058635	14.3"
+      "2058635	14.32058635	14.32058635	14.34506362	14.39795921	14.42339682	14.57590692	14.60493379	14.75358654	0.499999"
+      "98	0.49999998\n14.20316051	14.27039332	14.33758923	14.3360665	14.33167749	14.32639248	14.32639248	14.32639248	14"
+      ".32639248	14.33064243	14.33510115	14.52445158	14.93275469	15.04460707	14.35112333	14.35251646	14.35965602	0.4999"
+      "99981	0.49999998\n14.16540373	14.24744182	14.32942504	14.32975287	14.33069775	14.33183547	14.33183547	14.3318354"
+      "7	14.33183547	14.34006925	14.34870721	14.69238633	15.4319436	15.6240346	14.37974482	14.38244337	14.3962725	0.499"
+      "999981	0.499999981\n];\nVq3 = interp2( deltaP_tab, Nc_tab, V3_tab, deltaP, Np);\nV4_tab = [14.99999998	14.999999"
+      "97	14.99999997	14.99999996	14.99999996	14.94098884	14.49608604	11.45532825	11.06020526	9.117495385	7.324147955	6"
+      ".3650839	4.344429359	3.871795231	1.026618813	0.940649664	0.499999973	0.499999972	0.499999971\n14.99999998	14.999"
+      "99997	14.99999997	14.99999996	14.99999996	14.99999996	14.99999996	12.1769875	11.80967755	10.00388408	8.288543048"
+      "	7.370799531	5.443839014	4.954291355	2.028189367	1.861940234	1.009449865	0.962741786	0.916032333\n14.99999998	14"
+      ".99999997	14.99999997	14.99999996	14.99999996	14.99999996	14.99999996	12.3641611	12.00405757	10.23375892	8.53872"
+      "0889	7.631751663	5.729261646	5.235390854	2.257565495	2.101593214	1.30176327	1.260715865	1.219667064\n14.99999998"
+      "	14.99999997	14.99999997	14.99999996	14.99999996	14.99999996	14.99999996	12.56342691	12.21099128	10.47846783	8.8"
+      "05071678	7.909595655	6.03322909	5.534785619	2.528284526	2.378984206	1.613322662	1.578309644	1.543295356\n14.9999"
+      "9998	14.99999997	14.99999997	14.99999997	14.99999996	14.99999996	14.99999996	12.79677488	12.45289716	10.76253238"
+      "	9.114292822	8.232187038	6.386230343	5.882517483	2.842921287	2.612362382	1.429496457	1.401481067	1.373464954\n14"
+      ".99999998	14.99999997	14.99999997	14.99999997	14.99999996	14.99999996	14.99999996	12.95211319	12.61392904	10.951"
+      "61713	9.320141437	8.44695138	6.621284469	6.114087447	3.052578528	2.840774329	1.754106641	1.713264245	1.689924901"
+      "\n14.99999998	14.99999997	14.99999997	14.99999997	14.99999996	14.99999996	14.99999996	13.04773273	12.71269818	11"
+      ".06589871	9.444561692	8.576766085	6.763379771	6.254086086	3.179379136	2.944010906	1.736261857	1.725558239	1.7050"
+      "43267\n14.99999998	14.99999997	14.99999997	14.99999997	14.99999996	14.99999996	14.99999996	13.11992605	12.788782"
+      "82	11.16118548	9.515230063	8.634113641	6.808154595	6.296507217	3.207369639	2.966917393	1.73303838	1.727778977	1."
+      "707774184\n14.99999998	14.99999997	14.99999997	14.99999997	14.99999996	14.99999996	14.99999996	13.36834047	13.06"
+      "336584	11.56504369	9.814926227	8.877385964	6.9981501	6.476526162	3.32618563	3.069770309	1.753811963	1.750001815	"
+      "1.732163227\n14.99999998	14.99999997	14.99999997	14.99999997	14.99999996	14.99999996	14.99999996	13.47281258	13."
+      "16076362	11.62738767	9.861216858	8.914971435	7.027512728	6.504348576	3.344554078	3.0856714	1.757023899	1.7534378"
+      "25	1.735934163\n14.99999998	14.99999997	14.99999997	14.99999997	14.99999997	14.99999996	14.99999996	13.74954769	"
+      "13.45179463	11.98894891	10.12981876	9.133115432	7.197976891	6.665879638	3.451224884	3.162400368	1.679811913	1.67"
+      "6624016	1.661063889\n14.99999998	14.99999997	14.99999997	14.99999997	14.99999997	14.99999996	14.99999996	13.9784"
+      "1948	13.69073293	12.27752875	10.34437937	9.307437251	7.334253143	6.795025028	3.536543194	3.199581317	1.469468555"
+      "	1.466598827	1.452591713\n14.99999998	14.99999998	14.99999997	14.99999997	14.99999997	14.99999996	14.99999996	14"
+      ".01163631	13.72854767	12.338054	10.3894004	9.344022726	7.362860273	6.822136461	3.554457928	3.207581847	1.4264755"
+      "15	1.423517118	1.409836285\n14.99999998	14.99999998	14.99999997	14.99999997	14.99999997	14.99999996	14.99999996	"
+      "14.063987	13.811072	12.56960027	10.56312548	9.486261793	7.261096622	6.74072617	3.597064863	3.224947274	1.3139946"
+      "26	1.310804245	1.297977182\n14.99999998	14.99999998	14.99999997	14.99999997	14.99999997	14.99999996	14.99999996	"
+      "14.06946955	13.81980273	12.59436227	10.58171578	9.501489253	7.250200694	6.732008805	3.601616446	3.226798595	1.30"
+      "1953659	1.298738445	1.295523231\n14.99999998	14.99999998	14.99999997	14.99999997	14.99999997	14.99999997	14.9999"
+      "9996	14.08743104	13.86494457	12.77357645	10.71625919	9.611680398	7.171265643	6.668868267	3.634643669	3.243838732"
+      "	1.236727424	1.527224931	1.496087794\n14.99999998	14.99999998	14.99999997	14.99999997	14.99999997	14.99999997	14"
+      ".99999997	14.10573898	13.89830634	12.8811243	10.79702766	9.677839818	7.123831531	6.63092879	3.654487523	3.330482"
+      "904	1.666857659	1.664464366	1.616559027\n14.99999998	14.99999998	14.99999997	14.99999997	14.99999997	14.99999997"
+      "	14.99999997	14.11899847	13.9217328	12.95462688	10.85224304	9.723074455	7.091385113	6.60497779	3.668055615	3.353"
+      "041913	1.735629776	1.733137695	1.698941508\n14.99999998	14.99999998	14.99999997	14.99999997	14.99999997	14.99999"
+      "997	14.99999997	14.15872897	14.00428647	13.24786054	11.10548891	9.954357505	7.227459622	6.723629258	3.680519982	"
+      "3.389195034	1.893558264	1.890839381	1.888120491\n14.99999998	14.99999998	14.99999997	14.99999997	14.99999997	14."
+      "99999997	14.99999997	14.19159894	14.07231112	13.48853826	11.31345686	10.14434097	7.339315937	6.821173651	3.69077"
+      "1487	3.404512154	1.934907658	1.932318737	1.929729806\n14.99999998	14.99999998	14.99999997	14.99999997	14.9999999"
+      "7	14.99999997	14.99999997	14.20789545	14.10602975	13.6077194	11.41647653	10.23846841	7.394762492	6.869529335	3.6"
+      "95854988	3.412107511	1.955411459	1.952886979	1.95036249\n14.99999998	14.99999998	14.99999997	14.99999997	14.9999"
+      "9997	14.99443975	14.8953193	14.22320376	14.13720705	13.71668116	11.51068101	10.32454959	7.445485329	6.913767438	"
+      "3.700506495	3.420540603	1.983280312	1.980934796	1.97116883\n14.99999998	14.99999998	14.99999997	14.99999997	14.9"
+      "9999997	14.74771077	14.6819669	14.23644015	14.17956124	13.90161288	11.83136073	10.7187849	7.938857373	7.39740776"
+      "7	4.123136752	3.7828629	2.035034072	2.033020887	2.023688862\n14.84802285	14.70991878	14.57165796	14.55284145	14."
+      "49859097	14.41476227	14.39415303	14.25482601	14.23702697	14.15012979	12.26190149	11.24789242	8.601092169	8.04673"
+      "2568	4.691304262	4.33607586	2.510575142	2.501832555	2.493089843\n14.42097214	14.38000131	14.33901749	14.3334424	"
+      "14.31737212	14.29801909	14.29326274	14.2611095	14.25700774	14.23698902	12.41227124	11.43263308	8.832324455	8.273"
+      "498624	4.889934159	4.663390711	3.500083476	3.491561376	3.483039111\n14.47587858	14.42451375	14.3731282	14.366137"
+      "8	14.34598743	14.32171683	14.31575175	14.27491977	14.26986086	14.24517015	12.48576918	11.54151521	9.021165343	8."
+      "463081904	5.083308651	5.069819295	5.000677054	4.992498419	4.984319568\n14.4814127	14.42899979	14.37656527	14.369"
+      "43215	14.34887028	14.32410425	14.31801738	14.27639157	14.27122259	14.24599456	12.49317391	11.55248355	9.04018404"
+      "2	8.482176016	5.102788961	5.076192722	4.939850956	4.931701814	4.923552461\n14.55676144	14.49008253	14.42336819	1"
+      "4.41429184	14.38812764	14.35661587	14.3488708	14.29643554	14.28976757	14.25722237	12.59398509	11.7017879	9.29901"
+      "3196	8.742041929	5.367982552	5.342790577	5.213647708	5.20592885	5.198209792\n14.5888244	14.51607869	14.44329061	"
+      "14.43338766	14.40484025	14.37045741	14.36200656	14.30487156	14.29758206	14.26200276	12.63688602	11.76531205	9.40"
+      "9105067	8.85258048	5.480826615	5.456232127	5.330152306	5.322616531	5.315080562\n14.51228578	14.46132893	14.41035"
+      "165	14.4034168	14.38342657	14.35935476	14.35343853	14.31360467	14.30913039	14.28729334	12.98163421	12.28259664	9"
+      ".483399878	8.904643306	5.396765102	5.372901445	5.250569521	5.243257831	5.235945961\n14.38825785	14.37265	14.3570"
+      "4047	14.35491733	14.34879769	14.34140221	14.33958475	14.32708036	14.32726729	14.32817948	13.53710197	13.11479998"
+      "	9.603440363	8.988777672	5.260805585	5.23812462	5.121857626	5.114908543	5.107959301\n14.33344241	14.33344241	14."
+      "33344241	14.33344241	14.33344241	14.33344241	14.33344241	14.3334424	14.33562866	14.3462971	13.78258933	13.482067"
+      "73	9.656635443	9.026068358	5.200510095	5.178353888	5.064777796	5.05798959	5.051201235\n14.33758923	14.33758923	1"
+      "4.33758923	14.33758923	14.33758923	14.33758923	14.33758923	14.33758923	14.33864706	14.3438092	14.26254517	14.219"
+      "34955	10.13504355	9.415292221	5.040251961	5.01879919	4.908830521	4.902258002	4.895685347\n14.34750217	14.3475021"
+      "7	14.34750216	14.34750216	14.34750216	14.34750216	14.34750216	14.34750216	14.34555522	14.33605363	14.71654535	14"
+      ".91820216	10.50563135	9.713378517	4.889934163	4.869141839	4.762559988	4.75618996	4.749819807\n];\nVq4 = interp2("
+      " deltaP_tab, Nc_tab, V4_tab, deltaP, Np);\nV5_tab = [9.705841961	9.841358286	9.976761074	9.995167968	10.0482098	"
+      "10.04820663	10.04820587	8.944085537	8.389481882	5.661498597	5.602502949	5.571156415	5.503380608	5.487280013	5.39"
+      "042888	4.595684263	0.499999886	0.499999882	0.499999879\n11.56939084	11.59704728	11.62469786	11.62845808	11.63929"
+      "546	11.58913848	11.57681005	9.873513461	9.436795567	7.290388921	5.93531155	5.21248517	3.903715467	3.900371312	3."
+      "880279606	3.329701843	0.499999886	0.499999883	0.499999879\n12.05052178	12.05052132	12.05052085	12.05052079	12.05"
+      "052061	11.98749254	11.97199945	10.11452032	9.708297863	7.712351991	6.021839781	5.11907555	3.486282564	3.48628249"
+      "8	3.486284504	2.999651509	0.499999887	0.499999883	0.49999988\n12.56164083	12.53235784	12.50306907	12.49908515	12"
+      ".4876018	12.41093878	12.39209271	10.37106494	9.997265389	8.161261521	6.481932216	5.584852183	3.912312108	3.79148"
+      "9132	3.065853736	2.647545763	0.499999887	0.499999884	0.49999988\n13.15353723	13.09047846	13.02739048	13.01880782"
+      "	12.99406723	12.90166606	12.87894915	10.66884883	10.33263048	8.681952902	7.015822331	6.125472559	4.407113065	4.1"
+      "46090713	2.576539925	2.284466583	0.785941635	0.777533186	0.769124701\n13.54665075	13.46124362	13.3757811	13.3641"
+      "5333	13.3306332	13.22781127	13.20253092	10.86705333	10.55581496	9.02827246	7.371051583	6.485257559	4.736597689	4"
+      ".382305842	2.250102352	2.095833402	1.304744848	1.263884333	1.256879534\n13.78389794	13.6850372	13.58610096	13.57"
+      "263912	13.53383063	13.42473236	13.39790791	10.98684187	10.6906868	9.237471567	7.585682013	6.702669943	4.93577628"
+      "6	4.525139733	2.052530139	1.98168639	1.618515097	1.607810101	1.601654869\n13.7984441	13.70451258	13.61051291	13."
+      "59772305	13.56085213	13.45914173	13.43413464	11.14701284	10.84252438	9.348086479	7.639238529	6.725483616	4.92176"
+      "0337	4.507024002	2.009696311	1.955091332	1.67518326	1.669923519	1.663921742\n13.86018137	13.78716225	13.71410208"
+      "	13.70416222	13.67550858	13.60512433	13.58782186	11.82508447	11.48545278	9.816910604	7.866459368	6.822314762	4.8"
+      "62248355	4.430102612	1.827818038	1.808893625	1.711899428	1.708089099	1.702737306\n13.86972438	13.79993657	13.730"
+      "11129	13.72061168	13.69322732	13.62768099	13.61156819	11.92964166	11.58461191	9.889288375	7.933921596	6.88706402"
+      "2	4.907440812	4.464893428	1.799692671	1.786286451	1.717576292	1.713990058	1.70873876\n13.92513652	13.87410511	13"
+      ".82305385	13.81610899	13.79608996	13.75861234	13.74940074	12.53536939	12.15916866	10.30898715	8.325263329	7.2627"
+      "41703	5.169817342	4.666912511	1.636320318	1.637695695	1.644744449	1.641556431	1.636888242\n13.9694485	13.9334082"
+      "7	13.89735832	13.89245453	13.87831944	13.86325943	13.85955825	13.01801022	12.61711117	10.64396562	8.637770059	7."
+      "56281941	5.379554353	4.828439538	1.505601733	1.494548878	1.437901121	1.435031307	1.430829066\n13.97875201	13.945"
+      "85836	13.91295665	13.90848117	13.89558077	13.88522422	13.88267903	13.11914139	12.7130819	10.71421423	8.703332508"
+      "	7.625788075	5.423573619	4.862344497	1.478148643	1.464654914	1.395496834	1.392538352	1.388434003\n14.07707303	14"
+      ".0257033	13.97431329	13.96732232	13.94717034	13.93423311	13.93105366	13.04935212	12.68581132	10.89785344	8.87472"
+      "9627	7.790406606	5.538720898	4.962079289	1.48413792	1.451555712	1.284556551	1.281366094	1.277517893\n14.08754694"
+      "	14.0342226	13.98087637	13.97361921	13.95269985	13.9394797	13.93623072	13.04188797	12.6699383	10.84031916	8.8510"
+      "87396	7.785113358	5.521218873	4.947138132	1.484770051	1.450146012	1.272680528	1.269465238	1.26624994\n14.1637001"
+      "1	14.09607912	14.02842242	14.01921788	13.99268419	13.97746249	13.97372157	12.98775391	12.55486559	10.42295629	8."
+      "679722608	7.746718929	5.394420085	4.838907493	1.489410475	1.491548994	1.50250882	1.499808494	1.468343485\n14.209"
+      "4467	14.13323536	14.05697837	14.04660337	14.01669506	14.00027448	13.99623889	12.95521828	12.54494424	10.52535267"
+      "	8.70063454	7.723653647	5.318218416	4.773870503	1.492202106	1.516424426	1.640554473	1.63816345	1.589733333\n14.2"
+      "4070924	14.15863286	14.07650333	14.06532904	14.0331162	14.01587388	14.01163632	12.93296488	12.53816071	10.595343"
+      "77	8.714935015	7.707877625	5.266092033	4.729383278	1.494108569	1.529326189	1.709796402	1.707305875	1.672744076\n"
+      "14.22496274	14.16541047	14.10583054	14.09772512	14.07436022	14.05806947	14.05406579	13.27012274	12.85185126	10.7"
+      "9217846	8.799975889	7.732441744	5.332466606	4.800842845	1.59605801	1.640593611	1.868803926	1.866084961	1.8633659"
+      "87\n14.2120488	14.17100538	14.12994908	14.12436414	14.10826548	14.09275692	14.08894549	13.54676725	13.10929865	1"
+      "0.9538904	8.869893918	7.752643239	5.387040073	4.859600265	1.67990968	1.717697902	1.91133657	1.908747571	1.905671"
+      "023\n14.20564444	14.17377972	14.14190738	14.13757193	14.12507518	14.10995434	14.1062382	13.68372935	13.23677568	"
+      "11.03401707	8.904555332	7.762660145	5.414098492	4.888733261	1.721487748	1.755930408	1.932427091	1.929902537	1.92"
+      "7377976\n14.19975608	14.17630346	14.15284683	14.14965625	14.14045972	14.12569356	14.1220646	13.80892932	13.35331"
+      "495	11.1072929	8.936263997	7.771825512	5.438860987	4.915392417	1.759525893	1.792395694	1.960833054	1.95848747	1."
+      "948721224\n14.20440882	14.18928176	14.17415314	14.17209542	14.16616434	14.14517807	14.14002028	13.91526107	13.48"
+      "416904	11.35999191	9.115417171	7.910924731	5.701293888	5.17313296	1.987905215	1.992097759	2.013584231	2.01157098"
+      "8	2.002238701\n14.21068679	14.20675833	14.20282983	14.20229552	14.2007555	14.17139961	14.16418451	14.05825687	13"
+      ".66010762	11.69947793	9.356301254	8.098024555	6.054172894	5.519743568	2.29523349	2.328046975	2.496189943	2.46121"
+      "8033	2.452474748\n14.21286381	14.21286381	14.21286381	14.21286381	14.21286381	14.18057953	14.17264458	14.1082664"
+      "6	13.72162784	11.81810501	9.440528063	8.163463863	6.177564273	5.640954212	2.402761991	2.508124815	3.047808147	3."
+      "039277847	3.030747402\n14.21490955	14.21490954	14.21490954	14.21490954	14.21490954	14.18191976	14.17381137	14.13"
+      "517339	13.78942056	12.08868791	9.724989073	8.45511268	6.264458723	5.714489797	2.395001013	3.805630639	3.88563275"
+      "	3.877427907	3.869222896\n14.2151157	14.2151157	14.2151157	14.2151157	14.2151157	14.18205517	14.17392939	14.1378"
+      "8457	13.79625017	12.11592605	9.753628427	8.484478486	6.273213712	5.721899205	3.958869077	3.960681731	3.969971454"
+      "	3.961799543	3.953627462\n14.21792346	14.21792346	14.21792345	14.21792345	14.21792345	14.18389941	14.17553678	14"
+      ".17480458	13.88923158	12.4863716	10.14319902	8.883977341	6.392424937	6.339013962	6.018308972	5.871305866	5.11667"
+      "8413	5.108957068	5.101235527\n14.21911895	14.21911895	14.21911895	14.21911895	14.21911895	14.18468384	14.1762201"
+      "6	14.19052142	13.9288014	12.64379967	10.30879143	9.053815263	6.443166464	6.832773393	5.76726892	5.349876342	5.07"
+      "3370091	5.065827843	5.058285409\n14.23798855	14.23798855	14.23798855	14.23798855	14.23798855	14.20769243	14.2002"
+      "462	14.20253479	14.01644232	13.10432814	10.66107224	9.346739743	7.782816526	7.45125475	5.451724317	5.377235708	4"
+      ".995170955	4.987853109	4.980535092\n14.26849013	14.26849013	14.26849013	14.26849013	14.26849013	14.24487619	14.2"
+      "3907252	14.22194687	14.1580008	13.84546573	12.83710903	12.29825656	7.412764419	7.096555787	5.250224167	5.1794089"
+      "24	4.816223064	4.809267183	4.802311151\n14.28201007	14.28201007	14.28201007	14.28201007	14.28201007	14.26136076	"
+      "14.25628579	14.2305561	14.22070921	14.17264458	13.7908104	13.58748621	7.248477988	6.946161499	5.196280214	5.1271"
+      "05062	4.772338811	4.765544314	4.758749674\n14.42058106	14.37300059	14.32540245	14.31892741	14.30026273	14.295267"
+      "99	14.29404054	14.25047633	14.24306597	14.20689663	14.1824954	14.16953028	7.026511493	6.737341504	5.095278603	5."
+      "0283129	4.684889594	4.678312522	4.67173532\n14.55034798	14.4582425	14.3660688	14.35352728	14.34388695	14.3322782"
+      "	14.32942503	14.2691486	14.26402173	14.23899925	14.19960934	14.1786783	6.818196772	6.541402971	5.000559182	4.935"
+      "666522	4.602884936	4.596511834	4.590138612\n];\nVq5 = interp2( deltaP_tab, Nc_tab, V5_tab, deltaP, Np);\nV6_tab "
+      "= [12.22393714	11.08601271	9.939385797	9.782799602	9.33065846	8.902573129	8.797216866	5.810476564	5.354132973	3."
+      "117973619	0.644832027	0.499999909	0.499999896	0.499999893	0.499999875	0.499999871	0.499999854	0.49999985	0.49999"
+      "9846\n13.19008532	12.32466337	11.45375987	11.33490111	10.99178256	10.24780214	10.06443388	7.160732168	6.77238338"
+      "9	4.868525897	2.813710885	1.96001029	0.499999896	0.499999893	0.499999875	0.499999872	0.499999855	0.499999851	0.4"
+      "99999847\n13.44032849	12.64518176	11.84531468	11.73617271	11.42113121	10.59604628	10.39260288	7.5107905	7.140081"
+      "585	5.322613285	3.376938595	2.33956282	0.499999896	0.499999893	0.499999967	0.499999966	0.499999961	0.49999996	0."
+      "499999959\n13.70657774	12.98604913	12.26156537	12.16273225	11.87747593	10.96645459	10.74171731	7.883352931	7.531"
+      "416465	5.805944802	3.976640115	3.001009358	1.166767444	1.071528735	0.499999967	0.499999966	0.499999961	0.4999999"
+      "6	0.499999959\n14.01546346	13.38129633	12.74399633	12.65708177	12.40625701	11.39601828	11.14666565	8.315699208	7"
+      ".985540931	6.366862629	4.672793924	3.769049822	1.941605205	1.735772778	0.499999967	0.499999966	0.499999961	0.499"
+      "99996	0.499999959\n14.22096131	13.64412191	13.06465355	12.98564214	12.75764551	11.68169587	11.41602185	8.6033934"
+      "02	8.287720307	6.740105927	5.136098465	4.280294122	2.457782796	2.178355691	0.499999967	0.499999966	0.499999962	0"
+      ".49999996	0.499999959\n14.34512082	13.80286727	13.25827128	13.18402423	12.96978798	11.854255	11.57874169	8.77723"
+      "3885	8.470310155	6.96563071	5.416057509	4.589251165	2.769871241	2.445989136	0.499999967	0.499999967	0.499999962	"
+      "0.499999961	0.49999996\n14.30056313	13.79620414	13.28982068	13.22079483	13.02163909	11.96024386	11.69815763	8.90"
+      "3237705	8.598219533	7.102824123	5.501605056	4.647058958	2.827423301	2.495347123	0.499999968	0.499999967	0.499999"
+      "962	0.499999961	0.49999996\n14.11121172	13.76791171	13.42367851	13.37678899	13.2415456	12.40932639	12.2040231	9."
+      "437201094	9.140273464	7.68432303	5.864507107	4.8923703	3.071692564	2.70485256	0.499999968	0.499999967	0.49999996"
+      "2	0.499999961	0.49999996\n14.08190848	13.7635366	13.44436295	13.40089172	13.27551402	12.47863202	12.28207568	9.5"
+      "19615751	9.223938925	7.774090517	5.920575097	4.93028326	3.109450692	2.737239212	0.499999968	0.499999967	0.499999"
+      "962	0.499999961	0.49999996\n13.91157573	13.73812264	13.56443371	13.54079267	13.47262851	12.88046137	12.73452984	"
+      "9.997490636	9.70907623	8.294676517	6.245983885	5.150393466	3.328694831	2.925305816	0.499999968	0.499999967	0.499"
+      "999963	0.499999962	0.49999996\n13.77514177	13.71778776	13.66040877	13.6526029	13.63010166	13.20105005	13.0953945"
+      "5	10.37878869	10.09617967	8.710139124	6.506008377	5.326366404	3.504015587	3.075710796	0.499999969	0.499999968	0."
+      "499999963	0.499999962	0.499999961\n13.74647178	13.71351702	13.6805543	13.67607052	13.66314622	13.26827371	13.171"
+      "05036	10.45874552	10.17735493	8.797268813	6.560578306	5.363307369	3.540824172	3.107290162	0.499999969	0.49999996"
+      "8	0.499999963	0.499999962	0.499999961\n14.06330478	13.9297214	13.79599731	13.77779907	13.72533227	13.36835216	13"
+      ".28047384	10.4397335	10.1484504	8.719621793	7.002428192	6.084584092	3.537415673	3.104365877	0.499999969	0.499999"
+      "968	0.499999964	0.499999962	0.499999961\n14.0972263	13.95287545	13.80835983	13.78869202	13.73198704	13.37906709	"
+      "13.2921899	10.42070738	10.12942065	8.700586805	6.977637726	6.056715736	3.531213039	3.099044389	0.499999969	0.499"
+      "999968	0.499999964	0.499999963	0.499999961\n14.34226482	14.12022343	13.89778606	13.86750262	13.78017684	13.45660"
+      "122	13.37695854	10.28283337	9.991513419	8.562607327	6.797948816	5.854725243	3.486284947	3.060499327	0.499999969	"
+      "0.499999968	0.499999964	0.499999963	0.499999962\n14.489213	14.2206351	13.95147346	13.91482081	13.80911814	13.503"
+      "15458	13.42785303	10.19994762	9.90860971	8.479670434	6.6899366	5.733308684	3.459292044	3.037341828	0.49999997	0."
+      "499999969	0.499999964	0.499999963	0.499999962\n14.58962615	14.28927029	13.98818087	13.94717437	13.82890748	13.53"
+      "498511	13.46265115	10.14323669	9.851887111	8.422928231	6.616037551	5.65023966	3.440830437	3.021503618	0.49999997"
+      "	0.499999969	0.499999964	0.499999963	0.499999962\n14.41850628	14.2063332	13.99379713	13.96486285	13.88142911	13."
+      "66355745	13.60995918	10.39811918	10.06197621	8.411909797	6.631928703	5.680591168	3.364750353	2.956236198	0.5	0.4"
+      "99999888	0.5	0.5	0.5\n14.27762013	14.13809712	13.99841873	13.97940953	13.92460383	13.76920165	13.73098306	10.607"
+      "45658	10.234576	8.402854207	6.64500567	5.705559917	3.302165883	2.902548371	0.5	0.499999888	0.5	0.5	0.5\n14.20769"
+      "633	14.10424575	14.00071045	13.9866224	13.94600804	13.82155629	13.7909541	10.71115975	10.32009701	8.398363505	6."
+      "651490091	5.717940733	3.271127982	2.875923285	0.5	0.49999989	0.5	0.5	0.5\n14.143651	14.07324767	14.00280564	13.9"
+      "9322204	13.96559549	13.86944847	13.84580961	10.80598511	10.39830596	8.394248954	6.657418029	5.729263709	3.242725"
+      "485	2.851559298	0.5	0.499999891	0.5	0.5	0.5\n14.18191775	14.10737138	14.03278143	14.02263332	13.99337917	13.9061"
+      "1469	13.88466063	10.89712208	10.48433848	8.454897772	6.680591614	5.732268563	3.323139338	2.920540186	0.5	0.49999"
+      "9893	0.5	0.5	0.5\n14.23339692	14.15328428	14.07312107	14.06221441	14.03077321	13.95545437	13.93693825	11.0197227"
+      "6	10.60007922	8.536509733	6.711781342	5.736310616	3.431369543	3.013387241	0.5	0.499999896	0.5	0.5	0.5\n14.251429"
+      "72	14.1693605	14.08723812	14.0760648	14.04385475	13.97272089	13.95523396	11.06260562	10.64056498	8.565065557	6.7"
+      "22699305	5.737729221	3.469240058	3.045876373	0.5	0.499999897	0.5	0.5	0.5\n14.24973378	14.17064666	14.09151023	14"
+      ".08074332	14.04970505	13.98492473	13.9690002	11.27845079	10.8450416	8.712915656	6.891074152	5.917012112	3.524365"
+      "136	3.09316942	0.5	0.499999899	0.5	0.5	0.5\n14.24956331	14.17077671	14.09194118	14.08121522	14.05029503	13.98615"
+      "422	13.97038695	11.30018526	10.86563256	8.727808026	6.908034587	5.935071924	3.529919431	3.09793466	0.5	0.4999998"
+      "99	0.5	0.5	0.5\n14.2472415	14.17254793	14.09781045	14.08764225	14.05833016	14.00289854	13.98927278	11.59588478	1"
+      "1.1457999	8.930519724	7.138907094	6.180919733	3.605561243	3.162841336	0.5	0.499999902	0.5	0.5	0.5\n14.24625185	1"
+      "4.17330106	14.10030843	14.09037769	14.06175026	14.01002806	13.99731435	11.72160649	11.26493257	9.016764694	7.237"
+      "138894	6.285528697	4.344822223	3.797255466	0.5	0.499999903	0.5	0.5	0.5\n14.27009125	14.19934324	14.12855585	14.1"
+      "1892523	14.09116309	14.04255433	14.03060611	12.34614018	11.87306076	9.542415344	7.612014882	6.578860942	5.270867"
+      "697	4.592429921	0.5	0.499999905	0.5	0.5	0.5\n14.30862418	14.24143568	14.17421165	14.16506597	14.13870195	14.0951"
+      "3028	14.08442046	13.34982675	12.85071088	10.38881378	8.216666513	7.052343555	5.555157401	4.836662472	0.5	0.49999"
+      "9908	0.5	0.5	0.5\n14.32570322	14.26009204	14.19444697	14.18551617	14.15977165	14.11842842	14.10826646	13.7923296"
+      "5	13.28186547	10.76262289	8.484135669	7.26193786	5.460264232	4.755133316	0.5	0.499999909	0.5	0.5	0.5\n14.3024217"
+      "6	14.25479517	14.20715099	14.20066969	14.18198699	14.15198661	14.14461308	14.05736322	13.45581668	10.48092779	8."
+      "243110775	7.043221462	5.318022046	4.632935646	0.5	0.499999912	0.5	0.5	0.5\n14.28059136	14.24982915	14.21905982	1"
+      "4.21487443	14.20281024	14.18343911	14.1786783	14.19403279	13.52581926	10.21637782	8.016877251	6.837980657	5.1846"
+      "07124	4.518335051	0.5	0.499999914	0.5	0.5	0.5\n];\nVq6 = interp2( deltaP_tab, Nc_tab, V6_tab, deltaP, Np);\nV7_t"
+      "ab = [14.99999994	14.21784405	9.643699261	9.010766154	7.174372267	5.710662623	5.349688122	2.899583561	2.58604877"
+      "9	1.053988742	0.499999886	0.499999879	0.499999864	0.49999986	0.499999839	0.499999835	0.499999816	0.499999811	0.4"
+      "99999807\n14.99999994	14.93098165	10.91559114	10.36044294	8.749710438	7.296534345	6.937860775	3.617714888	3.3637"
+      "78835	2.122734172	1.063244942	0.49999988	0.499999864	0.499999861	0.49999984	0.499999836	0.499999816	0.499999812	"
+      "0.499999807\n14.99999994	14.99999993	11.2448439	10.70981221	9.15751086	7.707393946	7.349402117	4.42605195	4.1066"
+      "61843	2.544510045	1.209779376	0.49999988	0.499999865	0.499999861	0.49999984	0.499999836	0.499999817	0.499999812	"
+      "0.499999808\n14.99999994	14.99999993	11.59505625	11.08140603	9.591234231	8.144514934	7.78728571	5.376914086	5.03"
+      "4053896	3.355864483	1.895586274	1.118569963	0.499999966	0.499999965	0.499999959	0.499999958	0.499999952	0.499999"
+      "951	0.49999995\n14.99999994	14.99999993	12.00120861	11.51233038	10.09416577	8.651567482	8.295269959	6.478619592	"
+      "6.10888936	4.297477978	2.692264552	1.83744133	0.499999966	0.499999965	0.499999959	0.499999958	0.499999953	0.4999"
+      "99951	0.49999995\n14.99999994	14.99999993	12.27132514	11.79890458	10.42859119	8.988838285	8.633187883	7.21036744"
+      "5	6.82299639	4.923885907	3.222801401	2.316382625	0.499999966	0.499999965	0.499999959	0.499999958	0.499999953	0.4"
+      "99999952	0.499999951\n14.99999994	14.99999993	12.43448887	11.97200211	10.63057527	9.192580721	8.837331639	7.6519"
+      "0674	7.253974885	5.302268776	3.543497616	2.605980882	0.499999966	0.499999965	0.49999996	0.499999959	0.499999953	"
+      "0.499999952	0.499999951\n14.99999994	14.99999993	12.541247	12.07742668	10.7320449	9.314084837	8.963791441	7.6343"
+      "67444	7.241525943	5.314917982	3.574806989	2.647247564	0.617918697	0.601072593	0.49999996	0.499999959	0.499999953"
+      "	0.499999952	0.499999951\n14.99999994	14.99999993	12.99354767	12.52411612	11.16208544	9.828977461	9.499677566	7."
+      "559887475	7.188665745	5.368614376	3.707706104	2.822412993	1.118454823	1.03011536	0.49999996	0.499999959	0.499999"
+      "954	0.499999953	0.499999951\n14.99999994	14.99999993	13.06334404	12.59305215	11.22846771	9.908448566	9.582387596"
+      "	7.548369128	7.180491443	5.376915943	3.728251004	2.849491856	1.195821678	1.096434113	0.49999996	0.499999959	0.49"
+      "9999954	0.499999953	0.499999951\n14.99999994	14.99999993	13.46798786	12.99273736	11.61342867	10.36925729	10.0619"
+      "6773	7.481457164	7.133008432	5.425127391	3.847557076	3.006740762	1.645174304	1.481637678	0.499999961	0.49999996	"
+      "0.499999954	0.499999953	0.499999952\n14.99999994	14.99999994	13.78152466	13.30471342	11.92065853	10.73694266	10."
+      "44461718	7.427912354	7.095014679	5.463690713	3.94297641	3.132505141	2.004432923	1.789638807	0.499999961	0.499999"
+      "96	0.499999955	0.499999954	0.499999952\n14.99999995	14.99999994	13.85846724	13.37847869	11.98509217	10.8140457	1"
+      "0.52485635	7.416666232	7.087035165	5.471788348	3.963011531	3.158911612	2.079871609	1.854318304	0.499999961	0.499"
+      "99996	0.499999955	0.499999954	0.499999953\n14.99999995	14.99999994	13.94447065	13.4990507	12.20661149	10.9917447"
+      "1	10.69165732	7.538520138	7.197483594	5.526013399	3.928544734	3.077032972	1.949990925	1.742962329	0.499999962	0."
+      "499999961	0.499999955	0.499999954	0.499999953\n14.99999995	14.99999994	13.95368167	13.51195887	12.23031124	11.01"
+      "076244	10.70951023	7.551559598	7.209303063	5.531817202	3.92485512	3.068267624	1.936086792	1.731041589	0.49999996"
+      "2	0.499999961	0.499999956	0.499999954	0.499999953\n14.99999995	14.99999994	14.0203181	13.60535469	12.40178674	11"
+      ".14837565	10.83869658	7.645979738	7.294892005	5.573850376	3.898130339	3.004775947	1.835372423	1.644695328	0.4999"
+      "99962	0.499999961	0.499999956	0.499999955	0.499999953\n14.99999995	14.99999994	14.06032928	13.66142584	12.504694"
+      "07	11.23098241	10.91624938	7.702682341	7.34629363	5.59909891	3.882074469	2.96662931	1.77486204	1.592818645	0.499"
+      "999962	0.499999961	0.499999956	0.499999955	0.499999954\n14.99999995	14.99999994	14.0876884	13.69976164	12.575030"
+      "87	11.28745394	10.96926816	7.741452739	7.38144056	5.616365267	3.871093357	2.940538896	1.733476047	1.557338144	0."
+      "499999962	0.499999961	0.499999956	0.499999955	0.499999954\n14.99999995	14.99999994	14.05797942	13.74170309	12.82"
+      "569221	11.47824754	11.14515239	7.911467207	7.530740969	5.663454498	3.816735852	2.831920084	1.638417426	1.4758451"
+      "55	0.499999963	0.499999962	0.499999957	0.499999956	0.499999954\n14.99999995	14.99999994	14.03354126	13.77618896	"
+      "13.03149719	11.63498986	11.28966683	8.051202051	7.653464479	5.702171287	3.772014411	2.742558483	1.560225566	1.40"
+      "8813326	0.499999963	0.499999962	0.499999957	0.499999956	0.499999955\n14.99999995	14.99999994	14.02142093	13.7932"
+      "8652	13.13343363	11.71265294	11.36127707	8.120458191	7.714294538	5.721368383	3.749835842	2.698239965	1.52144896	"
+      "1.375571611	0.499999963	0.499999962	0.499999958	0.499999956	0.499999955\n14.99999995	14.99999994	14.01032762	13."
+      "80892931	13.22664417	11.78367706	11.42676689	8.183803121	7.769936774	5.738938552	3.729546092	2.65768947	1.485965"
+      "785	1.345153484	0.499999964	0.499999963	0.499999958	0.499999957	0.499999956\n14.99999995	14.99999994	14.00262339"
+      "	13.83797503	13.36220802	11.77503845	11.38220022	8.111174772	7.708958246	5.735504519	3.736526656	2.670242152	1.4"
+      "20065236	1.288660531	0.499999964	0.499999963	0.499999958	0.499999957	0.499999956\n14.99999995	14.83588398	13.992"
+      "25251	13.8770644	13.5444695	11.76340593	11.32218237	8.013363511	7.626843774	5.730884603	3.745922494	2.687136646	"
+      "1.331346614	1.212608097	0.499999965	0.499999964	0.499999959	0.499999958	0.499999957\n14.99999996	14.70590267	13."
+      "98862121	13.89074279	13.60820327	11.7593381	11.30117411	7.979118174	7.598095378	5.729263713	3.749212187	2.693053"
+      "533	1.300293456	1.185988647	0.499999965	0.499999964	0.499999959	0.499999958	0.499999957\n14.99999996	14.50258017"
+      "	13.95977356	13.88576409	13.67220456	11.90710992	11.46984191	8.041555073	7.671598497	5.857208208	3.75770226	2.63"
+      "7526269	1.253059775	1.14549919	0.499999966	0.499999965	0.49999996	0.499999959	0.499999958\n14.99999996	14.482068"
+      "67	13.95686537	13.88526192	13.67865284	11.92199257	11.48682789	8.047846423	7.67900452	5.870097778	3.758557966	2."
+      "631930761	1.24829977	1.141418858	0.499999966	0.499999965	0.49999996	0.499999959	0.499999958\n14.48681501	14.2023"
+      "5949	13.91724938	13.87842222	13.7664448	12.12453527	11.71797619	8.133513939	7.779847188	6.045589543	3.770212406	"
+      "2.555715298	1.183467244	1.085843989	0.499999966	0.499999965	0.499999961	0.49999996	0.499999959\n14.26550427	14.0"
+      "8307475	13.90037918	13.87551085	13.8038062	12.21068734	11.81628489	8.169977977	7.822769291	6.120277473	3.7751743"
+      "26	2.523259414	1.155861155	1.062180052	0.499999967	0.499999966	0.499999961	0.49999996	0.499999959\n14.27741287	1"
+      "4.1103213	13.94300652	13.92023337	13.85457198	12.52536039	12.19666413	8.348334238	8.012881034	6.368101032	3.8833"
+      "3497	2.55627396	1.121197056	1.032466137	0.499999967	0.499999966	0.499999962	0.499999961	0.49999996\n14.29656582	"
+      "14.15430383	14.01188012	13.99249705	13.93661309	13.03256535	12.80943108	8.636333958	8.319853161	6.768234605	4.05"
+      "8134103	2.609638165	1.065151449	0.984424422	0.499999968	0.499999967	0.499999963	0.499999962	0.499999961\n14.3051"
+      "0587	14.17382625	14.04240898	14.02452471	13.97296318	13.25680273	13.08019613	8.763876308	8.455792767	6.945413822"
+      "	4.13560733	2.633299203	1.040303855	0.963125449	0.499999968	0.499999968	0.499999963	0.499999962	0.499999961\n13."
+      "99220354	14.00811498	14.02402406	14.02618763	14.03242337	13.56101714	13.44490229	8.935946104	8.639186691	7.18442"
+      "5862	4.240187542	2.665244586	1.006753214	0.934366476	0.499999969	0.499999968	0.499999964	0.499999963	0.499999962"
+      "\n13.69813978	13.85255942	14.00678573	14.02774659	14.08814141	13.84555899	13.78587363	9.097106265	8.810948018	7."
+      "408257881	4.338197874	2.695185369	0.975298813	0.907404479	0.49999997	0.499999969	0.499999965	0.499999964	0.49999"
+      "9963\n];\nVq7 = interp2( deltaP_tab, Nc_tab, V7_tab, deltaP, Np);\nPout_tab = [20.408163265306122 30.61224489795"
+      "9183  40.816326530612244 45 56 70 84];\nV_tab = [Vq1 Vq2 Vq3 Vq4 Vq5 Vq6 Vq7];\nphi0 = interp1( Pout_tab, V_tab,"
+      " Pout);\nend"
+      editorLayout	      "100 M4x1[10 5 700 500]"
+    }
+  }
+  data {
+    id			    52
+    ssIdNumber		    4
+    name		    "Np"
+    linkNode		    [50 0 53]
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+      }
+      complexity	      SF_COMPLEX_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    53
+    ssIdNumber		    5
+    name		    "phi0"
+    linkNode		    [50 52 54]
+    scope		    OUTPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_NO
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    54
+    ssIdNumber		    6
+    name		    "Pout"
+    linkNode		    [50 53 55]
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    55
+    ssIdNumber		    7
+    name		    "deltaP"
+    linkNode		    [50 54 0]
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  junction {
+    id			    56
+    position		    [23.5747 49.5747 7]
+    chart		    50
+    linkNode		    [50 0 0]
+    subviewer		    50
+    ssIdNumber		    3
+    type		    CONNECTIVE_JUNCTION
+  }
+  transition {
+    id			    57
+    labelString		    "{eML_blk_kernel();}"
+    labelPosition	    [36.125 25.875 102.544 14.964]
+    fontSize		    12
+    src {
+      intersection	      [0 0 1 0 23.5747 14.625 0 0]
+    }
+    dst {
+      id		      56
+      intersection	      [1 0 -1 0 23.5747 42.5747 0 0]
+    }
+    midPoint		    [23.5747 24.9468]
+    chart		    50
+    linkNode		    [50 0 0]
+    dataLimits		    [21.175 25.975 14.625 42.575]
+    subviewer		    50
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    2
+  }
+  instance {
+    id			    58
+    name		    "PlungerPump/phi0/MATLAB Function"
+    machine		    1
+    chart		    50
+  }
+  target {
+    id			    59
+    name		    "sfun"
+    description		    "Default Simulink S-Function Target."
+    machine		    1
+    linkNode		    [1 0 0]
+  }
+}

@@ -1,8 +1,8 @@
-function [W_average, dPhi_average, W_pr,t_vec,y_vec] = simulinkrun(u,sim_time,sample_time,collect)
+function [W_average, dPhi_average, W_pr,t_vec,y_vec] = simulinkrun(name,u,sim_time,sample_time,collect)
 
     t = [ 0; sim_time ];
     u1 = [ u; u ];
-    [~,~,y] = sim( 'modelZSB', sim_time, [], [t, u1] );
+    [~,~,y] = sim( name, sim_time, [], [t, u1] );
 
     % average output values of the considered points (at i-th test point)
     W_average = mean( y( end-end*collect:end, 1 ) );
